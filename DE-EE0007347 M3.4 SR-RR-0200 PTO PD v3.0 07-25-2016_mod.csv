@@ -1,27 +1,6 @@
-﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Risk
-ID","Item
-Description",Function,"Tech. 
-Class
-",Novel Aspects,"Failure
-Mode","Failure 
-Effects
-(Local, WEC, System)","Failure
-Cause(s)","Initial Mode
- of
-Operation
-","Risk Reduction 
-Design","Preventative
-Detection","Post Failure
-Detection","Post Failure
-Repair
-Strategy 
-(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
-Actions",DVN GL comments,CPWR Response Notes,Responsible Party,"Actions
-Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
-Actions",Responsible Party (2nd),"Actions
-Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
-(open or closed)",Notes
+"Risk ID","Item Description",Function,"Tech. Class",Novel Aspects,"Failure Mode","Failure Effects (Local, WEC, System)","Failure Causes","Initial Mode of Operation","Risk Reduction Design","Preventative
+Detection","Post Failure Detection","Post Failure Repair Strategy (automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",DVN GL comments,CPWR Response Notes,Responsible Party,"Actions Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended Actions",Responsible Party (2nd),"Actions Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status (open or closed)",Notes
 200-1,PTO,"PTO functions are electromechanical energy conversion, torque transmission,
 constrain generator to 1DOF rotation and maintain rotor/stator airgap, with minimal friction. The PTO is composed of electrical and mechanical components. ",2,Marine application,"Structural failure
 Loss of PTO","Mechanical 
