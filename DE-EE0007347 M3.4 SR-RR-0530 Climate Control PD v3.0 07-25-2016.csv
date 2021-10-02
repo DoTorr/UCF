@@ -1,0 +1,84 @@
+﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+0531-1,"Air conditioner/Air dryer, - dry control room",Dry and maintain tempature in the dry control room,1,none,Fault - shutdown,"1) Over temperature - ambient temperature in dry control room
+2) Shutdown of M2G loss of PTO
+",electrical fault in air conditioner/air dryer unit,Normal,"1) Use marine COTS products 
+2) V&V (QC)",1) Visual Inspections,SCADA Diagnostics,In-situ repair,6,1,1,7,5,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0531-2,"Air conditioner/Air dryer, - dry control room",Dry and maintain tempature in the dry control room,1,none,Slow leak - R134a refrigerant,"1) Reduced cooling capability
+2) Reduced M2G loading
+3) Reduced damping PTO
+4) Air quality - reduced 
+
+ ",Refrigerant leak,Normal,"1) Use marine COTS products 
+2) V&V (QC)",1) Visual Inspections,SCADA Diagnostics,In-situ repair,5,1,1,4,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Follow MSDS procedures for R-134a as applicable
+0531-2,"Air conditioner/Air dryer, - dry control room",Dry and maintain tempature in the dry control room,1,none,Fire/smoke,"1) loss of air conditioner
+2) Smoke alarm
+3) Automatic fire suppresion
+4) Over temperature - ambient temperature in dry control room
+5) Shutdown of PTO due to high temperature in control room",Refrigerant leak,Normal,"1) Use marine COTS products 
+2) V&V (QC)",1) Visual Inspections,SCADA Diagnostics,"1) In-situ inspection
+2) Dry dock repair depending on extent of fire damage.",5,1,1,7,7,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,"Some electrical fires which cause smoke are quickly extinguished by electrical isolation. If fire continues, automatic fire suppression should put fire out. Extreme case fire is put out by starvation of fuel – air."
+0532-1,Air dryer -PTO module,"Reduce level of humidity, collect H20 in air and discharge to the bilge",1,none,Fault - shutdown,"Increase in humidity if there is a source for moisture. Otherwise moisture content is will remain the same.  Most likely slow rise in moisture level over time.
+ ",electrical fault,Normal,"1) Use marine COTS products 
+2) V&V (QC)
+3) Air quality monitoring",1) Visual Inspections,"SCADA Diagnostics
+Air quality monitoring ",In-situ repair,5,1,1,8,8,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,
+0534-1,Air dryer - ducting,Distribute air inside compartments,1,none,Mechanical failure/fatique lead to ducting disconnection ,Improper distribution of air or improper suction of air,"fatigue, improper attachement",Normal,"1) Use marine COTS products 
+2) V&V (QC)
+",1) Visual Inspections,"1) Surveillance system
+2) Visual Inspections",In-situ repair,5,1,1,8,8,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

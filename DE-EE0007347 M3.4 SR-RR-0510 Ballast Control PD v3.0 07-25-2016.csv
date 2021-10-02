@@ -1,0 +1,66 @@
+﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+0510-1,"Ballast Control
+check valves",Facilitate ballasting and deballasting of water ballast,2,,Broken check valve,1) WEC cannot be ballasted/deballasted for tow,"corrosion
+",Deployment/Recovery,,,Ballast tanks not filling or emptying,Valve replacement,6,1,1,1,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0510-2,"Ballast Control
+check valves",Facilitate ballasting and deballasting of water ballast,2,,Broken check valve,1) WEC cannot be ballasted/deballasted for tow,manufacturing defect,Deployment/Recovery,,,Ballast tanks not filling or emptying,Valve replacement,6,1,1,1,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0510-3,"Ballast Control
+check valves",Facilitate ballasting and deballasting of water ballast,2,,Broken check valve,1) WEC cannot be ballasted/deballasted for tow,improper installation,Deployment/Recovery,,,Ballast tanks not filling or emptying,Valve replacement,3,1,1,1,2,Low,Low,Low,Low,A quality control plan to be implemented to verify correct assembly of every component during assembly.,,,,,,,,,,,,,,,,,,,,,,,,,
+0510-4,"Ballast Control
+Lines",Facilitate ballasting and deballasting of water ballast,2,,Minor line damage,1) WEC cannot be ballasted/deballasted for tow,"corrosion
+",Deployment/Recovery,,,Ballast tanks not filling or emptying,Line repair,6,1,1,1,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0510-5,"Ballast Control
+Lines",Facilitate ballasting and deballasting of water ballast,2,,Minor line damage,1) WEC cannot be ballasted/deballasted for tow,manufacturing defect,Deployment/Recovery,,,Ballast tanks not filling or emptying,Line repair,6,1,1,1,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0510-6,"Ballast Control
+Lines",Facilitate ballasting and deballasting of water ballast,2,,Minor line damage,1) WEC cannot be ballasted/deballasted for tow,improper installation,Deployment/Recovery,,,Ballast tanks not filling or emptying,Line repair,3,1,1,1,3,Low,Low,Low,Low,A quality control plan to be implemented to verify correct assembly of every component during assembly.,,,,,,,,,,,,,,,,,,,,,,,,,
+0510-7,"Ballast Control
+Lines",Facilitate ballasting and deballasting of water ballast,2,,Major line damage,1) WEC cannot be ballasted/deballasted for tow,"corrosion
+",Deployment/Recovery,,,Ballast tanks not filling or emptying,Use of external buoyancy required for towing operations,5,1,1,1,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0510-8,"Ballast Control
+Lines",Facilitate ballasting and deballasting of water ballast,2,,Major line damage,1) WEC cannot be ballasted/deballasted for tow,manufacturing defect,Deployment/Recovery,,,Ballast tanks not filling or emptying,Use of external buoyancy required for towing operations,5,1,1,1,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0510-9,"Ballast Control
+Lines",Facilitate ballasting and deballasting of water ballast,2,,Major line damage,1) WEC cannot be ballasted/deballasted for tow,improper installation,Deployment/Recovery,,,Ballast tanks not filling or emptying,Use of external buoyancy required for towing operations,3,1,1,1,5,Low,Low,Low,Low,A quality control plan to be implemented to verify correct assembly of every component during assembly.,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

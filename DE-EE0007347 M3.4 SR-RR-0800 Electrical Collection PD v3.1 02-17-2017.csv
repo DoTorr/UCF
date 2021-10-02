@@ -1,0 +1,271 @@
+﻿"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes,DNV GL comments,CPwr Comments
+0810-1,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical mechanical failure,"1) Electrical fault
+2) Loss of grid 
+3) 0300 switches to ""Islanding mode"" - station loads only
+4) Loss of primary fibre communications
+5) momentary electric arc in water (<20ms)",Corrosion induced damage to the tension members of the cable,Normal,"1) Automatic island mode
+2) Proper material selection
+3) Component sizing ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site… but long lead time (~12mo),7,2,2,9,9,Low,Low,High,High,"1) Schedule regular visual inspection of components
+2) design to reduce occurrence","1) Marine contractor
+2) ?",,,,,,,,,,,,,,,,,,,,,,,,,"Corrosion could lead to two failure modes, either a mechanical failure due to loss of strength or an electrical fault. These should be divided into separate risks. This is a high risk for long term deployment due to energetic motions that make it difficult to  protect against water ingress especially at connection points. However a short term deployment is a good opportunity to test the system and check for potential signs of wear/water ingress.","All mechanical failure will lead to an electrical fault
+The umbilical should be design to last one lifetime. 20yar minimal on 3signma, 7 occurrence is 32 years.  It seems the resultant risk should be not high.  Design target is medium which is possibly impossible and financially irresponsible to achieve. 
+"
+0810-2,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical electrical failure,"1) Electrical fault
+2) Loss of grid
+3) 0300 switches to ""Islanding mode"" - station loads only
+4) Loss of primary fibre communications
+5) momentary electric arc in water (<20ms)","Corrosion induced damage to insulation
+Phase to Phase short
+Phase to GND short
+
+",Normal,"1) Automatic island mode
+2) Proper material selection
+3) Component sizing ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site… but long lead time (~12mo),7,2,2,9,9,Low,Low,High,High,"1) Schedule regular visual inspection of components
+2) design to reduce occurrence",,,,,,,,,,,,,,,,,,,,,,,,,,,Electrical fault
+0810-3,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical mechanical failure,"1) Loss of grid
+2) 0300 switches to ""Islanding mode"" - station loads only
+3) Loss of primary fibre communications
+4) momentary electric arc in water (<20ms)", Wear induced damage,Normal,"1) Automatic island mode
+2) Proper material selection
+3) Component sizing ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site… but long lead time (~12mo),7,2,2,9,9,Low,Low,High,High,"1. On-going assessment and validation of the dynamic and motion response of the WEC, via means of analysis and measurements of the existing prototypes. 
+2. Inspections and/or measurements on the WEC upon deployment for validation. 
+3. The conclusions from the actions are to include any relevant safety margin due to the uncertainties on the collection of data, normal variability on the parameters.
+4. Evidence of expected wear in the cable from testing/analysis, following the outcome of each of the action above, is within the design limits. ","1) Marine contractor
+2) ?",,,,,,,,,,,,,,,,,,,,,,,,,"Failure cause is a long term effect, hence compatible to FLS design criteria. The occurrence class adjusted  to the class same as FLS.
+Suggest text for recommended action:
+1. On-going assessment and validation of the dynamic and motion response of the WEC, via means of analysis and measurements of the existing prototypes. 
+2. Inspections and/or measurements on the WEC upon deployment for validation. 
+3. The conclusions from the actions are to include any relevant safety margin due to the uncertainties on the collection of data, normal variability on the parameters.
+4. Evidence of expected wear in the cable from testing/analysis, following the outcome of each of the action above, is within the design limits. ",OK
+0810-4,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical mechanical failure,"1) Loss of grid
+2) 0300 switches to ""Islanding mode"" - station loads only
+3) Loss of primary fibre communications
+4) momentary electric arc in water (<20ms)", Fatigue induced damage,Normal,"1) Automatic island mode
+2) Proper material selection
+3) Component sizing ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site… but long lead time (~12mo),7,2,2,9,9,Low,Low,High,High,"1. On-going assessment and validation of the dynamic and motion response of the WEC, via means of analysis and measurements of the existing prototypes. 
+2. Inspections and/or measurements on the WEC upon deployment for validation. 
+3. The conclusions from the actions are to include any relevant safety margin due to the uncertainties on the collection of data, normal variability on the parameters.
+4. Fatigue assessment or test/deployment data to demonstrate that the fatigue strength of the cable, following the outcome of each of the action above, is within the design limits. ","1) Marine contractor
+2) ?",,,,,,,,,,,,,,,,,,,,,,,,,"Occurrence class adjusted to be compatible with FLS design.
+Suggest text for recommended action:
+1. On-going assessment and validation of the dynamic and motion response of the WEC, via means of analysis and measurements of the existing prototypes. 
+2. Inspections and/or measurements on the WEC upon deployment for validation. 
+3. The conclusions from the actions are to include any relevant safety margin due to the uncertainties on the collection of data, normal variability on the parameters.
+4. Fatigue assessment or test/deployment data to demonstrate that the fatigue strength of the cable, following the outcome of each of the action above, is within the design limits. ",OK
+0810-5,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical mechanical failure,"1) Loss of grid
+2) 0300 switches to ""Islanding mode"" - station loads only
+3) Loss of primary fibre communications
+4) momentary electric arc in water (<20ms)",Extreme load induced damage,Normal,"1) Automatic island mode
+2) Proper material selection
+3) Component sizing ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site… but long lead time (~12mo),5,2,2,9,9,Low,Low,Med,Med,"1. On-going assessment and validation of the dynamic and motion response of the WEC, via means of analysis and measurements of the existing prototypes. 
+2. Inspections and/or measurements on the WEC upon deployment for validation. 
+3. The conclusions from the actions are to include any relevant safety margin due to the uncertainties on the collection of data, normal variability on the parameters.
+4.Structural analysis to demonstrate that the structural integrity of the cable (and connection), following the outcome of each of the action above, is within the design limits. ","1) Marine contractor
+2) Marine contractor feasibility study",,,,,,,,,,,,,,,,,,,,,,,,,"Occurrence class adjusted to be compatible with ULS design.
+Suggest text for recommended action
+1. On-going assessment and validation of the dynamic and motion response of the WEC, via means of analysis and measurements of the existing prototypes. 
+2. Inspections and/or measurements on the WEC upon deployment for validation. 
+3. The conclusions from the actions are to include any relevant safety margin due to the uncertainties on the collection of data, normal variability on the parameters.
+4.Structural analysis to demonstrate that the structural integrity of the cable (and connection), following the outcome of each of the action above, is within the design limits. ",OK
+0810-6,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,3,"WEC motion, dynamic cable connection ",Umbilical mechanical failure,"1) Loss of grid
+2) 0300 switches to ""Islanding mode"" - station loads only
+3) Loss of primary fibre communications
+4) momentary electric arc in water (<20ms)",Interference with mooring legs,Normal,"1) Proper mooring design
+2) Automatic island mode
+3) Proper material selection
+4) Component sizing ",,,Repair/replace on site… but long lead time (~12mo),3,2,2,9,9,Low,Low,Med,Med,"1. On-going assessment and validation of the dynamic and motion response of the WEC, via means of analysis and measurements of the existing prototypes. 
+2. Inspections and/or measurements on the WEC upon deployment for validation. 
+3. The conclusions from the actions are to include any relevant safety margin due to the uncertainties on the collection of data, normal variability on the parameters.
+4. In the worst case position of umbilical and mooring, analysis to demonstrate the clearance  between the mooring legs and umbilical is within the defined acceptance criteria . ",,,,,,,,,,,,,,,,,,,,,,,,,,"Occurrence class compatible with ALS design criteria.
+Suggest text for recommended action
+1. On-going assessment and validation of the dynamic and motion response of the WEC, via means of analysis and measurements of the existing prototypes. 
+2. Inspections and/or measurements on the WEC upon deployment for validation. 
+3. The conclusions from the actions are to include any relevant safety margin due to the uncertainties on the collection of data, normal variability on the parameters.
+4. In the worst case position of umbilical and mooring, analysis to demonstrate the clearance  between the mooring legs and umbilical is within the defined acceptance criteria . ",
+0810-7,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical electrical failure,"1) Loss of grid connection
+2) 0300 switches to ""Islanding mode"" - station loads only
+3) Loss of primary fibre communications
+4) momentary electric arc in water (<20ms)","Corrosion induced damage to insulation
+Phase to Phase short
+Phase to GND short
+
+",Normal,"1) MV Isolation breakers on shore power connection
+2) Automatic island mode
+3) Proper material selection
+4) Component sizing ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site… but long lead time (~12mo),7,2,2,9,9,Low,Low,High,High,"1) Schedule regular visual inspection of components
+2) design to reduce occurrence",,,,,,,,,,,,,,,,,,,,,,,,,,Please provide FMECA for consideration of electrical failure of umbilicals .,repeat of 0810-2
+0810-8,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical environmental induced fault/failure,"1) Loss of grid
+2) 0300 switches to ""Islanding mode"" - station loads only
+3) Loss of primary fibre communications
+4) momentary electric arc in water (<20ms)",Shark bite/fish bite,Normal,"1) Automatic island mode
+2) Proper material selection
+3) Component sizing ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site… but long lead time (~12mo),6,2,2,9,9,Low,Low,Med,Med,1) analysis: expected fish bite failures and detectability with regular inspections,Marine contractor,,,,,,,,,,,,,,,,,,,,,,,,,"CPwr to clarify the basis for occurrence class 6, because the occurrence class for mooring lines is class 8. Suggest to increase the class to 8. 
+Suggest texts for recommended action:
+1. Protective sheath on the polyester lines at risk for fish bite. 
+2. Design of umbilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+3) ) analysis: expected fish bite failures and detectability with regular inspections",
+0810-9,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical mechanical failure,"1) Loss of grid
+2) 0300 switches to ""Islanding mode"" - station loads only
+3) Loss of primary fibre communications
+4) momentary electric arc in water (<20ms)",0700 mooring system fault leads to failure of umbilical,Emergency- Mooring failure,"1) Automatic island mode
+2) Proper material selection
+3) Component sizing ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site… but long lead time (~12mo),9,2,2,8,7,Low,Low,High,High,See 0700 mooring system FMECA,,,,,,,,,,,,,,,,,,,,,,,,,,,"Added per request, upon any major failure operational mode goes to emergency. This is a second level contingency based on a mooring failure"
+0811 - 1,Floats,Provide bouyancy for umbilical cable as needed to maintain lazy-S configuration,2,"WEC motion, dynamic cable connection ",Mechanical - decrease in bouyancy  ,"1) Loss of bouyancy in cable lazy-S
+2) Increased mechanical stress atWEC
+3) Increased mechanical stress on cable",Mechanical failure - disconnection from cable,Normal,"1) Using known/proven marine design technique
+2) Inspections
+
+",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0811 - 1,Floats,Provide bouyancy for umbilical cable as needed to maintain lazy-S configuration,2,"WEC motion, dynamic cable connection ",Mechanical - decrease in bouyancy  ,"1) Loss of bouyancy in cable lazy-S
+2) Increased mechanical stress atWEC
+3) Increased mechanical stress on cable",Bio-fouling - additional weight of bio-mass,Normal,"1) Using known/proven marine design technique
+2) Inspections
+
+",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0812 - 1 ,Strain reliefs,"Provide mechanical strain relief at either end of the cable, attaching to the WEC and subsea junction box.",2,"WEC motion, dynamic cable connection ",Mechanical - failure of providing strain relief,"1) Strain is applied to cable connection location to WEC & subsea junction
+2) If strain due to sea state is high, cable fatigue and failure
+(See umbilical cable 0810-4)",Corrosion,Normal,1) Corrosion resistant materials,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,CPwr also consistent strain sensor on WEC to strain relief connection point for design model validation.
+0812 - 2 ,Strain reliefs,"Provide mechanical strain relief at either end of the cable, attaching to the WEC and subsea junction box.",2,"WEC motion, dynamic cable connection ",Mechanical - failure of providing strain relief,"1) Strain is applied to cable connection location to WEC & subsea junction
+2) If strain due to sea state is high, cable fatigue and failure
+(See umbilical cable 0810-4)", Wear induced damage,Normal,"1) Designed to avoid wear spots
+2) Visual inspection for wear to confirm design
+",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,CPwr also consistent strain sensor on WEC to strain relief connection point for design model validation.
+0812 - 3 ,Strain reliefs,"Provide mechanical strain relief at either end of the cable, attaching to the WEC and subsea junction box.",2,"WEC motion, dynamic cable connection ",Mechanical - failure of providing strain relief,"1) Strain is applied to cable connection location to WEC & subsea junction
+2) If strain due to sea state is high, cable fatigue and failure
+(See umbilical cable 0810-4)", Fatigue induced damage,Normal,Designed for life with FLS analysis,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,CPwr also consistent strain sensor on WEC to strain relief connection point for design model validation.
+0812 - 4 ,Strain reliefs,"Provide mechanical strain relief at either end of the cable, attaching to the WEC and subsea junction box.",2,"WEC motion, dynamic cable connection ",Mechanical - failure of providing strain relief,"1) Strain is applied to cable connection location to WEC & subsea junction
+2) If strain due to sea state is high, cable fatigue and failure
+(See umbilical cable 0810-4)",Extreme load induced damage,Normal,Design for extreme loads,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,CPwr also consistent strain sensor on WEC to strain relief connection point for design model validation.
+0820 - 1,Spar Junction Box,Located at the top of the stbd spar: The main Medium Voltage termination point between the umbilical cable (0810) and umbilical cable connection (0360) ,2,"WEC motion, dynamic cable connection ",Mechanical - failure to provide waterproof enclosure,"1) loss of mechanical connection to electrical bus
+2) Electrical fault: ground fault, phase to phase fault
+3) loss of grid connectoin
+4) WEC switches to islanding mode",Corrosion,Normal,Use of corrosion resistance materials for MV enclosure,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0820 - 2,Spar Junction Box,Located at the top of the stbd spar: The main Medium Voltage termination point between the umbilical cable (0810) and umbilical cable connection (0360) ,2,"WEC motion, dynamic cable connection ",Mechanical - failure to provide waterproof enclosure,"1) loss of mechanical connection to electrical bus
+2) Electrical fault: ground fault, phase to phase fault
+3) loss of grid connectoin
+4) WEC switches to islanding mode",Water intrusion,Normal,Waterproof marine enclosure design,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0820 - 3,Spar Junction Box,Located at the top of the stbd spar: The main Medium Voltage termination point between the umbilical cable (0810) and umbilical cable connection (0360) ,2,"WEC motion, dynamic cable connection ",Mechanical - failure to hold electrical conducts in place,"1) loss of mechanical connection to electrical bus
+2) Electrical fault: ground fault, phase to phase fault
+3) loss of grid connectoin
+4) WEC switches to islanding mode",Fatigue,Normal,Minimized dynamic loading due to WEC motion by providing strain relief connections inside enclsosure on cables. ,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,4,2,2,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0820 - 4,Spar Junction Box,Located at the top of the stbd spar: The main Medium Voltage termination point between the umbilical cable (0810) and umbilical cable connection (0360) ,2,"WEC motion, dynamic cable connection ",Mechanical - failure to hold electrical conductors in place,"1) loss of mechanical connection to electrical bus
+2) Electrical fault: ground fault, phase to phase fault
+3) loss of grid connectoin
+4) WEC switches to islanding mode",Improper installation,Normal,"V&C (QC)
+Visual inspection ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,4,2,2,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0830 - 1,Subsea Junction,Electrical junction at sea floor between umbilical and subsea cable. Include connection to strain reliefs and archoring weight box. Similar in design to the existing WETS subsea junction box.,1,none -WETS subsea cable design,Mechanical failure - failure to hold cable & cable splice in place,"1) Cable no longer secured to junction location
+2) electrical fault (0810)  - loss of grid power",Corrosion,Normal,Use of corrosion resistance materials for MV enclosure,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0830 - 2,Subsea Junction,Electrical junction at sea floor between umbilical and subsea cable. Include connection to strain reliefs and archoring weight box. Similar in design to the existing WETS subsea junction box.,1,none -WETS subsea cable design,Mechanical failure - failure to hold cable & cable splice in place,"1) Cable no longer secured to junction location
+2) electrical fault (0810)  - loss of grid power",Water intrusion,Normal,Waterproof marine enclosure design,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0830 - 3,Subsea Junction,Electrical junction at sea floor between umbilical and subsea cable. Include connection to strain reliefs and archoring weight box. Similar in design to the existing WETS subsea junction box.,1,none -WETS subsea cable design,Mechanical failure - failure to hold cable & cable splice in place,"1) Cable no longer secured to junction location
+2) electrical fault (0810)  - loss of grid power",Fatigue,Normal,Minimized dynamic loading due to WEC motion by providing strain relief connections inside enclsosure on cables. ,Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0830 - 4,Subsea Junction,Electrical junction at sea floor between umbilical and subsea cable. Include connection to strain reliefs and archoring weight box. Similar in design to the existing WETS subsea junction box.,1,none -WETS subsea cable design,Mechanical failure - failure to hold cable & cable splice in place,"1) Cable no longer secured to junction location
+2) electrical fault (0810)  - loss of grid power",Improper installation,Normal,"V&C (QC)
+Visual inspection ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0830 - 5,Subsea Junction,Electrical junction at sea floor between umbilical and subsea cable. Include connection to strain reliefs and archoring weight box. Similar in design to the existing WETS subsea junction box.,1,none -WETS subsea cable design,Electrical failure in insulation or cable splice assembly.,"1) Cable no longer secured to junction location
+2) electrical fault (0810)  - loss of grid power",Corrosion,Normal,"1) Use of known splice technique
+2) Use of marine rates subsea cable
+3) V&V (QC) ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0830 - 6,Subsea Junction,Electrical junction at sea floor between umbilical and subsea cable. Include connection to strain reliefs and archoring weight box. Similar in design to the existing WETS subsea junction box.,1,none -WETS subsea cable design,Electrical failure in insulation or cable splice assembly.,"1) Cable no longer secured to junction location
+2) electrical fault (0810)  - loss of grid power",Water intrusion,Normal,"1) Use of known splice technique
+2) Use of marine rates subsea cable
+3) V&V (QC) ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0830 - 7,Subsea Junction,Electrical junction at sea floor between umbilical and subsea cable. Include connection to strain reliefs and archoring weight box. Similar in design to the existing WETS subsea junction box.,1,none -WETS subsea cable design,Electrical failure in insulation or cable splice assembly.,"1) Cable no longer secured to junction location
+2) electrical fault (0810)  - loss of grid power",Fatigue,Normal,"1) Use of known splice technique
+2) Use of marine rates subsea cable
+3) V&V (QC) ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0830 - 8,Subsea Junction,Electrical junction at sea floor between umbilical and subsea cable. Include connection to strain reliefs and archoring weight box. Similar in design to the existing WETS subsea junction box.,1,none -WETS subsea cable design,Electrical failure in insulation or cable splice assembly.,"1) Cable no longer secured to junction location
+2) electrical fault (0810)  - loss of grid power",Improper installation,Normal,"1) Use of known splice technique
+2) Use of marine rates subsea cable
+3) V&V (QC) ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,7,2,2,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0840 - 1 ,Subsea cable - between junction boxes,Cable between subsea junction box and WETS subsea junction box. Includes interface details for connectoin to WETS,1,none - WETS subsea cable design,Electrical fault,1) Electrical fault - grid connection breakers open,Improper installation,Normal,"1) Use of known installation technique
+2) Use of marine rates subsea cable
+3) V&V (QC) ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,6,2,2,7,6,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0840 - 2 ,Subsea cable - between junction boxes,Cable between subsea junction box and WETS subsea junction box. Includes interface details for connectoin to WETS,1,none - WETS subsea cable design,Electrical fault,1) Electrical fault - grid connection breakers open,Manufacturing flaw,Normal,"1) Use of known installation technique
+2) Use of marine rates subsea cable
+3) V&V (QC) ",Regularly scheduled ROV inspection,"1) SCADA Diagnostics
+2) Visual inspection",Repair/replace on site ,6,2,2,7,6,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

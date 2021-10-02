@@ -1,0 +1,152 @@
+﻿"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+0541-1,480V to 120V transformer,Step down voltage from 0300 electrica plant to provide station utility power for WEC ,1,none,Electrical fault,"1) Breaker trip power off-line
+2) ATB to (port or stbd) source for station power",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance design
+2) Redundant design, two station power systems",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,7,4,Low,Low,Med,Low,Check the QC procedures on all component manufacturing. ,,,,,,,,,,,,,,,,,,,,,,,,,
+0541-2,480V to 120V transformer,Step down voltage from 0300 electrica plant to provide station utility power for WEC ,1,none,Electrical fault,"1) Breaker trip power off-line
+2) ATB to (port or stbd) source for station power",Improper installation or manufacturing defect results in failure,Normal,1) V&V (QC),none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,7,4,Low,Low,Med,Low,Vibration isolation design for all electric components,,,,,,,,,,,,,,,,,,,,,,,,,
+0541-3,480V to 120V transformer,Step down voltage from 0300 electrica plant to provide station utility power for WEC ,1,none,Electrical fault,"1) Breaker trip power off-line
+2) ATB to (port or stbd) source for station power","Water induced failure 
+(non-corrosion)",Normal,"1)Marine rated waterproof enclosure
+2) Redundant design, two station power systems","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,7,4,Low,Low,Med,Low,Corrosion prevention design for all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0541-4,480V to 120V transformer,Step down voltage from 0300 electrica plant to provide station utility power for WEC ,1,none,Electrical fault,"1) Breaker trip power off-line
+2) ATB to (port or stbd) source for station power",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two station power systems",none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,7,4,Low,Low,Med,Low,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0541-5,480V to 120V transformer,Step down voltage from 0300 electrica plant to provide station utility power for WEC ,1,none,Electrical fault - smoke/fire,"1) Breaker trip power off-line - electrically isolating transformer
+2) ATB to (port or stbd) source for station power
+",Any of the above 1thru 4,Normal,"1)Marine rated corrosion resistance design
+2) V&V (QC)
+3) Redundant design, two station power systems",1) Inspections,"1) Smoke alarms - reduce time to electrically isolate 
+2) Over-current protection - for electrical isolation
+3) Automatic fire suppression ",Manual in-situ inspection and repair,5,1,1,7,7,Low,Low,Med,Med,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0542-1,Switch Gear - Station power breaker,Make/Break station power connection to 480vac bus,1,none,Fault - open circuit,1) Station power powered from other side port/stbd,Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance design
+2) V&V (QC)
+3) Redundant design, two station power systems","none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,7,5,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0542-2,Switch Gear - Station power breaker,Make/Break station power connection to 480vac bus,1,none,"Fault - station power,  both breakers fault open","1) Loss of station power except for critical loads
+2) Loss of Cooling and climate control
+3) Reduced power until temperature limit
+4) Temperature limit = Loss of all AC power",Improper installation or manufacturing defect results in failure,Normal,"1)Marine rated corrosion resistance design
+2) V&V (QC)
+3) Redundant design, two station power systems","none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,7,5,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0542-3,Switch Gear - Station power breaker,Make/Break station power connection to 480vac bus,1,none,"Fault - station power,  both breakers fault open","1) Loss of station power except for critical loads
+2) Loss of Cooling and climate control
+3) Reduced power until temperature limit
+4) Temperature limit = Loss of all AC power","Water induced failure 
+(non-corrosion)",Normal,"1)Marine rated corrosion resistance design
+2) V&V (QC)
+3) Redundant design, two station power systems","none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,7,5,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0542-4,Switch Gear - Station power breaker,Make/Break station power connection to 480vac bus,1,none,"Fault - station power,  both breakers fault open","1) Loss of station power except for critical loads
+2) Loss of Cooling and climate control
+3) Reduced power until temperature limit
+4) Temperature limit = Loss of all AC power",Vibration and/or motion induced failure,Normal,"1)Marine rated corrosion resistance design
+2) V&V (QC)
+3) Redundant design, two station power systems","none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,7,5,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0542-5,Switch Gear - Station power breaker,Make/Break station power connection to 480vac bus,1,none,Electrical fault - smoke/fire,"1) Loss of station power except for critical loads
+2) Loss of Cooling and climate control
+3) Reduced power until temperature limit
+4) Temperature limit = Loss of all AC power",Any of the above 1thru 4,Normal,"1)Marine rated corrosion resistance design
+2) V&V (QC)
+3) Redundant design, two station power systems","none
+","1) Smoke alarms - reduce time to electrically isolate 
+2) Over-current protection - for electrical isolation
+3) Automatic fire suppression ",Manual in-situ repair and inspection,6,1,1,7,7,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,
+0543-1,Power distribution to Auxiliary System,distribute power to all auxiliary systems,1,none,Electrical fault,"1) Loss of UPS
+","1) Corrosion induced failure short circuit
+2) Water induced failure
+3) Vibration induced failure
+4) Improper installation",Normal,"1) Marine design and installation
+2) V&V (QC)","1) SCADA diagnostics 
+2) Visual inspection",1) SCADA Diagnostics,Manual in-situ repair and inspection,3,1,1,7,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0543-2,Power distribution to Auxiliary System,distribute power to all auxiliary systems,1,none,Electrical fault - smoke/fire,"1) Loss of UPS
+","1) Corrosion induced failure short circuit
+2) Water induced failure
+3) Vibration induced failure
+4) Improper installation",Normal,"1) Marine design and installation
+2) V&V (QC)","1) SCADA diagnostics 
+2) Visual inspection","1) Smoke alarms - reduce time to electrically isolate 
+2) Over-current protection - for electrical isolation
+3) Automatic fire suppression ",Manual in-situ repair and inspection,5,1,1,7,7,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,
+0544-1,UPS system,Provide battery back-up uninterruptible power to critical loads,1,none,Electrical fault,"1) Loss of UPS
+","1) Corrosion induced failure short circuit
+2) Water induced failure
+3) Vibration induced failure
+4) Improper installation",Normal,"1) Marine design and installation
+2) V&V (QC)","1) SCADA diagnostics 
+2) Visual inspection",1) SCADA Diagnostics,Manual in-situ repair and inspection,3,1,1,7,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0544-2,UPS system,Provide battery back-up uninterruptible power to critical loads,1,none,Electrical fault - following a loss of all AC Power,"1) Loss of UPS
+2) Loss of all WEC Power
+
+","1) Corrosion induced failure short circuit
+2) Water induced failure
+3) Vibration induced failure
+4) Improper installation",Emergency  - using UPS power,"1) Marine design and installation
+2) V&V (QC)","1) SCADA diagnostics 
+2) Visual inspection",1) SCADA Diagnostics,Manual in-situ repair and inspection,3,1,1,7,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0544-3,UPS system,Provide battery back-up uninterruptible power to critical loads,1,none,Electrical fault - following a loss of all AC Power,"1) Loss of UPS
+2) Loss of all WEC Power
+
+","1) Corrosion induced failure short circuit
+2) Water induced failure
+3) Vibration induced failure
+4) Improper installation",Normal,"1) Marine design and installation
+2) V&V (QC)","1) SCADA diagnostics 
+2) Visual inspection","1) Smoke alarms - reduce time to electrically isolate 
+2) Over-current protection - for electrical isolation
+3) Automatic fire suppression ",Manual in-situ repair and inspection,6,1,1,7,7,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

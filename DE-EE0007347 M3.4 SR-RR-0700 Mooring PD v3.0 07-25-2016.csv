@@ -1,0 +1,957 @@
+﻿"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+0710-1,"Single point (Hawser lines, Shackles and Pendants)",Primary station keeping,2,Loading,Double hawser failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical (see 0800)
+4) BOB - buoy on beach or BOTS - buoy out to sea
+5) Loss of primary fiber communications",Extreme load induced damage (Overload),Normal,none,none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",3,4,7,9,9,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event","1) Marine contractor feasibility study
+2) Marine contractor",,,,,,,,,,,,,,,,,,,,,,,,Assumes that buoy on beach results in significant damage to the structure
+0710-2,"Single point (Hawser lines, Shackles and Pendants)",Primary station keeping,2,Loading,Double hawser failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical (see 0800)
+4) BOB - buoy on beach or BOTS - buoy out to sea
+5) Loss of primary fiber communications",Snap loads,Normal,none,none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",3,4,7,9,9,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event
+3) load cases to include investigation of snap loading",,,,,,,,,,,,,,,,,,,,,,,,,Assumes that buoy on beach results in significant damage to the structure
+0710-3,"Single point (Hawser lines, Shackles and Pendants)",Primary station keeping,2,Loading,Double hawser failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical (see 0800)
+4) BOB - buoy on beach or BOTS - buoy out to sea
+5) Loss of primary fiber communications",fatigue induced damage,Normal,"1) Material selection  and component sizing
+","Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",3,4,7,9,9,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event","1) Marine contractor feasibility study
+2) Marine contractor",,,,,,,,,,,,,,,,,,,,,,,,Assumes that buoy on beach results in significant damage to the structure
+0710-4,"Single point (Hawser lines, Shackles and Pendants)",Primary station keeping,2,Loading,Double hawser failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical (see 0800)
+4) BOB - buoy on beach or BOTS - buoy out to sea
+5) Loss of primary fiber communications",Non-service ship strike,Normal,"1) Lights, radar reflectors (e.g. visibility)
+2) Hawsers and hardware below ship draft (~4m)",none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",2,4,7,9,9,Low,Low,Low,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event
+3) establish exclusion zone at deployed area",1) Marine contractor,,,,,,,,,,,,,,,,,,,,,,,,Assumes that buoy on beach results in significant damage to the structure
+0710-5,"Single point (Hawser lines, Shackles and Pendants)",Primary station keeping,2,Loading,Double hawser failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical (see 0800)
+4) BOB - buoy on beach or BOTS - buoy out to sea
+5) Loss of primary fiber communications",Vandalism/ negligence,Normal,"1) Surveillance system
+2) Hawsers and hardware below easy access (~4m)",none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",4,4,7,9,9,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event",1) Marine contractor feasibility study,,,,,,,,,,,,,,,,,,,,,,,,Assumes that buoy on beach results in significant damage to the structure
+0712-1,Single point chain (vertical),"Keep foam buoy in position
+Connecting sinker to buoy",2,Loading,Line break,"1) Change to WEC orientation
+2) Sub-optimal WEC response
+3) Possible entaglement between single point sinker and umbilical",Extreme load induced damage,Normal,none,none,1) Visual detection,Replace on site,5,1,1,4,4,Low,Low,Low,Low,none,,,,,,,,,,,,,,,,,,,,,,,,,"4.5 ton sinker (0715) will be supported by WEC reserve buoyancy in event of single point chain failure rather than by buoy (0714). WEC performance will be negatively effected, but no stability issues expected"
+0712-2,Single point chain (vertical),"Keep foam buoy in position
+Connecting sinker to buoy",2,Loading,Line break,"1) Change to WEC orientation
+2) Sub-optimal WEC response
+3) Possible entaglement between single point sinker and umbilical",Snap loads,Normal,none,none,1) Visual detection,Replace on site,4,1,1,4,4,Low,Low,Low,Low,1) load cases to include investigation of snap loading,,,,,,,,,,,,,,,,,,,,,,,,,
+0712-3,Single point chain (vertical),"Keep foam buoy in position
+Connecting sinker to buoy",2,Loading,Line break,"1) Change to WEC orientation
+2) Sub-optimal WEC response
+3) Possible entaglement between single point sinker and umbilical",fatigue induced damage,Normal,none,"Regularly scheduled visual inspection, with repair/ replacement as needed",1) Visual detection,Replace on site,7,1,1,4,4,Low,Low,Low,Low,none,,,,,,,,,,,,,,,,,,,,,,,,,
+0712-4,Single point chain (vertical),"Keep foam buoy in position
+Connecting sinker to buoy",2,Loading,Line break,"1) Change to WEC orientation
+2) Sub-optimal WEC response
+3) Possible entaglement between single point sinker and umbilical",Non-service ship strike,Normal,"1) Lights, radar reflectors (e.g. visibility)",none,1) Visual detection,Replace on site,3,4,1,4,4,Low,Low,Low,Low,1) establish exclusion zone at deployed area,,,,,,,,,,,,,,,,,,,,,,,,,
+0712-5,Single point chain (vertical),"Keep foam buoy in position
+Connecting sinker to buoy",2,Loading,Line break,"1) Change to WEC orientation
+2) Sub-optimal WEC response
+3) Possible entaglement between single point sinker and umbilical",Corrosion,Normal,none,"Regularly scheduled visual inspection, with repair/ replacement as needed",1) Visual detection,Replace on site,7,1,1,4,4,Low,Low,Low,Low,none,,,,,,,,,,,,,,,,,,,,,,,,,
+0713-1,Single point hawser lines,"Load transfer from Bridle to WETS moorings
+Provide restoring forces for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single hawser failure,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Extreme load induced damage (Overload),Normal,1) Redundant system (WEC remains moored),none,"1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,
+0713-2,Single point hawser lines,"Load transfer from Bridle to WETS moorings
+Provide restoring forces for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single hawser failure,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Snap loads,Normal,1) Redundant system (WEC remains moored),none,"1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) load cases to include investigation of snap loading",,,,,,,,,,,,,,,,,,,,,,,,,
+0713-3,Single point hawser lines,"Load transfer from Bridle to WETS moorings
+Provide restoring forces for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single hawser failure,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Fatigue induced damage,Normal,1) Redundant system (WEC remains moored),"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,
+0713-4,Single point hawser lines,"Load transfer from Bridle to WETS moorings
+Provide restoring forces for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single hawser failure,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Non-service ship strike,Normal,"1) Redundant system (WEC remains moored)
+2) Lights, radar reflectors (e.g. visibility)
+3) Hawsers and hardware below ship draft (~4m)",none,"1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",3,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) establish exclusion zone at deployed area",,,,,,,,,,,,,,,,,,,,,,,,,"probability of occurrence to be reviewed; if there are likely to be ships in the area with draft more than 3-4 m, then the occurrence will be higher than 3"
+0713-5,Single point hawser lines,"Load transfer from Bridle to WETS moorings
+Provide restoring forces for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single hawser failure,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)","Fish bite
+",Normal,1) Redundant system (WEC remains moored),"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Visual detection","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",8,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) analysis: expected fish bite failures and detectability with regular inspections
+3) protective sheath on the lines at risk for fish bite, if warranted
+","1) Marine contractor
+2) Marine contractor feasibility study",,,,,,,,,,,,,,,,,,,,,,,,
+0713-6,Single point hawser lines,"Load transfer from Bridle to WETS moorings
+Provide restoring forces for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single hawser failure,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Vandalism/ negligence,Normal,"1) Redundant system (WEC remains moored)
+2) Surveillance system
+3) Hawsers and hardware below easy access (~4m)",none,"1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure,"1) Marine contractor
+2) Marine contractor feasibility study",,,,,,,,,,,,,,,,,,,,,,,,
+0713-7,Single point hawser lines,"Load transfer from Bridle to WETS moorings
+Provide restoring forces for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single hawser failure,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Material degradation due to exposure to UV,Normal,1) Redundant system (WEC remains moored),"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure,,,,,,,,,,,,,,,,,,,,,,,,,"CPwr to provide recommended actions to reduce risk of failure due to UV exposure, if warranted"
+0713-8,Single point hawser lines,"Load transfer from Bridle to WETS moorings
+Provide restoring forces for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single hawser failure,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Degradation due to marine growth,Normal,1) Redundant system (WEC remains moored),"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure,,,,,,,,,,,,,,,,,,,,,,,,,"CPwr to provide recommended actions to reduce risk of failure due to marine growth, if warranted"
+0714-1,Single point MB-225 foam buoy,"Provide buoyancy to the mooring system, maintain tension in the mooring lines and geometric configuration of the mooring system",2,"Loading
+Long term buoyancy loss",Collapse/loss of buoyancy,"1) Change to WEC orientation
+2) Sub-optimal WEC response
+3) Possible entaglement between single point sinker and umbilical",Non-service ship strike,Normal,"1) Lights, radar reflectors (e.g. visibility)",none,1) Visual detection,Replace on site,3,1,1,4,4,Low,Low,Low,Low,1) establish exclusion zone at deployed area,,,,,,,,,,,,,,,,,,,,,,,,,
+0714-2,Single point MB-225 foam buoy,"Provide buoyancy to the mooring system, maintain tension in the mooring lines and geometric configuration of the mooring system",2,"Loading
+Long term buoyancy loss",Loss of buoyancy,"1) Change to WEC orientation
+2) Sub-optimal WEC response
+3) Possible entaglement between single point sinker and umbilical",Material degradation leading to loss of buoyancy,Normal,none,"Regularly scheduled visual inspection, with repair/ replacement as needed",1) Visual detection,Replace on site,7,1,1,4,4,Low,Low,Low,Low,1) Inspection of buoy to detect loss of buoyancy or damage to be implemented,,,,,,,,,,,,,,,,,,,,,,,,,
+0715-1,Single point sinker,"Provide weight to foam buoy. 
+Connection point between Brindle and single point mooring",2,"Loading
+Local bending of chain link",Crack/Loss of mass,"1) Loss of WEC orientation and equilibrium position
+2) Possible loss of umbilical connectivity (see 0800)
+3) Possible loss of buoy, BOB - buoy on beach or BOTS - buoy out to sea
+4) Possible damage to WEC",Extreme loading (overload),Normal,none,none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",5,4,7,9,9,Low,Med,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,"1) Assumes that if the sinker fails, the WEC bridle will no longer be connected to the existing mooring
+2) Assumes that buoy on beach results in significant damage to the structure"
+0715-2,Single point sinker,"Provide weight to foam buoy. 
+Connection point between Brindle and single point mooring",2,"Loading
+Local bending of chain link",Crack/Loss of mass,"1) Loss of WEC orientation and equilibrium position
+2) Possible loss of umbilical connectivity (see 0800)
+3) Possible loss of buoy, BOB - buoy on beach or BOTS - buoy out to sea
+4) Possible damage to WEC",Snap loads,Normal,none,none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",4,4,7,9,9,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) load cases to include investigation of snap loading",,,,,,,,,,,,,,,,,,,,,,,,,"1) Assumes that if the sinker fails, the WEC bridle will no longer be connected to the existing mooring
+2) Assumes that buoy on beach results in significant damage to the structure"
+0715-3,Single point sinker,"Provide weight to foam buoy. 
+Connection point between Brindle and single point mooring",2,"Loading
+Local bending of chain link",Crack/Loss of mass,"1) Loss of WEC orientation and equilibrium position
+2) Possible loss of umbilical connectivity (see 0800)
+3) Possible loss of buoy, BOB - buoy on beach or BOTS - buoy out to sea
+4) Possible damage to WEC",Fatigue induced damage,Normal,none,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",7,4,7,9,9,Low,Med,High,High,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,"1) Assumes that if the sinker fails, the WEC bridle will no longer be connected to the existing mooring
+2) Assumes that buoy on beach results in significant damage to the structure"
+0715-4,Single point sinker,"Provide weight to foam buoy. 
+Connection point between Brindle and single point mooring",2,"Loading
+Local bending of chain link",Crack/Loss of mass,"1) Loss of WEC orientation and equilibrium position
+2) Possible loss of umbilical connectivity (see 0800)
+3) Possible loss of buoy, BOB - buoy on beach or BOTS - buoy out to sea
+4) Possible damage to WEC",Non-service ship strike,Normal,none,none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",3,4,7,9,9,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) establish exclusion zone at deployed area",,,,,,,,,,,,,,,,,,,,,,,,,"1) Assumes that if the sinker fails, the WEC bridle will no longer be connected to the existing mooring
+2) Assumes that buoy on beach results in significant damage to the structure"
+0716-1,"Single point shackles, pendants","Connection points for Hawser lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Extreme load induced damage (Overload),Normal,"1) Redundant system (WEC remains moored)
+2) Conservative design (partial safety factors)",none,"1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.","1) Marine contractor
+2) Marine contractor feasibility study",,,,,,,,,,,,,,,,,,,,,,,,
+0716-2,"Single point shackles, pendants","Connection points for Hawser lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Snap loads,Normal,1) Redundant system (WEC remains moored),none,"1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) load cases to include investigation of snap loading",,,,,,,,,,,,,,,,,,,,,,,,,
+0716-3,"Single point shackles, pendants","Connection points for Hawser lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Fatigue induced damage,Normal,"1) Redundant system (WEC remains moored)
+2) Material selection  and component sizing
+3) Conservative design (partial safety factors)","Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,
+0716-4,"Single point shackles, pendants","Connection points for Hawser lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Non-service ship strike,Normal,"1) Redundant system (WEC remains moored)
+2) Lights, radar reflectors (e.g. visibility)
+3) Hawsers and hardware below ship draft (~4m)",none,"1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",3,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) establish exclusion zone at deployed area","1) Marine contractor
+2) Marine contractor feasibility study",,,,,,,,,,,,,,,,,,,,,,,,"Assume pendant is made of steel, hence failure cause related to polyester material is not considered. "
+0716-5,"Single point shackles, pendants","Connection points for Hawser lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Vandalism/ negligence,Normal,"1) Redundant system (WEC remains moored)
+2) Surveillance system
+3) Hawsers and hardware below easy access (~4m)",none,"1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure,,,,,,,,,,,,,,,,,,,,,,,,,
+0716-6,"Single point shackles, pendants","Connection points for Hawser lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Change in mooring system response and loads
+2) Significantly greater watch circle
+3) Loss of aft mooring line
+4) Loss of umbilical connectivity (see 0800)",Corrosion,Normal,1) Redundant system (WEC remains moored),"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Visual detection
+3) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) CPwr to confirm that corrosion allowance has been considered in the structural design; if not, corrosion allowance to be defined as per DNV-OS-E301 with annual inspection",,,,,,,,,,,,,,,,,,,,,,,,,
+0720-1,Bridle (hawswer lines and hardware),"Constrain WEC to weathervane about the single point
+Yaw stability",2,Loading,Double bridle line failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical connectivity (see 0800)
+3) BOB - buoy on beach or BOTS - buoy out to sea
+4) Entanglement of WEC in mooring system
+5) Damage to mooring connection point at the hull area",Extreme load induced damage,Normal,none,none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",4,4,7,9,9,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure","1) Marine contractor feasibility study
+2) Marine contractor",,,,,,,,,,,,,,,,,,,,,,,,1) Assumes that buoy on beach results in significant damage to the structure
+0720-2,Bridle (hawswer lines and hardware),"Constrain WEC to weathervane about the single point
+Yaw stability",2,Loading,Double bridle line failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical connectivity (see 0800)
+3) BOB - buoy on beach or BOTS - buoy out to sea
+4) Entanglement of WEC in mooring system
+5) Damage to mooring connection point at the hull area",Snap loads,Normal,none,none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",3,4,7,9,9,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+4) load cases to include investigation of snap loading",,,,,,,,,,,,,,,,,,,,,,,,,1) Assumes that buoy on beach results in significant damage to the structure
+0720-3,Bridle (hawswer lines and hardware),"Constrain WEC to weathervane about the single point
+Yaw stability",2,Loading,Double bridle line failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical connectivity (see 0800)
+3) BOB - buoy on beach or BOTS - buoy out to sea
+4) Entanglement of WEC in mooring system","Corrosion, wear, fatigue induced damage",Normal,1) Material selection  and component sizing,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,4,7,9,9,Low,Med,High,High,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event
+","1) Marine contractor feasibility study
+2) Marine contractor",,,,,,,,,,,,,,,,,,,,,,,,1) Assumes that buoy on beach results in significant damage to the structure
+0720-4,Bridle (hawswer lines and hardware),"Constrain WEC to weathervane about the single point
+Yaw stability",2,Loading,Double bridle line failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical connectivity (see 0800)
+3) BOB - buoy on beach or BOTS - buoy out to sea
+4) Entanglement of WEC in mooring system
+5) Damage to mooring connection point at the hull area",Non-service ship strike,Normal,"1) Lights, radar reflectors (e.g. visibility)
+2) Bridle is below ship draft (~19m)",none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",1,4,7,9,9,Low,Low,Low,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+4) establish exclusion zone at deployed area",,,,,,,,,,,,,,,,,,,,,,,,,"1) Assumes that buoy on beach results in significant damage to the structure
+2) CPwr to clarify the maximum draft of ships in the area"
+0720-5,Bridle (hawswer lines and hardware),"Constrain WEC to weathervane about the single point
+Yaw stability",2,Loading,Double bridle line failure (including hardware failure),"1) Loss of station keeping
+2) Loss of umbilical connectivity (see 0800)
+3) BOB - buoy on beach or BOTS - buoy out to sea
+4) Entanglement of WEC in mooring system
+5) Damage to mooring connection point at the hull area",Vandalism/ negligence,Normal,"1) Surveillance system
+2) Bridle is below easy access (~19m)",none,"1) GPS watch circle alarm
+2) Yaw direction detection
+3) Mooring load cells
+4) Visual detection
+5) Loss of umbilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",1,4,7,9,9,Low,Low,Low,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,1) Assumes that buoy on beach results in significant damage to the structure
+0723-1,Bridle hawser lines,"Constrain WEC to weathervane about the single point
+Yaw stability",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single bridle line failure,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+4) Damage to mooring connection point at the hull area
+",Extreme load induced damage (Overload),Normal,1) Redundant system (WEC remains moored),none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection","1) Repair/replace on site
+2) Recover WEC, dry doc repair of hull area",5,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+2) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0723-2,Bridle hawser lines,"Constrain WEC to weathervane about the single point
+Yaw stability",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single bridle line failure,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+4) Damage to mooring connection point at the hull area
+",Snap loads,Normal,1) Redundant system (WEC remains moored),none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection","1) Repair/replace on site
+2) Recover WEC, dry doc repair of hull area",4,1,1,7,7,Low,Low,Low,Low,"1) load cases to include investigation of snap loading
+2) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0723-3,Bridle hawser lines,"Constrain WEC to weathervane about the single point
+Yaw stability",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single bridle line failure,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line",fatigue induced damage,Normal,1) Redundant system (WEC remains moored),none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection",Repair/replace on site,7,1,1,5,4,Low,Low,Med,Low,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+2) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,
+0723-4,Bridle hawser lines,"Constrain WEC to weathervane about the single point
+Yaw stability",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single bridle line failure,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+4) Damage to mooring connection point at the hull area
+",Non-service ship strike,Normal,"1) Redundant system
+2) Lights, radar reflectors (e.g. visibility)
+3) Bridle is below ship draft (~19m)",none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection","1) Repair/replace on site
+2) Recover WEC, dry doc repair of hull area",1,2,1,7,7,Low,Low,Low,Low,"1) establish exclusion zone at deployed area
+2) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0723-5,Bridle hawser lines,"Constrain WEC to weathervane about the single point
+Yaw stability",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single bridle line failure,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+","Fish bite
+",Normal,1) Redundant system (WEC remains moored),"Regularly scheduled visual inspection, with repair/ replacement as needed","1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection",Repair/replace on site,8,1,1,9,7,Low,Low,High,Med,"1) analysis: expected fish bite failures and detectability with regular inspections
+2) protective sheath on the lines at risk for fish bite, if warranted
+",,,,,,,,,,,,,,,,,,,,,,,,,
+0723-6,Bridle hawser lines,"Constrain WEC to weathervane about the single point
+Yaw stability",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single bridle line failure,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+",Vandalism/ negligence,Normal,"1) Redundant system
+2) Surveillance system
+3) Bridle is below easy access (~19m)",none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection",Repair/replace on site,1,1,1,5,4,Low,Low,Low,Low,1) establish exclusion zone at deployed area,,,,,,,,,,,,,,,,,,,,,,,,,
+0723-7,Bridle hawser lines,"Constrain WEC to weathervane about the single point
+Yaw stability",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single bridle line failure,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+",Material degradation due to exposure to UV,Normal,1) Redundant system (WEC remains moored),"Regularly scheduled visual inspection, with repair/ replacement as needed","1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection",Repair/replace on site,7,1,1,5,4,Low,Low,Med,Low,none,,,,,,,,,,,,,,,,,,,,,,,,,"CPwr to provide recommended actions to reduce risk of failure due to UV exposure, if warranted"
+0723-8,Bridle hawser lines,"Constrain WEC to weathervane about the single point
+Yaw stability",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Single bridle line failure,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+",Degradation due to Marine growth,Normal,1) Redundant system (WEC remains moored),"Regularly scheduled visual inspection, with repair/ replacement as needed","1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection",Repair/replace on site,7,1,1,5,4,Low,Low,Med,Low,none,,,,,,,,,,,,,,,,,,,,,,,,,"CPwr to provide recommended actions to reduce risk of failure due to marine growth, if warranted"
+0726-1,Bridle shackles,"Connection points for bridle hawser lines to WEC
+Load transfer from WEC to mooring system",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Yield (ULS),"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+4) Damage to mooring connection point at the hull area
+",Extreme load induced damage (Overload),Normal,1) Redundant system,none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection","1) Repair/replace on site
+2) Recover WEC, dry doc repair of hull area",5,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+2) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0726-2,Bridle shackles,"Connection points for bridle hawser lines to WEC
+Load transfer from WEC to mooring system",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Yield (ULS),"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+4) Damage to mooring connection point at the hull area
+",Snap loads,Normal,1) Redundant system,none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection","1) Repair/replace on site
+2) Recover WEC, dry doc repair of hull area",4,1,1,7,7,Low,Low,Low,Low,"1) load cases to include investigation of snap loading
+2) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0726-3,Bridle shackles,"Connection points for bridle hawser lines to WEC
+Load transfer from WEC to mooring system",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Crack (FLS),"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+",fatigue induced damage,Normal,1) Redundant system,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection",,7,1,1,5,4,Low,Low,Med,Low,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+2) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,
+0726-4,Bridle shackles,"Connection points for bridle hawser lines to WEC
+Load transfer from WEC to mooring system",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Yield (ULS),"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+4) Damage to mooring connection point at the hull area
+",Non-service ship strike,Normal,"1) Redundant system
+2) Lights, radar reflectors (e.g. visibility)
+3) Bridle is below ship draft (~19m)",none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection","1) Repair/replace on site
+2) Recover WEC, dry doc repair of hull area",1,2,1,7,7,Low,Low,Low,Low,"1) establish exclusion zone at deployed area
+2) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0726-5,Bridle shackles,"Connection points for bridle hawser lines to WEC
+Load transfer from WEC to mooring system",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",varies,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+",Vandalism/ negligence,Normal,"1) Redundant system
+2) Surveillance system
+3) Bridle is below easy access (~19m)",none,"1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection",Repair/replace on site,1,1,1,5,4,Low,Low,Low,Low,1) establish exclusion zone at deployed area,,,,,,,,,,,,,,,,,,,,,,,,,
+0726-6,Bridle shackles,"Connection points for bridle hawser lines to WEC
+Load transfer from WEC to mooring system",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",crack / yield,"1) Change in buoy orientation
+2) Reduction in power production
+3) Increased load on intact line
+",Corrosion,Normal,"1) Redundant system
+2) Material selection  and component sizing","Regularly scheduled visual inspection, with repair/ replacement as needed","1) Yaw direction detection
+2) Mooring load cell
+3) Visual detection",Repair/replace on site,7,1,1,5,4,Low,Low,Med,Low,"1) CPwr to confirm that corrosion allowance has been considered in the structural design; if not, corrosion allowance to be defined as per DNV-OS-E301 with annual inspection",,,,,,,,,,,,,,,,,,,,,,,,,
+0732-1,Tether Chain,"Connecting tether line poly line segments
+Provide restoring force in the mooring system",2,Loading,crack/yield,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Damage to mooring connection point at the hull area",Extreme load induced damage (Overload),Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0732-2,Tether Chain,"Connecting tether line poly line segments
+Provide restoring force in the mooring system",2,Loading,crack/yield,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Damage to mooring connection point at the hull area",Snap loads,Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) load cases to include investigation of snap loading
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0732-3,Tether Chain,"Connecting tether line poly line segments
+Provide restoring force in the mooring system",2,Loading,crack/yield,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Damage to mooring connection point at the hull area",fatigue induced damage,Normal,none,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0732-4,Tether Chain,"Connecting tether line poly line segments
+Provide restoring force in the mooring system",2,Loading,crack/yield,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Damage to mooring connection point at the hull area",Non-service ship strike,Normal,"1) Lights, radar reflectors (e.g. visibility)",none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",3,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) establish exclusion zone at deployed area
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure",,,,,,,,,,,,,,,,,,,,,,,,,
+0732-5,Tether Chain,"Connecting tether line poly line segments
+Provide restoring force in the mooring system",2,Loading,crack/yield,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Corrosion,Normal,1) Material selection  and component sizing,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) CPwr to confirm that corrosion allowance has been considered in the structural design; if not, corrosion allowance to be defined as per DNV-OS-E301 with annual inspection",,,,,,,,,,,,,,,,,,,,,,,,,
+0733-1,Tether lines,"Load transfer from WEC to WETS moorings
+Provide restoring force for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Line break,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Possible damage to WEC",Extreme load induced damage (Overload),Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+5) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event",,,,,,,,,,,,,,,,,,,,,,,,,
+0733-2,Tether lines,"Load transfer from WEC to WETS moorings
+Provide restoring force for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Line break,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Possible damage to WEC",Snap loads,Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) load cases to include investigation of snap loading
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+4) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event",,,,,,,,,,,,,,,,,,,,,,,,,
+0733-3,Tether lines,"Load transfer from WEC to WETS moorings
+Provide restoring force for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Line break,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",fatigue induced damage,Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+5) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event",,,,,,,,,,,,,,,,,,,,,,,,,
+0733-4,Tether lines,"Load transfer from WEC to WETS moorings
+Provide restoring force for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Line break,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Possible damage to WEC",Non-service ship strike,Normal,"1) tether is 4+ meters below surface, below most ship's hulls
+2) Lights, radar reflectors (e.g. visibility)",none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",3,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+3) establish exclusion zone at deployed area",,,,,,,,,,,,,,,,,,,,,,,,,
+0733-5,Tether lines,"Load transfer from WEC to WETS moorings
+Provide restoring force for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Line break,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)","Fish bite
+",Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",8,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+3) analysis: expected fish bite failures and detectability with regular inspections
+4) protective sheath on the lines at risk for fish bite, if warranted",,,,,,,,,,,,,,,,,,,,,,,,,
+0733-6,Tether lines,"Load transfer from WEC to WETS moorings
+Provide restoring force for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Line break,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Vandalism/ negligence,Normal,"1) tether is 4+ meters below surface, difficult to access",none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2)  establish exclusion zone at deployed area",,,,,,,,,,,,,,,,,,,,,,,,,
+0733-7,Tether lines,"Load transfer from WEC to WETS moorings
+Provide restoring force for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Line break,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Material degradation due to exposure to UV,Normal,none,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure,,,,,,,,,,,,,,,,,,,,,,,,,"CPwr to provide recommended actions to reduce risk of failure due to UV exposure, if warranted"
+0733-8,Tether lines,"Load transfer from WEC to WETS moorings
+Provide restoring force for position keeping",2,"Loading
+Material integrity subjected to marine environment: Exposure to UV, marine growth control",Line break,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Degradation due to marine growth,Normal,none,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure,,,,,,,,,,,,,,,,,,,,,,,,,"CPwr to provide recommended actions to reduce risk of failure due to marine growth, if warranted"
+0736-1,Tether Shackles and pendant,"Connection points for polyester lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Possible damage to WEC",Extreme load induced damage (Overload),Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+5) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event",,,,,,,,,,,,,,,,,,,,,,,,,
+0736-2,Tether Shackles and pendant,"Connection points for polyester lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Possible damage to WEC",Snap loads,Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) load cases to include investigation of snap loading
+3) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+4) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event",,,,,,,,,,,,,,,,,,,,,,,,,
+0736-3,Tether Shackles and pendant,"Connection points for polyester lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",fatigue induced damage,Normal,none,none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+5) A salvage/emergency response plan to be defined prior to first deployment, stating the mitigating actions for the failure and the expected time window for the  operation(s) to be carried out. It needs to be demonstrated that the expected time window is achievable for the sudden occurrence of the event",,,,,,,,,,,,,,,,,,,,,,,,,
+0736-4,Tether Shackles and pendant,"Connection points for polyester lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)
+4) Possible damage to WEC",Non-service ship strike,Normal,"1) tether is 4+ meters below surface, below most ship's hulls
+2) Lights, radar reflectors (e.g. visibility)",none,"1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+WEC Hull: recover WEC, dry dock repair",3,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+3) establish exclusion zone at deployed area",,,,,,,,,,,,,,,,,,,,,,,,,
+0736-5,Tether Shackles and pendant,"Connection points for polyester lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Vandalism/ negligence,Normal,1) surveillance system,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2)  establish exclusion zone at deployed area",,,,,,,,,,,,,,,,,,,,,,,,,
+0736-6,Tether Shackles and pendant,"Connection points for polyester lines to chain, pendant and buoy
+Load transfer",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Corrosion,Normal,1) Material selection  and component sizing,"Regularly scheduled visual inspection, with repair/ replacement as needed","1) GPS watch circle alarm
+2) Mooring load cell
+3) Visual detection
+4) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) CPwr to confirm that corrosion allowance has been considered in the structural design; if not, corrosion allowance to be defined as per DNV-OS-E301 with annual inspection",,,,,,,,,,,,,,,,,,,,,,,,,
+0747-1,Mooring load cell,Measure mooring line tension,1,None,Structural failure,"1) No mooring tension data for this line
+2) Lanyard takes load",Extreme load induced damage,Normal,1) Mechanically backed up by lanyard (0749),none,1) Mooring load cell diagnostics,Replace on site,5,1,1,4,5,Low,Low,Low,Low,none,,,,,,,,,,,,,,,,,,,,,,,,,
+0747-2,Mooring load cell,Measure mooring line tension,1,None,Structural failure,"1) No mooring tension data for this line
+2) Lanyard takes load",Non-service ship strike,Normal,"1) Mechanically backed up by lanyard (0749)
+2) Lights, radar reflectors (e.g. visibility)",none,1) Mooring load cell diagnostics,Replace on site,1,2,1,4,5,Low,Low,Low,Low,1)  establish exclusion zone at deployed area,,,,,,,,,,,,,,,,,,,,,,,,,
+0747-3,Mooring load cell,Measure mooring line tension,1,None,Structural failure,"1) No mooring tension data for this line
+2) Lanyard takes load","Corrosion, fatigue induced damage",Normal,"1) Mechanically backed up by lanyard (0749)
+2) Material selection  and component sizing","Regularly scheduled visual inspection, with repair/ replacement as needed",1) Mooring load cell diagnostics,Replace on site,5,1,1,4,5,Low,Low,Low,Low,none,,,,,,,,,,,,,,,,,,,,,,,,,
+0781-1,Existing Anchors,Anchoring point to the sea bed,2,"Loading
+Long term seabed conditions",Anchor failure (material failure),"1) Change in mooring system response and loads
+2)Loss of umbilical connectivity (see 0800)",Extreme load,Normal,1) Redundant system,none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Evidence of anchor capacity at deployed site (via full scale testing after installation) to be provided to demonstrate the capacity is within the design criteria.",1) Marine contractor feasibility study,,,,,,,,,,,,,,,,,,,,,,,,
+0781-2,Existing Anchors,Anchoring point to the sea bed,2,"Loading
+Long term seabed conditions",Anchor failure (material failure),"1) Change in mooring system response and loads
+2)Loss of umbilical connectivity (see 0800)",Fatigue/cyclic loading,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,
+0781-3,Existing Anchors,Anchoring point to the sea bed,2,"Loading
+Long term seabed conditions",Loss in anchoring capacity,"1) Change in mooring system response and loads
+2)Loss of umbilical connectivity (see 0800)",sediment loss,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",4,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Definition of different levels of acceptance criteria for embedment of drag anchors with the associate action plan depending on the severity of the issue. Regular inspection of the anchors shall be checked against the acceptance criteria.",,,,,,,,,,,,,,,,,,,,,,,,,
+0781-4,Existing Anchors,Anchoring point to the sea bed,2,"Loading
+Long term seabed conditions",Loss in anchoring capacity,"1) Change in mooring system response and loads
+2)Loss of umbilical connectivity (see 0800)",Fatigue/cyclic loading,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Definition of different levels of acceptance criteria for embedment of drag anchors with the associate action plan depending on the severity of the issue. Regular inspection of the anchors shall be checked against the acceptance criteria",,,,,,,,,,,,,,,,,,,,,,,,,
+0782-1,Existing Chains,Provide restoring force for the mooring system,2,"Loading
+Sea bed conditions (long term)",Yield/ Crack,"1) Change in mooring system response and loads
+2)Loss of umbilical connectivity (see 0800)
+3) WEC drifts and collide with buoy, causes damage to WEC or sinking of Buoy.",Extreme load,Normal,1) Redundant system,none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+Dry dock inspection and repair of WEC.",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) Evidence of anchor capacity at deployed site (via full scale testing after installation) to be provided to demonstrate the capacity is within the design criteria.",,,,,,,,,,,,,,,,,,,,,,,,,
+0782-2,Existing Chains,Provide restoring force for the mooring system,2,"Loading
+Sea bed conditions (long term)",Yield/ Crack,"1) Change in mooring system response and loads
+2)Loss of umbilical connectivity (see 0800)
+3) WEC drifts and collide with buoy, causes damage to WEC or sinking of Buoy.",Fatigue/cyclic loading,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+Dry dock inspection and repair of WEC.",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0782-3,Existing Chains,Provide restoring force for the mooring system,2,"Loading
+Sea bed conditions (long term)",Yield/ Crack,"1) Change in mooring system response and loads
+2)Loss of umbilical connectivity (see 0800)
+3) WEC drifts and collide with buoy, causes damage to WEC or sinking of Buoy.",Excessive load due to higher seabed friction,Normal,1) Redundant system,none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+Dry dock inspection and repair of WEC.",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Seabed friction to take into account the uncertainties of the long term soil characteristics.
+3) CPwr to demonstrate the seabed friction in the mooring load derivation is conservative for the site, including evidence from site assessment.
+4) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,"1) note that, by design, mooring chain will be in contact with sea bed after installation"
+0782-4,Existing Chains,Provide restoring force for the mooring system,2,"Loading
+Sea bed conditions (long term)",Yield/ Crack,"1) Change in mooring system response and loads
+2)Loss of umbilical connectivity (see 0800)
+3) WEC drifts and collide with buoy, causes damage to WEC or sinking of Buoy.",Excessive load on the chain due to embedment of mooring chain into the seabed,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+Dry dock inspection and repair of WEC.",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Derivation of mooring load to take into account the embedment of mooring chain into the sea bed. The definition of level of embedment need to correlate with the soil characteristics on the sea bed from the site assessment.
+3) Regular inspection to be carried out to ensure embedment of the mooring chain is within the acceptable limits. 
+4) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,"1) note that, by design, mooring chain will be in contact with sea bed after installation"
+0784-1,Existing Floats,Provide buoyancy to maintain tension in mooring lines,2,"Loading
+Long term buoyancy loss",Collapse/loss of buoyancy,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Non-service ship strike,Normal,"1) Redundant system
+2) Lights, radar reflectors (e.g. visibility)",none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",3,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) establish exclusion zone at deployed area",,,,,,,,,,,,,,,,,,,,,,,,,
+0784-2,Existing Floats,Provide buoyancy to maintain tension in mooring lines,2,"Loading
+Long term buoyancy loss",Collapse/loss of buoyancy,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Material degradation leading to loss of buoyancy,Normal,"1) Redundant system
+2) Material selection  and component sizing",Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Inspection of buoy to detect loss of buoyancy or damage to be implemented
+3) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0785-1,Existing Sinkers,Reduce uplift,2,"Loading
+Sea bed friction",Fracture,"Redistribution of load to other sinkers
+Increased uplift force at achor, leading to anchor failure",Impact on the sea floor,Normal,1) Redundant system,none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",7,1,1,9,7,Low,Low,High,Med,"1) design to show that hawser line to fail before anchor uplift
+2) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0785-2,Existing Sinkers,Reduce uplift,2,"Loading
+Sea bed friction",Fracture,"Redistribution of load to other sinkers
+Increased uplift force at achor, leading to anchor failure",Snap load,Normal,1) Redundant system,none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",5,1,1,9,7,Low,Low,Med,Med,"1) load cases to include investigation of snap loading
+2) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0785-3,Existing Sinkers,Reduce uplift,2,"Loading
+Sea bed friction",Fracture,"Redistribution of load to other sinkers
+Increased uplift force at achor, leading to anchor failure",Fatigue,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",7,1,1,9,7,Low,Low,High,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+2) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+3) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0785-4,Existing Sinkers,Reduce uplift,2,"Loading
+Sea bed friction",Fracture,"Redistribution of load to other sinkers
+Increased uplift force at achor, leading to anchor failure",Abrasion,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",5,1,1,9,7,Low,Low,Med,Med,"1) design to show that hawser line to fail before anchor uplift
+2) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0785-5,Existing Sinkers,Reduce uplift,2,"Loading
+Sea bed friction",Fracture,"Redistribution of load to other sinkers
+Increased uplift force at achor, leading to anchor failure",Excessive load on the sinker chain due to embedment of sinker into the seabed,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",5,1,1,9,7,Low,Low,Med,Med,"1) Regular inspection to be carried out to ensure embedment of the sinkers are within the acceptable limits. 
+2) 3rd party certification of characteristics of used mooring components to be provided",Regular,inspection,to,be,carried,out,to,ensure,embedment,of,the,mooring,chain,is,within,the,acceptable,limits.,,,,,,,
+0786-1,Existing Shackles,"Connection points between mooring lines, mooring lines and buoy.",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Extreme load induced damage (Overload),Normal,1) Redundant system,none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0786-2,Existing Shackles,"Connection points between mooring lines, mooring lines and buoy.",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Snap loads,Normal,1) Redundant system,none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",5,1,1,9,7,Low,Low,Med,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) load cases to include investigation of snap loading
+3) 3rd party certification of characteristics of used mooring components to be provided
+",,,,,,,,,,,,,,,,,,,,,,,,,
+0786-3,Existing Shackles,"Connection points between mooring lines, mooring lines and buoy.",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",fatigue induced damage,Normal,1) Redundant system,Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling. 
+3) CPwr to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+4) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0786-4,Existing Shackles,"Connection points between mooring lines, mooring lines and buoy.",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Non-service ship strike,Normal,"1) Redundant system
+2) Lights, radar reflectors (e.g. visibility)",none,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",3,1,1,9,7,Low,Low,Med,Low,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) establish exclusion zone at deployed area
+3) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,
+0786-5,Existing Shackles,"Connection points between mooring lines, mooring lines and buoy.",2,Loading,Yield/crack,"1) Loss of WEC orientation and equilibrium position
+2) Entanglement of WEC in mooring system
+3) Possible loss of umbilical connectivity (see 0800)",Corrosion,Normal,"1) Redundant system
+2) Material selection  and component sizing",Regularly scheduled visual inspection,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity","Mooring: Repair/replace on site
+Umbilical: Repair/replace on site… but long lead time (~12mo)
+",7,1,1,9,7,Low,Low,High,Med,"1) design of umibilical to incorporate repairable weak link to allow for shorter repair time and reduced cost of failure
+2) CPwr to confirm that corrosion allowance has been considered in the structural design; if not, corrosion allowance to be defined as per DNV-OS-E301 with annual inspection
+3) 3rd party certification of characteristics of used mooring components to be provided",,,,,,,,,,,,,,,,,,,,,,,,,

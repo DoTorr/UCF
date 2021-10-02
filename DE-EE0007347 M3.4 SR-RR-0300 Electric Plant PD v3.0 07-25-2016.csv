@@ -1,0 +1,603 @@
+﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Risk Ranking,,,,,,,,,,,,Updated Risk Ranking,,,,,,,,,,,,2nd Updated Risk Ranking,,,,,,,,,,,,
+"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes,DNV GL comments,CPwr Comment
+0310-1,Motor Modules (MoMo),Control and synchronize a group of stator segments,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed multiple (x) MoMos,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, x/9 
+  b. Reduced max torque by x/9
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by x/9
+
+",Corrosion induced failure short circuit,Normal,"1) Marine rated corrosion resistance design
+2) Redundant design Segmented generator, controlled by 6 groups of MoMos. 
+",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,5,5,Low,Low,Med,Med,"All electrical components can be repaired in-situ. This is assuming that the repair is possible considering the limitations below: 
+1. Limitation due to access and size of the hatches and size of the modules to be repaired.
+2. Movement of WEC
+3. Commissioning/partial commissioning or testing offshore after repair or replacement of parts.
+Clarify between failure that requires replacement of the whole module (dry dock) and partial replacement (in-situ)
+Also see risk ID 0330-1 for comment on occurrence class",,,,,,,,,,,,,,,,,,,,,,,,,,"0310: Failure mode: overspeed in motor operation possible/ to be considered? Furthermore, asynchronous or motor operation  of single MoMos possible?
+Please clarify if overspeed during motor operation, asynchronous of motor operation of single MoMos is possible. Failure mode needs to be considered.
+General comment:
+All electrical components can be repaired in-situ. This is assuming that the repair is possible considering the limitations below: 
+1. Limitation due to access and size of the hatches and size of the modules to be repaired.
+2. Movement of WEC
+3. Commissioning/partial commissioning or testing offshore after repair or replacement of parts.
+Please clarify.
+For the failure that requires replacement of the whole module, would a dry dock repair required due to the limitations mentioned above?
+Also see risk ID 0330-1 for comment on occurrence class","The speed rating for the machine is 150% higher than extreme seas freewheeling worst case real seas simulation.  In the case of speed being higher than set point of 100% speed (~15rpm) M2G MoMo controller can disconnect and allow freewheeling.  While freewheeling, all power electronics are isolated from higher voltage potentials. The MoMos are 4-quadrant controllers, which motor or generate in either direction. An error in controller could cause issue with direction, but M2G control diagnostics would quickly alarm and fault out.  Mechanically designed to either motor or generate at any given time. "
+0310-2,Motor Modules (MoMo),Control and synchronize a group of stator segments,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed multiple (x) MoMos,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, x/9 
+  b. Reduced max torque by x/9
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by x/9
+
+",Improper installation or manufacturing defect results in failure,Normal,1) V&V (QC),none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,5,5,Low,Low,Low,Low,It is assumed that failure due to improper installation or manufacturing faults are usually mitigated via manufacturer's in house quality control and testing of the components.  Anything outisde of what is normal should be documented.,,,,,,,,,,,,,,,,,,,,,,,,,,"It is assumed that failure due to improper installation or manufacturing faults are usually mitigated via manufacturer's in house quality control and testing of the components. The failure mode should focus on quality control or testing specific to the WEC applications. Hence, the description of failure cause to be more specific to capture the failure causes unique to StingRAY device, or remove if none has been identified.",Aggreed. Most are coverd by manufacture with regards to the equipment.  Installation into the WEC is performed by a 3rd party and requires additional V&V of the final complete system assembled inside of the nacelle/WEC. 
+0310-3,Motor Modules (MoMo),Control and synchronize a group of stator segments,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed multiple (x) MoMos,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, x/9 
+  b. Reduced max torque by x/9
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by x/9
+
+",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+2) Redundant design, 6 MoMo per generator",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0310-4,Motor Modules (MoMo),Control and synchronize a group of stator segments,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed multiple (x) MoMos,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, x/9 
+  b. Reduced max torque by x/9
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by x/9
+
+","Water induced failure 
+(non-corrosion)",Normal,"1) Marine rated waterproof enclosure
+2) Limit number of MoMo per enclosure
+3) Redundant design, 6 MoMo per generator
+","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0310-5,Motor Modules (MoMo),Control and synchronize a group of stator segments,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed multiple (x) MoMos in enclosure due to enclosure short,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, x/9 
+  b. Reduced max torque by x/9
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by x/9
+
+",Electrical short (no water or corrosion),Normal,"1) Marine rated waterproof enclosure
+2) Limit number of MoMo per enclosure
+3) Redundant design, 6 MoMo per generator
+","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0310-6,Motor Modules (MoMo),Control and synchronize a group of stator segments,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed single MoMo,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, 1/9 
+  b. Reduced max torque by x19
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by 1/9
+
+",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance design
+2) Segmented generator, controlled by 9 independent  MoMos. 
+","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,4,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Is there enough current capacity in the MoMos to make up for the reduced torque limit? Depend on final design ,See comment in Risk ID 0330-1,OK
+0310-7,Motor Modules (MoMo),Control and synchronize a group of stator segments,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed single MoMo,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, 1/9 
+  b. Reduced max torque by x19
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by 1/9
+
+",Improper installation or manufacturing defect results in failure,Normal,"1) V&V (QC)
+2) Segmented generator, controlled by 9 independent  MoMos. ",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,4,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0310-2,OK
+0310-8,Motor Modules (MoMo),Control and synchronize a group of stator segments,"1
+2","none
+Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed single MoMo,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, 1/9 
+  b. Reduced max torque by x19
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by 1/9
+
+",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+2) Segmented generator, controlled by 9 independent  MoMos. ",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,4,4,Low,Low,Low,Low,"Check vibration ratings and standards, use LandRAY vibration data",,,,,,,,,,,,,,,,,,,,,,,,,,,
+0310-9,Motor Modules (MoMo),Control and synchronize a group of stator segments,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed single MoMo,"1) PTO controlled shutdown
+2) Operator can re-start once diagnostics determines fault is isloated and there is no further risk. Re-start PTO with: 
+  a. Partial loss of Generator, 1/9 
+  b. Reduced max torque by x19
+  c. Reduced max damping
+  d. Reduction in power due to torque limit reduction by 1/9
+
+","Water induced failure 
+(non-corrosion)",Normal,"1) Marine rated waterproof enclosure
+2) Limit number of MoMo per enclosure
+3) Segmented generator, controlled by 9 independent  MoMos. 
+","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,4,4,Low,Low,Low,Low,Dry control room standards during installation and maintenance,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0320-1,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Short DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance design
+2) Independent buses, one for each PTO",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,5,5,Low,Low,Med,Med,"Use watertight cable, connectors and enclosures.  Route cable for no rubbing abrasion. ",,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0330-1,OK
+0320-2,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Short DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO",Improper installation or manufacturing defect results in failure,Normal,"1) V&V (QC)
+2) Independent buses, one for each PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0310-2,OK
+0320-3,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Short DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Independent buses, one for each PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,5,5,Low,Low,Low,Low,"Vibration induced failure is normally expected to have occurrence class 7, same as that for MoMo. Given the novelty, the probability of failure remains uncertain unless manufacturer is able to provide evidence or data to show that the reliability of the component is compatible to the occurrence class assigned. Therefore, it is recommended to use severity class 7 such that a recommended action is given to ensure the risks are controlled.",,,,,,,,,,,,,,,,,,,,,,,,,,"Please provide the basis of using different occurrence class for failure cause ""Vibration and/or motion induced failure"" for all the components in the electric plant.
+Vibration induced failure is normally expected to have occurrence class 7, same as that for MoMo. Given the novelty, the probability of failure remains uncertain unless manufacturer is able to provide evidence or data to show that the reliability of the component is compatible to the occurrence class assigned. Therefore, it is recommended to use severity class 7 such that a recommended action is given to ensure the risks are controlled.",Agreed. Vibration analysis at mounting location and design to incorporate vibration mitigation to reduce risk of a vibration induced failure or fault shall be included in all 0300 engineering design requirements. 
+0320-4,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Short DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO","Water induced failure 
+(non-corrosion)",Normal,"1) Dry control room
+2) Marine rated design 
+3) Independent buses, one for each PTO","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,5,5,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,DC cross-connection is an electrical DC connection linking all MoMo to a signal DC bus. This allows for better power smoothing and increases the reliability of power production.  Port/Stbd MoMo power production can therfore be fed to either port/stbd ALM+AIM to grid.,"Please clarify the ""Open DC cross connect"" failure effect",OK add notes
+0320-5,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Open DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance design
+2) Independent buses, one for each PTO
+
+",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,5,5,Low,Low,Med,Med,"Use watertight cable, connectors and enclosures.  Route cable for no rubbing abrasion. ",,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0330-1,"OK,  but disagree with increased occurrence the blanketed response using ""FLS"" for reasoning  - Explain how to relate Fatigue Limit State to the hard mounted electrical bus?"
+0320-6,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Open DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO",Improper installation or manufacturing defect results in failure,Normal,"1) V&V (QC)
+2) Independent buses, one for each PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0310-2,OK
+0320-7,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Open DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Independent buses, one for each PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,see comment in risk 0320-3,OK
+0320-8,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",3,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Short DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance design
+2) Independent buses, one for each PTO",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,5.285714286,1,1,5,5,Low,Low,Low,Low,"Use watertight cable, connectors and enclosures.  Route cable for no rubbing abrasion. ",,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0330-2,OK
+0320-9,DC Bus,"Electrical connection between MoMos, ALMs, Energy Storage, and Emergency resistor",4,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Short DC bus,"1) PTO controlled shutdown
+2) Loss of AC power generation
+2) Loss of  power production from one PTO
+3) Open DC cross connect to isolate port from stbd PTO",Improper installation or manufacturing defect results in failure,Normal,"1) V&V (QC)
+2) Independent buses, one for each PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,5.142857143,1,1,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0310-3,OK
+0330-1,Energy Storage ,"Power smoothing
+Stores and provides energy to the ALM",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Faulted Energy Storage,"1) Loss of power smoothing capability
+2) Reduction in power production to HECO grid connection limit 500kW. No power smoothing results in reduced average power production  
+3) Reduced damping due to power limit
+",Corrosion induced failure short/open circuit,Normal,"1) Marine rated corrosion resistance design
+2) Divided system, two energy storage, one port, one stbd. 
+",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,6,5,Low,Low,Med,Med,"1) HECO interface requirements needed
+",,,,,,,,,,,,,,,,,,,,,,,,,Should include controllable power burn resistor bank for loss of energy storage & loss of grid connection faults,"Corrosion induced failure should have probability of failure corresponding to FLS design criteria. Although the component is marinised, the probability of failure remains uncertain unless the manufacturer is able to provide evidence or data to demonstrate the reliability of the component is compatible to the occurrence class assigned. Therefore, it is recommended to use severity class 7 such that a recommended action is given to ensure the risks are controlled.","OK - FLS - ""vibrations"" need to be applied to the mounting of all equipment within the enclosures. The control room climate control system is responsible for maintaining the humidity, and corrosion due to the presence of moisture should be maintained at an acceptable level beyond any risk of FLS."
+0330-2,Energy Storage ,"Power smoothing
+Stores and provides energy to the ALM",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Faulted Energy Storage,"1) Loss of power smoothing capability
+2) Reduction in power production to HECO grid connection limit 500kW. No power smoothing results in reduced average power production  
+3) Reduced damping due to power limit
+",Improper installation or manufacturing defect results in failure,Normal,"1) V&V (QC)
+2) Divided system, two energy storage, one port, one stbd. ",none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,6,5,Low,Low,Low,Low,"1) HECO interface requirements needed
+",,,,,,,,,,,,,,,,,,,,,,,,,Should include controllable power burn resistor bank for loss of energy storage & loss of grid connection faults,See comment in Risk ID 0310-2,OK
+0330-3,Energy Storage ,"Power smoothing
+Stores and provides energy to the ALM",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Faulted Energy Storage,"1) Loss of power smoothing capability
+2) Reduction in power production to HECO grid connection limit 500kW. No power smoothing results in reduced average power production  
+3) Reduced damping due to power limit
+",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Divided system, two energy storage, one port, one stbd. ",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,"1) HECO interface requirements needed
+",,,,,,,,,,,,,,,,,,,,,,,,,Should include controllable power burn resistor bank for loss of energy storage & loss of grid connection faults,see comment in risk 0320-3,OK
+0330-4,Energy Storage ,"Power smoothing
+Stores and provides energy to the ALM",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Faulted Energy Storage,"1) Loss of power smoothing capability
+2) Reduction in power production to HECO grid connection limit 500kW. No power smoothing results in reduced average power production  
+3) Reduced damping due to power limit
+","Water induced failure 
+(non-corrosion)",Normal,"1) Marine rated waterproof design 
+2) Divided system, two energy storage, one port, one stbd. 
+","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,4,1,1,6,5,Low,Low,Low,Low,"1) HECO interface requirements needed
+2) Define energy storage water resistance
+",,,,,,,,,,,,,,,,,,,,,,,,,"Should include controllable power burn resistor bank for loss of energy storage & loss of grid connection faults,  Caps are IP-65",Occurrence class is lower than that in the MoMo for the same failure cause. Please explain.,There are more MoMo enclosures than energy storage. Put to the same value of occurrence.
+0330-5,Energy Storage ,"Power smoothing
+Stores and provides energy to the ALM",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fire/smoke,"1) Electrically isolate enclosures with smoke/fire
+2) Automatic fire suppression activated in enclosure by presence of fire/heat
+3) Loss of power smoothing capability
+4) Reduction in power production to HECO grid connection limit 500kW. No power smoothing results in reduced average power production  
+5) Reduced damping due to power limit
+",Electrical short fault leads to smoke/fire  ,Normal,"1) Safety & Emergency system - smoke alarm - SCADA initiated electrical isolation of enclosures with smoke/fire
+2) Automatic fire suppression activated in enclosure by presence of fire/heat – CO2 fills enclosure
+3) Loss of power smoothing capability
+4) Reduction in power production to HECO grid connection limit 500kW. No power smoothing results in reduced average power production  
+5) Reduced damping due to power limit
+
+","1) Safety & Emergency systems smoke alarm - isolate before fire breaks out
+2) SCADA diagnostics 
+3) Surveillance - visual inspection 
+
+",SCADA Diagnostics,Manual in-situ inspection and repair  - dry dock repair is damage is extensive,7,1,1,5,5,Low,Low,Med,Med,Energy storage will include resistive discharge in case of a fire. Energy storage will electrically isolate from the M2G then discharge the capacitors via local discharge resistor. ,,,,,,,,,,,,,,,,,,,,,,,,,Should include controllable power burn resistor bank for loss of energy storage & loss of grid connection faults,See comment in risk ID 0320-9,Engineering design requirements are being modified to increase safety for maintenance and in care of fault.
+0340-1,ALM+AIM grid interface,"Controls level and quality of power delivered to the grid 
+",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed ALM+AIM grid interface,"1) Electrically isolate the ALM+AIM from dc bus 
+2) Power to grid  reduced to one ALM, half capacity (e.g. 300kW)
+2) Loss of power generation 
+3)Adverse effect in heavy wave climate",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance design
+2) Redundant design, two ALM+AIM grid interface modules",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,7,1,1,4,5,Low,Low,Low,Med,,,,,,,,,,,,,,,,,,,,,,,,,,"Depending on the amount of power smoothing required, power reduction or power burn could occur.  For example, if power is allowed to vary from 0-500kW and each ALM is 300kW, power now is reduced to band of 0-300kW.",See comment in Risk ID 0330-1,OK
+0340-2,ALM+AIM grid interface,"Controls level and quality of power delivered to the grid 
+",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed ALM+AIM grid interface,"1) Electrically isolate the ALM+AIM from dc bus 
+2) Power to grid  reduced to one ALM, half capacity (e.g. 300kW)
+2) Loss of power generation 
+3)Adverse effect in heavy wave climate",Improper installation or manufacturing defect results in failure,Normal,"1) V&V (QC)
+2) Redundant design, two ALM+AIM grid interface modules",none,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,4,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"Depending on the amount of power smoothing required, power reduction or power burn could occur.  For example, if power is allowed to vary from 0-500kW and each ALM is 300kW, power now is reduced to band of 0-300kW.",See comment in Risk ID 0310-2,OK
+0340-3,ALM+AIM grid interface,"Controls level and quality of power delivered to the grid 
+",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed ALM+AIM grid interface,"1) Electrically isolate the ALM+AIM from dc bus 
+2) Power to grid  reduced to one ALM, half capacity (e.g. 300kW)
+2) Loss of power generation 
+3)Adverse effect in heavy wave climate",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, 2 ALM+AIM grid interface modules",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,4,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"Depending on the amount of power smoothing required, power reduction or power burn could occur.  For example, if power is allowed to vary from 0-500kW and each ALM is 300kW, power now is reduced to band of 0-300kW.",see comment in risk 0320-3,OK
+0340-4,ALM+AIM grid interface,"Controls level and quality of power delivered to the grid 
+",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed ALM+AIM grid interface,"1) Electrically isolate the ALM+AIM from dc bus 
+2) Power to grid  reduced to one ALM, half capacity (e.g. 300kW)
+2) Loss of power generation 
+3)Adverse effect in heavy wave climate","Water induced failure 
+(non-corrosion)",Normal,"1)Marine rated waterproof enclosure
+2) Redundant design, two ALM+AIM grid interface modules","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,4,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"Depending on the amount of power smoothing required, power reduction or power burn could occur.  For example, if power is allowed to vary from 0-500kW and each ALM is 300kW, power now is reduced to band of 0-300kW.",Occurrence class is lower than that in the MoMo for the same failure cause. Please explain.,OK
+0340-5,"ALM+AIM grid interface
+Enclosure","Controls level and quality of power delivered to the grid 
+",2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fire/smoke,"1) Electrically isolate enclosures with smoke/fire
+2) Automatic fire suppression activated in enclosure by presence of fire/heat
+3) Loss of power generation
+4) Adverse effect in heavy wave climate",Electrical short fault leads to smoke/fire  ,Normal,"1) Safety & Emergency system - smoke alarm - SCADA initiated electrical isolation of enclosures with smoke/fire
+2) Automatic fire suppression activated in enclosure by presence of fire/heat – CO2 fills enclosure
+3) Redundant design, two PTOs
+4) Redundant design, two ALM+AIM grid interface modules","1) Safety & Emergency systems smoke alarm - isolate before fire breaks out
+2) SCADA diagnostics 
+3) Surveillance  - visual inspection 
+","1) Enclosure fire alarm
+2) Enclosure temperature
+3) Visible and IR camera",Dry dock repair ,5,1,1,7,7,Low,Low,Med,Med,Design in-situ replacement if possible.  ALM+AIM is a large component in enclosure and would be difficult to replace in-situ.  Design planning for replacement method necessary.,,,,,,,,,,,,,,,,,,,,,,,,,,"See comment in risk ID 0320-9
+Dry dock repair is assumed to match the severity class",OK
+0350-1,MV Transformer,Transforms AC power from 480V to 11.5kV for utility grid connection,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed MV Transformer,"1) Electrically isolate transformer 
+2) Loss of grid connection
+3) Reduction in power production to station power level
+4) Islanding mode
+5) Significant reduction in damping
+",Corrosion induced failure short circuit,Normal,"1) Marine rated transformer
+",1) Visual inspection,SCADA Diagnostics,Dry dock repair,6,1,1,7,7,Low,Low,Med,Med,"Use a CRT marine rated transformer
+",,,,,,,,,,,,,,,,,,,,,,,,,A marine cast resin transformer will be used. The transformer will be centrally located in the nacelle isolated to limit personnel access.,See comment in Risk ID 0330-1,"OK, agreed on all dry dock repair. Marine cast resin transformers (CRT) are certified for marine and offshore applications by DNV GL, ABS etc. all over the world.  How does the rated corrosion resistance relate to the FLS? Seems the FLS would relate to the mounting hardware etc. and not to the electrical properties of the transformer performing its function.  This is not a higher occurrence since it's application same as other marine transformers.  Do other marine transformers have a high rate of corrosion induced failure? A high failure rate would be bad for the marine transformer industry. The mounting technique will be put under FLS scrutiny"
+0350-2,MV Transformer,Transforms AC power from 480V to 11.5kV for utility grid connection,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed MV Transformer,"1) Electrically isolate transformer 
+2) Loss of grid connection
+3) Reduction in power production to station power level
+4) Islanding mode
+5) Significant reduction in damping
+",Improper installation or manufacturing defect results in failure,Normal,1) V&V (QC),none,SCADA Diagnostics,Dry dock repair,4,1,1,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0310-2,"OK, agreed on all dry dock repair."
+0350-3,MV Transformer,Transforms AC power from 480V to 11.5kV for utility grid connection,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed MV Transformer,"1) Electrically isolate transformer 
+2) Loss of grid connection
+3) Reduction in power production to station power level
+4) Islanding mode
+5) Significant reduction in damping
+",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment",none,SCADA Diagnostics,Dry dock repair,4,1,1,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,see comment in risk ID 0320-3,"OK, agreed on all dry dock repair."
+0350-4,MV Transformer,Transforms AC power from 480V to 11.5kV for utility grid connection,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Failed MV Transformer,"1) Electrically isolate transformer 
+2) Loss of grid connection
+3) Reduction in power production to station power level
+4) Islanding mode
+5) Significant reduction in damping
+",Water induced failure (non-corrosion),Normal,"1) Marine rated transformer
+","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Dry dock repair,4,1,1,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,Occurrence class is lower than that in the MoMo for the same failure cause. Please explain.,"OK, agreed on all dry dock repair."
+0350-5,MV Transformer Enclosure,Transforms AC power from 480V to 11.5kV for utility grid connection,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fire/smoke,"1) Electrically isolate transformer 
+2) Loss of grid connection
+3) Reduction in power production to station power level
+4) Islanding mode
+5) Significant reduction in damping
+6) Automatic fire extinguisher
+",Electrical short (no water or corrosion),Normal,1)Automatic fire extinguisher,"1) Fire/smoke alarm
+","1) Enclosure fire alarm
+2) Enclosure temperature
+3) Visible and IR camera",Dry dock repair,4,1,1,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in risk ID 0320-9,"OK, agreed on all dry dock repair."
+0360-1,Umbilical Cable Connection (All MV equipment),Medium voltage (11.5kV) connection from transformer to umbilical cable. ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - short circuit,"1) Disconnect from transformer
+2) Disconnect from grid at shore 4) loss of grid connection
+5) Reduction in power production to station power level
+6) Islanding mode
+7) Significant reduction in damping
+",Corrosion induced failure short circuit,Normal,1) Marine rated design and components,"1) Visual inspection
+
+","1) Grid connection breaker over-circuit trip
+2) SCADA diagnostics",Manual in-situ repair and inspection,6,1,1,7,6,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0330-1,"OK,  but disagree with increased occurrence the blanketed response using ""FLS"" for reasoning  - Explain how to relate Fatigue Limit State to the hard mounted electrical bus?"
+0360-2,Umbilical Cable Connection (All MV equipment),Medium voltage (11.5kV) connection from transformer to umbilical cable. ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - short circuit,"1) Disconnect from transformer
+2) Disconnect from grid at shore 4) loss of grid connection
+5) Reduction in power production to station power level
+6) Islanding mode
+7) Significant reduction in damping
+",Improper installation or manufacturing defect results in failure,Normal,1) Marine rated design and components,"1) V&V (QC) during manufacturing and assembly
+","1) Grid connection breaker over-circuit trip
+2) SCADA diagnostics",Manual in-situ repair and inspection,5,1,1,7,6,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 0310-2,OK
+0360-3,Umbilical Cable Connection (All MV equipment),Medium voltage (11.5kV) connection from transformer to umbilical cable. ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - short circuit,"1) Disconnect from transformer
+2) Disconnect from grid at shore 4) loss of grid connection
+5) Reduction in power production to station power level
+6) Islanding mode
+7) Significant reduction in damping
+",Vibration and/or motion induced failure,Normal,1) Marine rated design and components,"1) Visual inspection
+
+","1) Grid connection breaker over-circuit trip
+2) SCADA diagnostics",Manual in-situ repair and inspection,5,1,1,7,6,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,see comment in risk 0320-3,OK
+0360-4,Umbilical Cable Connection (All MV equipment),Medium voltage (11.5kV) connection from transformer to umbilical cable. ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - short circuit,"1) Disconnect from transformer
+2) Disconnect from grid at shore 4) loss of grid connection
+5) Reduction in power production to station power level
+6) Islanding mode
+7) Significant reduction in damping
+",Water induced failure (non-corrosion),Normal,1) Marine rated design and components,"1) Visual inspection
+
+","1) Grid connection breaker over-circuit trip
+2) SCADA diagnostics",Manual in-situ repair and inspection,6,1,1,7,6,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,Occurrence class is lower than that in the MoMo for the same failure cause. Please explain.,OK
+0360-5,Umbilical Cable Connection (All MV equipment),Medium voltage (11.5kV) connection from transformer to umbilical cable. ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fire/smoke,"1) Disconnect from transformer
+2) Disconnect from grid at shore 4) loss of grid connection
+5) Reduction in power production to station power level
+6) Islanding mode
+7) Significant reduction in damping
+8)Automatic fire extinguisher
+",Electrical short (no water or corrosion),Normal,"1) Grid connection breakers for electrical isolation
+2) Marine rated MV equipment design","1) Visual inspections
+","1) Enclosure fire alarm
+2) Enclosure temperature
+3) Visible and IR camera",Dry dock repair - pending investigation by service vessel.,4,1,1,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in risk ID 0320-9,OK
+0370-1,Emergency Resistor,Load for burning power in case of DC bus overvoltage during a loss of grid ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations","Following a Loss of grid
+1) Huge waves
+2) Over-voltage 
+3) Resistor fault - short circuit","1) Disconnect from resistor
+2) Disconnect all stators from MoMo
+3) Open DC cross-connection
+4) Free wheeling
+5) reduced controlled shut-down speed
+",Corrosion induced failure short circuit,Islanding Mode,"1) Marine rated design
+","1) Visual inspection
+
+","1) Emergency resistors over-current breaker trip - open
+2) SCADA diagnostics
+ - loss of grid
+ - DC bus voltage",Manual in-situ repair and inspection,7,1,1,5,4,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"The electric plant is normally operated with all MoMo connected to cross connected DC bus.  For flux weakening, current must flow.  The opposite PTO could be used as a motor, current sink, to keep voltage down. Resistors are a extreme case protection components.
+1) Method for manually testing the resistors operational readiness
+2) Is there an active burn system?
+3) Can we use the other PTO at a motor?",See comment in Risk ID 0330-1,"OK,  FLS might apply to the spar platform mounting power resistor.  The power resistor is a protective circuit to allow operations in extreme wave climates.  Otherwise PTO controlled shutdown at a lower sea state.  The operational risk is less.  Reduced the risk.  It should also pose less risk to assets."
+0370-2,Emergency Resistor,Load for burning power in case of DC bus overvoltage during a loss of grid ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations","Following a Loss of grid
+1) Huge waves
+2) Over-voltage 
+3) Resistor fault - short circuit","1) Disconnect from resistor
+2) Disconnect all stators from MoMo
+3) Open DC cross-connection
+4) Free wheeling
+5) reduced controlled shut-down speed
+
+
+",Improper installation or manufacturing defect results in failure,Islanding Mode,"1) Marine rated design
+","1) Visual inspection
+
+","1) Emergency resistors over-current breaker trip - open
+2) SCADA diagnostics
+ - loss of grid
+ - DC bus voltage",Manual in-situ repair and inspection,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"The electric plant is normally operates with all MoMo connected to cross connected DC bus.  For flux weakening, current must flow.  The opposite PTO could be used as a motor, current sink, to keep voltage down. Resistors are a extreme case protection components.",See comment in Risk ID 0310-2,OK
+0370-3,Emergency Resistor,Load for burning power in case of DC bus overvoltage during a loss of grid ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations","Following a Loss of grid
+1) Huge waves
+2) Over-voltage 
+3) Resistor fault - short circuit","1) Disconnect from resistor
+2) Disconnect all stators from MoMo
+3) Open DC cross-connection
+4) Free wheeling
+5) reduced controlled shut-down speed
+
+
+",Vibration and/or motion induced failure,Islanding Mode,"1) Marine rated design
+","1) Visual inspection
+
+","1) Emergency resistors over-current breaker trip - open
+2) SCADA diagnostics
+ - loss of grid
+ - DC bus voltage",Manual in-situ repair and inspection,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"The electric plant is normally operates with all MoMo connected to cross connected DC bus.  For flux weakening, current must flow.  The opposite PTO could be used as a motor, current sink, to keep voltage down. Resistors are a extreme case protection components.",see comment in risk 0320-3,OK
+0370-4,Emergency Resistor,Load for burning power in case of DC bus overvoltage during a loss of grid ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations","Following a Loss of grid
+1) Huge waves
+2) Over-voltage 
+3) Resistor fault - short circuit","1) Disconnect from resistor
+2) Disconnect all stators from MoMo
+3) Open DC cross-connection
+4) Free wheeling
+5) reduced controlled shut-down speed
+
+
+",Water induced failure (non-corrosion),Islanding Mode,"1) Marine rated design
+","1) Visual inspection
+
+","1) Emergency resistors over-current breaker trip - open
+2) SCADA diagnostics
+ - loss of grid
+ - DC bus voltage",Manual in-situ repair and inspection,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"The electric plant is normally operates with all MoMo connected to cross connected DC bus.  For flux weakening, current must flow.  The opposite PTO could be used as a motor, current sink, to keep voltage down. Resistors are a extreme case protection components.",Occurrence class is lower than that in the MoMo for the same failure cause. Please explain.,OK
+0370-5,Emergency Resistor,Load for burning power in case of DC bus overvoltage during a loss of grid ,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations","Following a Loss of grid
+1) Huge waves
+2) Over-voltage 
+3) Resistor fault - short circuit","1) Disconnect from resistor
+2) Disconnect all stators from MoMo
+3) Open DC cross-connection
+4) Free wheeling
+5) reduced controlled shut-down speed
+
+",Electrical short (no water or corrosion),Islanding Mode,"1) Marine rated design
+2) Automatic fire extinguishers
+","1) Fire/smoke alarm
+2) High temperature alarm on emergency resistors
+","1) Emergency resistors over-current breaker trip - open
+2) SCADA diagnostics
+ - loss of grid
+ - DC bus voltage",Manual in-situ repair and inspection,3,1,2,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"The electric plant is normally operates with all MoMo connected to cross connected DC bus.  For flux weakening, current must flow.  The opposite PTO could be used as a motor, current sink, to keep voltage down. Resistors are a extreme case protection components.",,OK
+0380-1,"Switch Gear - MV breaker, transformer",Make/Break MV connection to grid,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - open circuit,"1) loss of grid connection
+2) Reduction in power production to station power level
+3) Islanding mode
+4) Significant reduction in damping
+",Electrical fault,Normal,1) V&V (QC) ,"none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,7,7,Low,Low,Med,Med,"
+",,,,,,,,,,,,,,,,,,,,,,,,,1) After HECO IRS interface - work on MV disconnects/breakers required on-shore and on WEC,"Internal fault causing short-term high/over pressure inside the nacelle, such as gas pressure resulting from internal arcs within the switchboard, needs to be considered. Please clarify.","Hull is vented to atmosphere to prevent any overpressure occurrence.  Switchgear is rated UL 1741, per IEEE 1547, in accordance with NFPA 70. Risk of arc is reduced.  Safety per NFPA 70E.  During maintenance, when NFPA safety applies, spaced a ventilated per DNV-OSS-312.  Further details as design matures more."
+0380-2,"Switch Gear - LV breaker, transformer",Make/Break 480vac connection to electric plant,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - open circuit,"1) loss of grid connection
+2) Reduction in power production to station power level
+3) Islanding mode
+4) Significant reduction in damping
+",Electrical short,Normal,1) Airtight enclosure ,"none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,6,6,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,OK
+0380-3,Switch Gear - Fwd /Aft ALM breaker,Make/Break fwd ALM 480vac connection to transformer,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - open circuit,1) Reduction in peak power to grid limit,Electrical short,Normal,"1) redundant design, two ALMs","none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,6,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,OK
+0380-4,Switch Gear - DC cross-connection breaker 1,Make/Break DC bus cross connection,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - open circuit,1) Change in operation power flow,Electrical short,Normal,1) Airtight enclosure ,"none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,4,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,OK
+0380-5,"Switch Gear - DC energy storage breaker ,  1 & 2",Make/Break fwd DC bus to energy storage connection,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fault - open circuit,"1) Reduction in power smoothing, possible reduction in  power to grid ",Electrical short,Normal,1) Airtight enclosure ,"none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,4,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,OK
+0380-6,"Switch Gear - DC energy storage breaker ,  1 & 2",Make/Break fwd DC bus to energy storage connection,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations","Fault - open circuit, both energy storage system breakers open","1) Loss of all power smoothing
+2) Reduction is power to grid
+3) Reduced damping or active power burn",Electrical short,Normal,1) Airtight enclosure ,"none
+",1) SCADA Diagnostics,Manual in-situ repair and inspection,5,1,1,6,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,OK
+0390-1,M2G Enclosures,Provide applicable IEC IP rating,2,"Maintenance intervals;
+Good control of ambient and temperature;
+Vibrations",Fire/smoke,"1) Free-wheeling one PTO
+2) Electrical isolation of port/strd M2G systems
+3) Automatic fire extinguisher
+",Electrical short,Normal,"1) V&V (QC)
+2) Automatic fire extinguishers","none
+",1) SCADA Diagnostics,"
+Dry dock repair - pending investigation by service vessel.",5,3,3,7,7,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,"1) Include automatic fire extinguisher systems in the enclosures
+2) What is required for personnel and ventilation - Marine Contractor (TBD)",See comment in risk ID 0320-9,"OK, extent of fire damage will always be analyzed prior to making a decision to go to dry dock.  No reason to go to dry dock when you can replace a smoked IGBT in-situ."
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

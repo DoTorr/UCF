@@ -1,0 +1,89 @@
+﻿"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+0521-1,Fire Protection - Automatic Fire Suppression ,Automatic Fire Suppression System - Carbon dioxide CO2 - put out fires in electrical enclosures,1,none,Automatic suppression activated without a fire,"1) Enclosures filled with fire suppression CO2. 
+
+",1) Defect in pressurized CO2 line routed through the enclosures,Normal,"1) COTS product
+2) V&V (QC)",1) Visual inspection,"1) SCADA - fire & fire spreading
+2) Visual - fire
+","1) Repair in-situ repair if possible. 
+2) dry dock",4,4,4,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0521-2,"Fire Protection - 
+smoke alarms",Alarms in case of smoke in enclosures & compartments,1,none,False alarm,"false fire alarm activated. 
+",Sensor defect/contamination,Normal,V&V (QC),1) Visual inspection,"1) SCADA - fire & fire spreading
+2) Visual - fire
+","1) Repair in-situ repair if possible. 
+2) dry dock",4,2,2,5,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0522-1,Flooding Alarms,Monitor high bilge level sensor and alarm if reached.,1,none,No high water alarm ,No alarm while bilge pumps running continuously,Faulty wiring/moisture induced failure,Normal,V&V (QC),1) Visual inspection,"1) Bilge pump running continuously
+2) Surveillance system – visual inspection
+","1) Repair in-situ repair if possible. 
+2) dry dock",4,5,4,8,8,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,
+0533-2,Evacuation Alarms,"Sound and flashing lights in case of fire, flooding, collision, or other operator iniated evacuation alarm.",1,none,"No alarm/lights in one of compartments:
+ - topside
+ - control room
+ - Both PTOs
+ - Nacelle tube",Personnel not properly warned in case of an emergency,Faulty wiring/moisture induced failure,Normal,V&V (QC),1) Visual inspection,1) Maintenance inspection,"1) Repair in-situ repair if possible. 
+2) dry dock",4,5,2,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0524-1,Air Quality Monitoring,"Monitor air quality in all compartments. Report air qaulity to SCADA, initiate alarm if outside of specified levels of O2, CO2, H2O etc. ",1,none,"Loss of air quality monitoring of one of the compartments:
+ - topside
+ - control room
+ - Both PTOs
+ - Nacelle tube",Requires ventilation and manual air quality monitoring for access/egress until sensor is replaced. ,Faulty wiring/moisture induced failure,Normal,V&V (QC),1) Visual inspection,1) Emergency system control diagnostics - sensor fault alarm,"1) Repair in-situ repair if possible. 
+2) dry dock",4,6,4,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0525-1,Access Alarms,Monitor hatch acccess sensors and alarm based on SCADA operational setting.  Indicate hatch status,1,none,"Failed OPEN, hatch sensor inducates false open",Hatch indicates open while closed,Faulty wiring/moisture induced failure,Normal,V&V (QC),1) Visual inspection,1) Emergency system control diagnostics - sensor fault alarm,"1) Repair in-situ repair if possible. 
+2) dry dock",5,4,4,7,7,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,
+0526-1,Systems - Estop Monitoring,Monitor Estop circuits and alarm if the safety interlocks are broken,1,none,"E-stop fails OPEN, false e-stop indicated",E-stop alarm without E-stop,Faulty wiring/moisture induced failure,Normal,V&V (QC),1) Visual inspection,1) Emergency system control diagnostics - sensor fault alarm,"1) Repair in-situ repair if possible. 
+2) dry dock",4,7,4,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0527-1,Safety Controller,Safety PLC monitor safety systems and provide control logic for alarms and data interface,1,none,Complete safety system monitoring loss,Alarms sound - false with alarm on (Automatic fire supression and bilge pumping still function without indication) ,Faulty wiring/moisture induced failure,Normal,V&V (QC),1) Visual inspection,1) SCADA diagnositcs,"1) Repair in-situ repair if possible. 
+2) dry dock",4,4,4,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0528-1,Safety Communications,Communication components between safety PLC and designated fiber-optic line to shore. ,1,none,Loss of designated communicatoins channel,"Commincations alarm, communicatoins switch to SCADA channel back-up",Faulty wiring/moisture induced failure,Normal,V&V (QC),1) Visual inspection,1) Emergency system control diagnostics ,"1) Repair in-situ repair if possible. 
+2) dry dock",4,4,4,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

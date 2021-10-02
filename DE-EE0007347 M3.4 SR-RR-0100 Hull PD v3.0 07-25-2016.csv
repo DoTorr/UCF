@@ -1,0 +1,461 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",DNV GL comment,Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+0100-1,Hull,"Wave activated body
+Provision of watertight compartment
+Structural connectivity & load transfer
+Ballast containment",2,"Loading in wave environment, with large motions",Severe structural failure,"Severe structural failure
+WEC is no longer functioning","Extreme wave event loading
+(Overloading)",Normal,none,none,"1) Surveillance
+2) SCADA
+3) etc","Dry dock repair if possible, if not loss of projects",3,4,7,9,9,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. ","Suggested text for recommended action:
+The uncertainty about loading needs to be reduced by tank testing and development (and comparison) of simulation of hydrodynamic behaviour considering PTO and controls as well as implementation of structural calculations to derive design stresses.
+Derivation of localised loading such as slamming or other aspects associated with tolerances and local distribution of loading as well as events associated with faults has to be developed and validated.
+The design load cases have to be defined considering all phases such as Operating, Operating with fault, Survival, Survival with fault, Damaged, Transport and Installation, etc.",,,,,,,,,,,,,,,,,,,,,,,,,
+0100-2,Hull,"Wave activated body
+Provision of watertight compartment
+Structural connectivity & load transfer
+Ballast containment",2,"Loading in wave environment, with large motions",Severe structural failure,"Severe structural failure
+WEC is no longer functioning",Fatigue and other degradation mechanisms,Normal,none,none,"1) Surveillance
+2) SCADA
+3) etc","Dry dock repair if possible, if not loss of projects",7,4,7,9,9,Low,Med,High,High,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Design to incorporate cathodic protection and coating as appropriate (under subsystem 0645 Marinization and Corrosion, External)
+7) Establish inspection plan","Probability class increased to be compatible with FLS design.
+Suggested text for recommended action:
+Increase DFF, implementation of cathodic protection and coating, inspection plan.
+The uncertainty about loading needs to be reduced by tank testing and development (and comparison) of simulation of hydrodynamic behaviour considering PTO and controls as well as implementation of structural calculations to derive design stresses.
+Derivation of localised loading such as slamming or other aspects associated with tolerances and local distribution of loading as well as events associated with faults has to be developed and validated.
+The design load cases have to be defined considering all phases such as Operating, Operating with fault, Survival, Survival with fault, Damaged, Transport and Installation, etc.",,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-1
+0121-1","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Crack/hole in float (leading to water drainage),"1) Sub-optimal performance
+2) change in buoyancy
+3) only a portion of water may drain (see note) ","Leak in FRP (e.g. manufacturing flaw, assembly)  *not boat strikes*",Normal,"1) vacuum test all water tight compartments
+2) All ballast water below waterline
+3) Foam fill open voids
+4) V&V for manufacturing and assembly",,"1) visual inspection of draft line on floats
+2) average angle of the floats seen by encoders",Dry dock for FRP repair,4,1,1,7,7,Low,Low,Low,Low,"1) V&V procedures to be defined and followed, which shall mitigate risk of defective component up to commissioning.","See comment on failure effects and causes
+",,,,,,,,,,,,,,,,,,,,,,,,,"only a small portion of water may drain, as ballast water will be below still water line"
+"0111-2
+0121-2","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Crack/hole in float (leading to water drainage),"1) Sub-optimal performance
+2) change in buoyancy
+3) only a portion of water may drain (see note) ",Leak in FRP - fatigue crack due to uncertainties in loading,Normal,"1) All ballast water below waterline
+2) Foam fill open voids",,"1) visual inspection of draft line on floats
+2) average angle of the floats seen by encoders",Dry dock for FRP repair,7,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","Action the same as ""Fatigue and other degradation mechanisms"" for hull.",,,,,,,,,,,,,,,,,,,,,,,,,"only a small portion of water may drain, as ballast water will be below still water line"
+"0111-3
+0121-3","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Locked / reduced motion,1) Float becomes locked or reduced motion w.r.t. nacelle,Debris caught between float and nacelle (or spar),Normal,smooth edges,surveillance camera checks/visual inspection,"1) PTO not moving or reduced motion
+2) Surveillance cameras","Remove debris
+In situ or dry dock repair of FRP if warranted",6,1,1,7,7,Low,Low,Med,Med,"1) Probability of occurrence of debris to be verified for site conditions
+2) Type and dimensions of problem debris to be specified for the site",The probability of occurrence is to be verified for the site conditions and it is also necessary to define the type of debris and dimension that would be a problem.,,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-4
+0121-4","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Locked / reduced motion,1) Float becomes locked or reduced motion w.r.t. nacelle,Large mammal caught betweeen float and nacelle (or spar),Normal,smooth edges,,"1) PTO not moving or reduced motion
+2) Surveillance cameras",Remove mammal,3,1,5,5,5,Low,Low,Low,Low,1) Probability of occurrence to be evaluated by the assessment of presence and behavior of mammals on site.,Probability of occurrence to be evaluated by the assessment of presence of mammals on site.,,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-5
+0121-5","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Mammal take,1) mammal take,Large mammal caught betweeen float and nacelle (or spar),Normal,smooth edges,,1) Surveillance cameras,Remove mammal,6,1,5,5,5,Low,Low,Low,Low,1) Probability of occurrence to be evaluated by the assessment of presence and behavior of mammals on site.,Probability of occurrence to be evaluated by the assessment of presence of mammals on site.,,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-6
+0121-6","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Service human trapped,"1) Human trapped
+2) Potential fatality",service worker falls inbetween fwd float and nacelle,Normal,none,,1) Surveillance cameras,,3,10,1,1,1,Med,Low,Low,Low,"1) Design guard netting to significantly reduce the liklihood of entrapment and/or death
+2) The probability of occurrence is to be verified against procedures for access and how the integrity of the net is maintained.",The probability of occurrence is to be verified against procedures for access and how the integrity of the net is maintained.,,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-7
+0121-7","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Public human trapped,"1) Human trapped
+2) Potential fatality",unauthorized personel falls inbetween fwd float and nacelle,Normal,none,,1) Surveillance cameras,,3,10,1,1,1,Med,Low,Low,Low,"1) Design guard netting to significantly reduce the liklihood of entrapment and/or death
+2) Design of the net to demonstrate that its integrity is maintained throughout its life time.","Suggest text for recommended action:
+Design of the net to demonstrate that its integrity is maintained throughout its life time.",,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-8
+0121-8","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in float (leading to water drainage),"1) Loss of performance
+2) Loss of known physical parameters (weight of each component)
+3) change in buoyancy","Debris caught between float and another body, leading to wear that creates a hole that changes buoyancy",Normal,smooth edges,surveillance camera checks/visual inspection,"1) visual inspection of draft line on floats
+2) average angle of the floats seen by encoders",Dry dock for FRP repair,5,1,1,6,7,Low,Low,Low,Med,"1) Probability of occurrence of debris to be verified for site conditions
+2) Type and dimensions of problem debris to be specified for the site
+3) Additional thickness to be considered in areas that wear could occur. 
+4) Identify the magnitude of wear and time to inspect / repair.  
+5) Design to demonstrate wear rate due to debris is within the acceptance criteria for the long term structural integrity of the hull","Suggest text for recommended action:
+Additional thickness to be considered in areas that wear could occur. Identify the magnitude of wear and time to inspect / repair. If the wear is created by the debris, the type of debris that could be a problem and their existence on site to be verified. 
+Design to demonstrate wear rate due to debris is within the acceptance criteria for the long term structural integrity of the hull",,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-9
+0121-9","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in float (leading to water drainage),"1) Loss of performance
+2) Loss of known physical parameters (weight of each component)
+3) change in buoyancy",Float arms flexed more than expected. Wear creates a hole that changes buoyancy,Normal,none,surveillance camera checks/visual inspection,"1) visual inspection of draft line on floats
+2) average angle of the floats seen by encoders",Dry dock for FRP repair,5,1,1,6,7,Low,Low,Low,Med,"1) Additional thickness to be considered in areas that wear could occur. 
+2) Identify the expected magnitude of wear and time to inspect / repair. 
+3) Specify inspection plan to be implemented after deployment.
+4) Design to consider addition safety margin on space between components (where rubbing and wear is possible) to allow for uncertainty of loading and structural stiffness. ","Suggest text for recommended action:
+Additional thickness to be considered in areas that wear could occur. Identify the magnitude of wear and time to inspect / repair. Inspection plan to be implemented after deployment.
+Design to consider addition safety margin on air gap to allow for uncertainty on loading and structural stiffness. ",,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-10
+0121-10","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in float (leading to water drainage),"1) Sub-optimal performance
+2) Increased generator speed (>20RPM) during strike event
+3) change in buoyancy","Non-service Boat Strike
+",Normal,"1) Lights, radar reflectors (e.g. visibility)
+",none,"1) visual inspection of draft line on floats
+2) average angle of the floats seen by encoders","In situ FRP repair if possible (hole above waterline and known location)
+Worst case: Dry dock inspection and repair of WEC.
+",8,4,1,6,7,Med,Low,Med,Med,"1) In-situ FRP repair procedure to be developed. The repair is to be qualified to the conditions of implementation (moving parts, deformation within the area of repair and splash of seawater). The durability of repair will depend if it is supposed to be permanent, temporary to allow to reach the next maintenance period or only to allow for recovery.
+2) For damage below the water line, assessment of consequence to be made and design strategy to be considered to reduce probability of damage and also to improve retrieval operation.
+3) establish exclusion zone at deployed area
+4) The probability of occurrence to be verified considering conditions at the site and vessels in the area","Suggest text for recommended action:
+In-situ FRP repair procedure to be developed. The repair is to be qualified to the conditions of implementation (moving parts, deformation within the area of repair and splash of seawater. The durability of repair will depend if it is supposed to be permanent, temporary to allow to reach the next maintenance period or only to allow for recovery.
+for damage below the water line, assessment of consequence to be made and design strategy to be considered to reduce probability of damage and also to improve retrieval operation.",,,,,,,,,,,,,,,,,,,,,,,,,
+"0111-11
+0121-11","Forward float
+Aft float","Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",fore/aft float breaks off,"1) Wave loading of float is no longer transferred to rotor
+2) Loss of power production
+3) Float on Beach/Float out to sea",One arm breaks off and causes higher stress on other arm so both break and float is free,Normal,none,"1) Surveillance
+2) Visual Detection
+3) Dry dock before second arm breaks","1) Average angle of the floats seen by encoders
+2) Surveillance","1) Recover float
+2) drydock reatachment if possible",4,4,5,9,8,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design to consider increasing safety factors to high safety class.","Suggest text for recommended action:
+Increasing the safety factors to high safety class. 
+Uncertainties on loads and structural response to be addressed as defined above (see ""Extreme wave event loading"" for hull.)",,,,,,,,,,,,,,,,,,,,,,,,,
+"0112-1
+0122-1","Fwd float drive arm
+Aft float drive arm","Drive starboard/port generator rotor
+Constrain float to relative pitch about nacelle
+",2,"Loading in wave environment, with large motions",Drive arm broken,"1) Wave loading of float is no longer transferred to rotor
+2) Loss of power production
+3) Addtl loading on idler arm",Fatigue of float arm due to uncertainties in loading,Normal,none,none,"1) PTO not moving
+2) Surveillance cameras",Dry dock reattachment of float arm to WEC,7,1,1,6,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","Action the same as ""Fatigue and other degradation mechanisms"" for hull.",,,,,,,,,,,,,,,,,,,,,,,,,
+"0112-2
+0122-2","Fwd float drive arm
+Aft float drive arm","Drive starboard/port generator rotor
+Constrain float to relative pitch about nacelle
+",2,"Loading in wave environment, with large motions",Drive arm broken,"1) Wave loading of float is no longer transferred to rotor
+2) Loss of power production
+3) Addtl loading on idler arm","Wearing of float arm, due to deflection",Normal,none,"Visual inspection, and repair if  needed","1) PTO not moving
+2) Surveillance cameras",Dry dock reattachment of float arm to WEC,7,1,1,6,7,Low,Low,Med,Med,"1) Additional thickness to be considered in areas that wear could occur. 
+2) Identify the expected magnitude of wear and time to inspect / repair. 
+3) Specify inspection plan to be implemented after deployment.
+4) Design to consider additional safety margin on space between components (where rubbing and wear is possible) to allow for uncertainty of loading and structural stiffness. ","Suggest text for recommended action:
+Additional thickness to be considered in areas that wear could occur. Identify the magnitude of wear and time to inspect / repair. Inspection plan to be implemented after deployment.
+Design to consider addition safety margin on air gap to allow for uncertainty on loading and structural stiffness. ",,,,,,,,,,,,,,,,,,,,,,,,,
+"0112-3
+0122-3","Fwd float drive arm
+Aft float drive arm","Drive starboard/port generator rotor
+Constrain float to relative pitch about nacelle
+",2,"Loading in wave environment, with large motions",Drive arm broken,"1) Wave loading of float is no longer transferred to rotor
+2) Loss of power production
+3) Addtl loading on idler arm",Non-service boat strike,Normal,"1) Lights, radar reflectors (e.g. visibility)
+",none,"1) PTO not moving
+2) Surveillance cameras",Dry dock reattachment of float arm to WEC,4,3,1,6,7,Low,Low,Low,Low,"1) establish exclusion zone at deployed area
+2) The probability of occurrence to be verified considering conditions at the site and vessels in the area",The probability of occurrence to be verified considering conditions at the site and vessels in the area.,,,,,,,,,,,,,,,,,,,,,,,,,
+"0113-1
+0123-1","Fwd float idler arm
+Aft float idler arm",Constrain float to relative pitch about nacelle,2,"Loading in wave environment, with large motions",Idler arm broken,"1) Wave loading of float is no longer transferred nacelle tube on idler side
+2) Addtl loading on drive arm",Fatigue of float arm due to uncertainties in loading,Normal,none,,1) Surveillance cameras,Dry dock reattachment of float arm to WEC,7,1,1,6,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","Suggest text for recommended action:
+Increasing the safety factors to high safety class. 
+Uncertainties on loads and structural response to be addressed as defined above (see ""Fatigue and other degradation mechanisms"" for hull.)",,,,,,,,,,,,,,,,,,,,,,,,,
+"0113-2
+0123-2","Fwd float idler arm
+Aft float idler arm",Constrain float to relative pitch about nacelle,2,"Loading in wave environment, with large motions",Idler arm broken,"1) Wave loading of float is no longer transferred nacelle tube on idler side
+2) Addtl loading on drive arm","Wearing of float arm, due to deflection",Normal,none,"Visual inspection, and repair if  needed",1) Surveillance cameras,Dry dock reattachment of float arm to WEC,7,1,1,6,7,Low,Low,Med,Med,"1) Additional thickness to be considered in areas that wear could occur. 
+2) Identify the expected magnitude of wear and time to inspect / repair. 
+3) Specify inspection plan to be implemented after deployment.
+4) Design to consider additional safety margin on space between components (where rubbing and wear is possible) to allow for uncertainty of loading and structural stiffness. ","Suggest text for recommended action:
+Additional thickness to be considered in areas that wear could occur. Identify the magnitude of wear and time to inspect / repair. Inspection plan to be implemented after deployment.
+Design to consider addition safety margin on air gap to allow for uncertainty on loading and structural stiffness. ",,,,,,,,,,,,,,,,,,,,,,,,,
+"0113-3
+0123-3","Fwd float idler arm
+Aft float idler arm",Constrain float to relative pitch about nacelle,2,"Loading in wave environment, with large motions",Idler arm broken,"1) Wave loading of float is no longer transferred nacelle tube on idler side
+2) Addtl loading on drive arm",Non-service boat strike,Normal,"1) Lights, radar reflectors (e.g. visibility)
+",none,1) Surveillance cameras,Dry dock reattachment of float arm to WEC,4,3,1,6,7,Low,Low,Low,Low,"1) establish exclusion zone at deployed area
+2) The probability of occurrence to be verified considering conditions at the site and vessels in the area",The probability of occurrence to be verified considering conditions at the site and vessels in the area.,,,,,,,,,,,,,,,,,,,,,,,,,
+0131-1,Nacelle Tube,"Rigid connection between nacelle assembly and spars
+Provide access pathway to nacelle
+Provision of watertight compartment
+Counterface for aft float (port) idler bearing (0265)",2,"Loading in wave environment, with large motions",Hole in single comparment,"1) water ingress via hole
+2) bilge removes water in nacelle tube and spar compartment","Leak in FRP (e.g. manufacturing flaw, assembly) ",Normal,"1) vacuum test all water tight compartments
+2) Single empty compartment filling does not sink WEC
+3) V&V for manufacturing and assembly
+4) bilge pumps in every watertight compartment",,1) bilge detection,Repair in-situ,4,1,1,1,3,Low,Low,Low,Low,"1) V&V procedures to be defined and followed, which shall mitigate risk of defective component up to commissioning.",See comment on failure effects and causes in 0111-1,,,,,,,,,,,,,,,,,,,,,,,,,non critical space bilge cost limit: 1/8 of bilge budget per spar compartment
+0131-2,Nacelle Tube,"Rigid connection between nacelle assembly and spars
+Provide access pathway to nacelle
+Provision of watertight compartment
+Counterface for aft float (port) idler bearing (0265)",2,"Loading in wave environment, with large motions",Hole in single comparment,"1) water ingress via hole
+2) bilge removes water in nacelle tube and spar compartment",Leak in FRP - fatigue crack due to uncertainties in loading,Normal,"1) Single empty compartment filling does not sink WEC
+2) bilge pumps in every watertight compartment",,1) bilge detection,Dry dock for FRP repair and replacement of damaged components,7,1,1,6,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","See also comment on ""improper design"" (0111-1)
+Suggest text for recommended action
+Increase DFF
+For loading uncertainty and simulation accuracy see action for ""Fatigue and other degradation mechanisms"" for Hull. ",,,,,,,,,,,,,,,,,,,,,,,,,"non critical space bilge cost limit: 1/8 of bilge budget per spar compartment
+"
+0132-1,Lower Nacelle,Provision of watertight compartment,2,"Loading in wave environment, with large motions",Hole in single compartment,Crack/hole in hull (No water ingress/egress),"Leak in FRP (e.g. manufacturing flaw, assembly) ",Normal,"1) No empty voids (full of foam)
+2) vacuum test all water tight compartments
+3) V&V for manufacturing and assembly
+4) bilge pumps in every watertight compartment",,No detection,No repair necessary,4,1,1,1,1,Low,Low,Low,Low,"1) V&V procedures to be defined and followed, which shall mitigate risk of defective component up to commissioning.
+2) Design to specify allowable water absorption (and degree of degradation due to water contact) of foam. ",See comment on failure effects and causes in 0111-1,,,,,,,,,,,,,,,,,,,,,,,,,"EDR specify foam does not allow greater than X% of water absorption
+Cohesive foam"
+0132-2,Lower Nacelle,Provision of watertight compartment,2,"Loading in wave environment, with large motions",Hole in single compartment,Crack/hole in hull (No water ingress/egress),Leak in FRP - fatigue crack due to uncertainties in loading,Normal,"1) No empty voids (full of foam)
+2) Single empty compartment filling does not sink WEC
+3) bilge pumps in every watertight compartment",,No detection,No repair necessary,5,1,1,1,1,Low,Low,Low,Low,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan
+7) Design to specify allowable water absorption (and degree of degradation due to water contact) of foam. ","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,"EDR specify foam does not allow greater than X% of water absorption
+Cohesive foam"
+"0133-1
+0134-1","PTO Hull - STBD
+PTO Hull - PORT",Provision of watertight compartment,2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),"Leak in FRP (e.g. manufacturing flaw, assembly) ",Normal,"1) vacuum test all water tight compartments
+2) Single empty compartment filling does not sink WEC
+3) V&V for manufacturing and assembly
+4) bilge pumps in every watertight compartment",,1) bilge detection,Repair in-situ,3,1,1,1,3,Low,Low,Low,Low,"1) V&V procedures to be defined and followed, which shall mitigate risk of defective component up to commissioning.",See comment on failure effects and causes in 0111-1,,,,,,,,,,,,,,,,,,,,,,,,,
+"0133-2
+0134-2","PTO Hull - STBD
+PTO Hull - PORT",Provision of watertight compartment,2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),Leak in FRP - fatigue crack due to uncertainties in loading,Normal,"1) Single empty compartment filling does not sink WEC
+2) bilge pumps in every watertight compartment",,1) bilge detection,Dry dock for FRP repair and replacement of damaged components,7,1,1,1,7,Low,Low,Low,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube
+For loading uncertainty and simulation accuracy, see action on ""Extreme wave event loading"" in HULL",,,,,,,,,,,,,,,,,,,,,,,,,
+"0133-3
+0134-3","PTO Hull - STBD
+PTO Hull - PORT",Provision of watertight compartment,2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),"Non-service boat strike
+(float overtopping required)",Normal,"1) lights, Radar reflectors (visibility)
+2) Single empty compartment filling does not sink WEC
+3) bilge pumps in every watertight compartment",,1) bilge detection,"In situ FRP repair if possible (hole above waterline and known location)
+Worst case: Dry dock inspection and repair of WEC.
+",3,3,1,6,7,Low,Low,Low,Low,"1) establish exclusion zone at deployed area
+2) The probability of occurrence to be verified considering conditions at the site and vessels in the area",The probability of occurrence to be verified considering conditions at the site and vessels in the area.,,,,,,,,,,,,,,,,,,,,,,,,,
+0135-1,Control Room,Provision of watertight compartment,2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),"Leak in FRP (e.g. manufacturing flaw, assembly)  not boat strikes",Normal,"1) vacuum test all water tight compartments
+2) Single empty compartment filling does not sink WEC
+3) V&V for manufacturing and assembly
+4) bilge pumps in every watertight compartment",,1) bilge detection,Repair in-situ,3,1,1,1,3,Low,Low,Low,Low,"1) V&V procedures to be defined and followed, which shall mitigate risk of defective component up to commissioning.",See comment on failure effects and causes in 0111-1,,,,,,,,,,,,,,,,,,,,,,,,,
+0135-2,Control Room,Provision of watertight compartment,2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),Leak in FRP - fatigue crack due to uncertainties in loading,Normal,"1) Single empty compartment filling does not sink WEC
+2) bilge pumps in every watertight compartment",,1) bilge detection,Dry dock for FRP repair and replacement of damaged components,4,1,1,1,7,Low,Low,Low,Low,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,
+0135-3,Control Room,Provision of watertight compartment,2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),Non-service boat strike,Normal,"1) lights, Radar reflectors (visibility)
+2) Single empty compartment filling does not sink WEC
+3) bilge pumps in every watertight compartment",,1) bilge detection,"In situ FRP repair if possible (hole above waterline and known location)
+Worst case: Dry dock inspection and repair of WEC.
+",3,3,1,6,7,Low,Low,Low,Low,"1) establish exclusion zone at deployed area
+2) The probability of occurrence to be verified considering conditions at the site and vessels in the area",The probability of occurrence to be verified considering conditions at the site and vessels in the area.,,,,,,,,,,,,,,,,,,,,,,,,,
+"0141-1
+0142-1","Spar - STBD
+Spar - PORT","Rigid connection between nacelle tube and damper
+Dry access route into nacelle tubes
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),"Leak in FRP (e.g. manufacturing flaw, assembly)  not boat strikes",Normal,"1) vacuum test all water tight compartments
+2) Single empty compartment filling does not sink WEC
+3) V&V for manufacturing and assembly
+4) bilge pumps in every watertight compartment",,1) bilge detection,Repair in-situ,4,1,1,1,3,Low,Low,Low,Low,"1) V&V procedures to be defined and followed, which shall mitigate risk of defective component up to commissioning.",See comment on failure effects and causes in 0111-1,,,,,,,,,,,,,,,,,,,,,,,,,
+"0141-2
+0142-2","Spar - STBD
+Spar - PORT","Rigid connection between nacelle tube and damper
+Dry access route into nacelle tubes
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),Leak in FRP - fatigue crack due to uncertainties in loading,Normal,"1) Single empty compartment filling does not sink WEC
+2) bilge pumps in every watertight compartment",,"1) IMU orientation
+2) pressure sensors outside attached to spars
+3) bilge detection",Dry dock for FRP repair and replacement of damaged components,5,1,1,6,7,Low,Low,Low,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,
+"0141-3
+0142-3","Spar - STBD
+Spar - PORT","Rigid connection between nacelle tube and damper
+Dry access route into nacelle tubes
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),"Non-service Boat Strike
+",Normal,"1) lights, Radar reflectors (visibility)
+2) Single empty compartment filling does not sink WEC
+3) bilge pumps in every watertight compartment",,"1) Surveillance cameras
+2) visual inspection
+3) level sensors on spars","In situ FRP repair if possible (hole above waterline and known location)
+Worst case: Dry dock inspection and repair of WEC.
+",8,2,1,6,7,Low,Low,Med,Med,"1) establish exclusion zone at deployed area
+2) The probability of occurrence to be verified considering conditions at the site and vessels in the area","Action the same as ""Non-service Boat Strike"" for Forward float/Aft Float",,,,,,,,,,,,,,,,,,,,,,,,,
+"0141-4
+0142-4","Spar - STBD
+Spar - PORT","Rigid connection between nacelle tube and damper
+Dry access route into nacelle tubes
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in single comparment,1) water ingress through hole (bilge removes water from compartment),Service Boat Strike,Normal,"1) Single empty compartment filling does not sink WEC
+2) bilge pumps in every watertight compartment",,"1) Surveillance cameras
+2) visual inspection
+3) level sensors on spars","In situ FRP repair if possible (hole above waterline and known location)
+Worst case: Dry dock inspection and repair of WEC.
+",5,2,1,6,7,Low,Low,Low,Med,"1) Design procedures to significantly reduce the liklihood of service vessel damaging WEC
+2) The probability of occurrence is to be verified against procedures for service vessel.","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,
+"141-5
+142-5",Spar - STBD / PORT Upper composite / composite joint and Lower composite / steel joint,Connection between upper spar section and lower spar section,2,"Loading in wave environment, with large motions
+Manufacturing process for the steel bolting retension flange
+Long term marine environment",Structural failure,"1) Deteachment of spar sections
+2) Damage to WEC","Extreme wave event loading
+(Overloading)",Normal,,,1) visual inspection,Dyr dock repair,5,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. ","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,
+"141-6
+142-6",Spar - STBD / PORT Upper composite / composite joint and Lower composite / steel joint,Connection between upper spar section and lower spar section,2,"Loading in wave environment, with large motions
+Manufacturing process for the steel bolting retension flange
+Long term marine environment",Structural failure,"1) Deteachment of spar sections
+2) Damage to WEC",Corrosion (including crevice  corrosion),Normal,,,1) visual inspection,Dyr dock repair,7,1,1,7,7,Low,Low,Med,Med,"1) Design to incorporate cathodic protection and coating as appropriate (under subsystem 0645 Marinization and Corrosion, External)
+2) Establish inspection plan","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,
+"141-7
+142-7",Spar - STBD / PORT Upper composite / composite joint and Lower composite / steel joint,Connection between upper spar section and lower spar section,2,"Loading in wave environment, with large motions
+Manufacturing process for the steel bolting retension flange
+Long term marine environment",Cracking,"1) Deteachment of spar sections
+2) Damage to WEC",Fatigue crack due to uncertainties in loading,Normal,,,1) visual inspection,Dyr dock repair,7,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,
+0150-1,Damper,"Inertial/drag reaction
+Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in single comparment,Crack/hole in hull (No water ingress/egress),"Leak in FRP (e.g. manufacturing flaw, assembly)  not boat strikes",Normal,"1) vacuum test all water tight compartments
+2) V&V for manufacturing and assembly",,No detection,No repair necessary,4,1,1,1,1,Low,Low,Low,Low,"1) V&V procedures to be defined and followed, which shall mitigate risk of defective component up to commissioning.","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,
+0150-2,Damper,"Inertial/drag reaction
+Wave activated body
+Provision of watertight compartment",2,"Loading in wave environment, with large motions",Hole in single comparment,Crack/hole in hull (No water ingress/egress),Leak in FRP - fatigue crack due to uncertainties in loading,Normal,1) All ballast water below waterline,,No detection,No repair necessary,7,1,1,1,1,Low,Low,Low,Low,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","See also comment on ""improper design"" (0111-1)
+Action the same as ""Leak in FRP - fatigue crack due to improper design"" for Nacelle Tube",,,,,,,,,,,,,,,,,,,,,,,,,
+0150-3,Damper/Mooring lug connection,Load transfer between mooring lines and WEC hull,2,"Loading in wave environment, with large motions 
+Bonding between FRP and steel for highly loaded application",Breakage of connection (FRP break),"1. Loss of mooring connection, hence position keeping
+2. Significant greater watch circle
+3. Loss of umbillical.","Extreme wave event loading
+(Overloading)",Normal,none,,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity
+4) mooring load cell signal",Dry dock repair,5,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design to demonstrate that the mooring lines are to break first in the event of excessive loading in order to prevent any damage to the connection points on the WEC hull area such that dry dock repair is not necessary in the event of line failure
+6) Bonding of the steel and FRP to be qualified, via component testing to design load ","Suggest text for recommended action:
+Bonding of the steel and FRP to be qualified, via component testing to design load validate the model and demonstrate the integrity of the interface. 
+Action in ""Extreme wave event loading"" for hull applicable",,,,,,,,,,,,,,,,,,,,,,,,,
+0150-4,Damper/Mooring lug connection,Load transfer between mooring lines and WEC hull,2,"Loading in wave environment, with large motions 
+Bonding between FRP and steel for highly loaded application",Breakage of connection (FRP break),"1. Loss of mooring connection, hence position keeping
+2. Significant greater watch circle
+3. Loss of umbillical.",Fatigue,Normal,none,,"1) GPS position alarm
+2) Visual detection
+3) loss of umibilical connectivity
+4) mooring load cell signal",Dry dock repair,7,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","Suggest text for recommended action:
+Bonding of the steel and FRP to be qualified, via component testing to design load validate the model and demonstrate the integrity of the interface. 
+Action in ""Fatigue and other degradation mechanisms"" for hull applicable",,,,,,,,,,,,,,,,,,,,,,,,,
+0100-3,HAT stiffners,"Provide additional stiffness to the floats, nacelle and damper",2,Laminating and bonding process of the stiffners,Delamination,"1. Reduction in stiffness of the component
+2. Excessive deformation of the component leading to increase in probability of occurrence of other failure mode, for instance reduction in air gap or sea leakage due to deformation of floats","Extreme wave event loading
+(Overloading)",Normal,none,,1) visual inspection,Dry dock repair,4,1,1,7,7,Low,Low,Low,Low,none,"High severity class assumed because worst failure assumed, but lower occurrence class assigned.
+",,,,,,,,,,,,,,,,,,,,,,,,,
+0100-4,HAT stiffners,"Provide additional stiffness to the floats, nacelle and damper",2,Laminating and bonding process of the stiffners,Delamination,"1. Reduction in stiffness of the component
+2. Excessive deformation of the component leading to increase in probability of occurrence of other failure mode, for instance reduction in air gap or sea leakage due to deformation of floats",Fatigue,Normal,none,,1) visual inspection,Dry dock repair,6,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+2) Uncertainty of loading estimates to be reduced by comparison of hydrodynamic behavior in simulation  versus tank testing.
+3) Design load cases to be defined considering all phases (e.g. operating w/ fault, installation, etc.), and to include investigation of localized loading from e.g. slamming.
+4) Derivation of localized loading to be developed, and validated via instrumentation of prototype at-sea deployment. 
+5) Design fatigue factors (DFF) shall be applied to reduce probability of fatigue failure.
+6) Establish inspection plan","High severity class assumed because worst failure assumed, but lower occurrence class assigned.
+Suggest text for recommended action:
+Bonding of the steel and FRP to be qualified, via component testing to design load validate the model and demonstrate the integrity of the interface. 
+Action in ""Fatigue and other degradation mechanisms"" for hull applicable",,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

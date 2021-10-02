@@ -1,0 +1,261 @@
+﻿"Risk
+ID","Item
+Description",Function,"Tech. 
+Class
+",Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes,DNV GL comment
+400-1,SCADA components,Control and data collection,1,none,Fire/smoke,"1) Power loss due to short 
+2) Damage to SCADA system
+",Electrical short or internal component failure,Normal,"1) All SCADA functions are redundant on alternate side
+2) Airtight enclosures 
+3) Low power 
+4) In cabinet fire suppression","1) Fire/smoke alarm
+","1) Enclosure fire alarm
+2) Enclosure temperature
+3) Visible and IR camera",Manual in-situ repair and inspection,5,1,1,6,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,
+410-1,Single PTO tape scale encoder,Provide position feedback to drives,2,new environment,Signal failure,"1) Single encoder fail
+2) Loss of position feedback","Wiring Issue
+- unknown internal fault
+- unknown poor solder joint
+- wire chaffe due to improper routing",Normal,"1) V&V
+2) Redundant encoders",1) None,1) Encoder data,"Manual switch of encoders onboard
+Programmatically selected encoders from internal system comparison.",7,1,1,2,4,Low,Low,Low,Low,"In agreement with DNVGL comment, this Failure Cause is covered by 410-2,3,5,6 and could be removed.",,,,,,,,,,,,,,,,,,,,,,,,,"Can signals be multiplexed and switched remotely?
+- Yes, internal comparison can be performed of all encoders and they can be switched automatically or manually remotely.","It is assumed that failure due to improper installation or manufacturing faults are usually mitigated via manufacturer's in house quality control and testing of the components. The failure mode should focus on quality control or testing specific to the WEC applications. Hence, the description of failure cause to be more specific to capture the failure causes unique to StingRAY device, or remove if none has been identified."
+410-2,Single PTO tape scale encoder,Provide position feedback to drives,2,new environment,Signal failure,"1) Single encoder fail
+2) Loss of position feedback",Corrosion induced failure,Normal,"1) Material selection
+2) IP 67
+3) Climate Control
+4) Redundant encoders
+",1) None,1) Encoder data,"Manual switch of encoders onboard
+Programmatically selected encoders from internal system comparison.",6,1,1,2,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Reduced Severity Class of Operation due to having redundant encoders in design.,If redundant encoders then effect on operation of single encoder failure and therefore Severity class would be lower.
+410-2,Single PTO tape scale encoder,Provide position feedback to drives,2,new environment,Signal failure,"1) Single encoder fail
+2) Loss of position feedback",Contamination induced failure,Normal,"1) Thorough cleaning at commissioning
+2) Redundant encoders",1) None,1) Encoder data,"Manual switch of encoders onboard
+Programmatically selected encoders from internal system comparison.",7,1,1,2,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Reduced Severity Class of Operation due to having redundant encoders in design.,If redundant encoders then effect on operation of single encoder failure and therefore Severity class would be lower.
+410-3,Single PTO tape scale encoder,Provide position feedback to drives,2,new environment,Signal failure,"1) Single encoder fail
+2) Loss of position feedback",Improper installation or manufacturing defect results in failure,Normal,"1) V&V
+2) Redundant encoders",1) None,1) Encoder data,"Manual switch of encoders onboard
+Programmatically selected encoders from internal system comparison.",7,1,1,2,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Reduced Severity Class of Operation due to having redundant encoders in design.,"See comment in Risk ID 410-1. Since the occurrence class assigned here is higher, please clarify if this is due to improper installation or manufacturing faults that are specific to the WEC. "
+410-4,Single PTO tape scale encoder,Provide position feedback to drives,2,new environment,Signal failure,"1) Single encoder fail
+2) Loss of position feedback","Software / programming error during program revision.
+",Normal,"1) V&V
+2) Security",1) None,1) Encoder data,"Manual switch of encoders onboard
+Manual correction of software/programming error, onboard or remotely.",5,1,1,6,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Reduced Occurrence by 1 level as encoder operation is unlikely to be modified post-deployment and will be fully tested during commissioning and testing.,"It is expected that most software and programming error will have been corrected during commissioning and testing, unless CPwr expects the software/programme will be continuously refined and modified after deployment and the existing testing and commissioning of the programme is not able to detect the error. Please provide a more specific description of the failure cause."
+410-5,Single PTO tape scale encoder,Provide position feedback to drives,2,new environment,Signal failure,"1) Single encoder fail
+2) Loss of position feedback",Vibration and/or motion induced failure,Normal,"1) Modal analysis
+2) Redundant encoders",1) None,1) Encoder data,"Manual switch of encoders onboard
+Programmatically selected encoders from internal system comparison.",7,1,1,2,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Reduced Severity Class of Operation due to having redundant encoders in design.,If redundant encoders then effect on operation of single encoder failure and therefore Severity class would be lower.
+410-6,Single PTO tape scale encoder,Provide position feedback to drives,2,new environment,Signal failure,"1) Single encoder fail
+2) Loss of position feedback","Water induced failure 
+(non-corrosion)",Normal,"1) IP 67
+2) Redundant encoders",1) None,1) Encoder data,"Manual switch of encoders onboard
+Programmatically selected encoders from internal system comparison.",7,1,1,2,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Reduced Severity Class of Operation due to having redundant encoders in design.,If redundant encoders then effect on operation of single encoder failure and therefore Severity class would be lower.
+410-7,Backups + 1  encoders failure,Provide position feedback to drives,2,new environment,Encoder failure,"1) Incorrect signal - uncontrolled damping
+2) No signal - freewheeling
+3) Loss of position feedback",All encoders failed for one PTO,Normal,1) having installed backups,1) None,1) Encoder data,Dry-dock required for repair. ,4,1,1,7,7,Low,Low,Low,Low,Increase redundancy of encoders to 100% to reduce Occurrence.,,,,,,,,,,,,,,,,,,,,,,,,,"Requires 6 encoders for operation of 3 CU320s. 100% redundant encoders which can be swapped programmatically.
+","CP to expand the FMEA using the same failure modes in ""single failure"", but one lower class of occurrence.
+CP to provide reccommended action for mitigation of medium risk level"
+410-8,Encoder power from M2G,Provide position feedback to drives,2,new environment,Signal failure,1) All encoder fail for one PTO,"Power failure to encoder
+",Normal,"1) Redundant power supplies
+2) Powered from M2G",1) None,1) Encoder data,manual supply replacement,3,1,1,6,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Power from M2G,
+410-10,Generator gap sensor,Provides stator position w.r.t. the outer housing and rotor,2,new environment,Signal failure,1) No gap data from failed sensor,"Hardware or wiring failure
+- corrosion induced
+- water induced
+- contamination
+- vibration",Normal,1) Redundant sensors on separate stators.,1) None,1) Gap sensor data lost,Dry-dock required for repair. Single failure tolerable.,9,1,1,2,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Operation Risk reduced further as loss of sensor data does not affect generator performance. Arranged all failures back to one row as all failures carried the same risk rankings.,"Suggest to include a more detailed FMEA that includes different failure modes, see detail breakdown below. For the rest of the sensor:
+1. Assess if the failure causes apply.
+2. Assess if the risk ranking are the same
+Answers to 1 and 2 are ""yes"", then just make reference to the risk ID of this component to avoid repetition."
+410-11,Torque rod load cell,provides measured stator torque for one stator section,1,none,Signal failure,1) No torque data from failed sensor,Hardware or wiring failure,Normal,"1) Mechanically safe because available torque is limited the load cell's rating, which is well below the mechanical design limit.
+2) Redundant sensors on separate stators.",1) None,1) Link bar data lost,Dry-dock required for repair. Single failure tolerable.,8,1,1,3,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"Mechanically safe because available torque is limited the load cell's rating, which is well below the mechanical design limit.",See comment in risk ID 410-10
+410-12,Rail wheel load pin,provides normal force on rail wheels for one stator section,1,none,Signal failure,1) No load data from failed sensor,Hardware or wiring failure,Normal,1) Redundant sensors,1) None,1) Rail wheel load data lost,Dry-dock required for repair. Single failure tolerable,8,1,1,3,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in risk ID 410-10
+410-13,Seal gap sensor,Provides seal gap position,2,new environment,Signal failure,1) No seal gap data from failed sensor,Hardware or wiring failure,Normal,,1) None,1) Seal gap data lost,Dry-dock required for repair. Single failure tolerable,9,1,1,2,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Operation Risk reduced further as loss of sensor data does not affect generator performance. ,See comment in risk ID 410-10
+410-14,Main/secondary bearing temperature,Provides bearing temperatures,2,"Marine application
+Vibration levels",Signal failure,1) No bearing temp data,Hardware or wiring failure,Normal,1) Redundancy 4x per bearing,1) None,1) Bearing temp data lost,Dry-dock required for repair. Single failure tolerable,8,1,1,2,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-15,SCADA enclosure temperature,Provides SCADA enclosure temperatures,2,"Marine application
+Vibration levels",Signal failure,1) No enclosure temperature,Hardware or wiring failure,Normal,,1) None,1) SCADA enclosure data lost,Manual in-situ repair and inspection,8,1,1,2,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-16,PTO module temperature,Provides PTO structure temperatures,2,"Marine application
+Vibration levels",Signal failure,1) No PTO structure temperature,Hardware or wiring failure,Normal,,1) None,1) PTO structure temp data lost,Manual in-situ repair and inspection,8,1,1,2,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-17,PTO module humidity,Provides PTO structure humidity,2,"Marine application
+Vibration levels",Signal failure,1) No PTO structure humidity,Hardware or wiring failure,Normal,,1) None,1) PTO structure humidity data lost,Manual in-situ repair and inspection,8,1,1,2,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-18,Control room temperature,Provides control room temperatures,2,"Marine application
+Vibration levels",Signal failure,1) No control room temperature,Hardware or wiring failure,Normal,,1) None,1) Control room temp data lost,Manual in-situ repair and inspection,8,1,1,2,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-19,Control room humidity,Provides control room structure humidity,2,"Marine application
+Vibration levels",Signal failure,1) No control room humidity,Hardware or wiring failure,Normal,,1) None,1) Control room humidity data lost,Manual in-situ repair and inspection,8,1,1,2,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-20,Stator sensor temperatures,Provides sensor temperatures,2,"Marine application
+Vibration levels",Signal failure,1) No sensor temp data from failed sensor,Hardware or wiring failure,Normal,,1) None,1) Sensor temp data lost,Dry-dock required for repair. Single failure tolerable,8,1,1,2,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-21,Station power draw,Provides station power draw,2,"Marine application
+Vibration levels",Signal failure,1) No station power draw data,Hardware or wiring failure,Normal,,1) None,1) Station power data lost,Manual in-situ repair and inspection,8,1,1,2,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-22,Bilge water level,Provide bilge water level,1,none,Signal failure,1) No bilge water level data from failed sensor,Hardware or wiring failure,Normal,1) Redundancy,1) None,1) Bilge level data lost,Manual in-situ repair and inspection,8,1,1,3,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Safe (accessible) side of PTO module and redundant sensors rated for the environment.,"Is this required signal for start of bilge pump?
+Severity class to be higher if failure of sensor could lead to water ingress into electrical equipment."
+410-23,Bilge pump status,Provides bilge pump status data,1,none,Signal failure,1) No bilge pump status,Hardware or wiring failure,Normal,1) Redundant systems,1) None,1) Comparison to float switch data,Manual in-situ repair and inspection,8,1,1,2,1,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment and redundant sensors.,"Is this required signal for start of bilge pump?
+Severity class to be higher if failure of sensor could lead to water ingress into electrical equipment."
+410-24,"Cooling temp, pressure, flow sensor",Provides cooling data,1,none,Signal failure,1) No cooling data from failed sensor,Hardware or wiring failure,Normal,,1) None,1) Cooling parameter data lost,Manual in-situ repair and inspection,8,1,1,3,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment and redundant sensors.,"Is failure of sensor only for collection of data, i.e. the cooling system runs continuously during operation therefore not relying on start/stop signals resulting from the data collected by these sensors. Failure of cooling system would have higher severity class"
+410-25,Fibber optic strain measurement,Provides strain data,1,none,Signal failure,1) No strain data from failed sensor,Hardware or wiring failure,Normal,1) Redundancy,1) None,1) Strain data lost,"1) Interrogator repairable in-situ
+2) Single failure tolerable for strain gauge array requires dry dock repair",8,1,1,3,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-26,Inertial measurement unit (IMU),Provides nacelle body motion data,1,none,Signal failure,1) No motion data from failed sensor,Hardware or wiring failure,Normal,1) Redundancy,1) None,1) IMU data lost,Manual in-situ repair and inspection,8,1,1,3,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-27,Communication with M2G,Communicates all M2G data and PTO control commands,1,none,Signal failure,"1) No M2G data
+2) PTO goes to default control mode in absence of SCADA communication",Hardware or wiring failure,Normal,1) V&V,1) None,"1) M2G data lost
+2) PTO control not responding",Manual in-situ repair and inspection,7,1,1,3,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,PTO goes to default control mode in absence of SCADA communication,"If loss of PTO control higher consequence?
+CP to suggest mitigation actions for loss of control?"
+410-28,Real-time AWAC/ADV connection,Provide real-time AWAC data,1,none,Signal failure,1) No AWAC data available,Hardware or wiring failure,Normal,1) Data can be downloaded later,1) None,1) No AWAC data available in real-time,Manual in-situ repair and inspection,8,1,1,2,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Real time data not used in control.,See comment in risk ID 410-10
+410-29,Anemometer,Provide wind speed and direction,1,none,Signal failure,1) No WEC wind data,Hardware or wiring failure,Normal,none,1) None,1) Wind data lost,Manual in-situ repair and inspection,9,1,1,2,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-30,GPS & heading sensor,Provide GPS position and heading,1,none,Signal failure,1) No GPS position or heading data  from failed sensor,Hardware or wiring failure,Normal,1) Redundancy,1) None,1) GPS & heading data lost,Manual in-situ repair and inspection,8,1,1,2,2,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+410-31,Mooring load cell,Provide mooring load data,1,none,Signal failure,1) No mooring tension from failed sensor,Hardware or wiring failure,Normal,"1) Redundancy
+2) Mechanical safety bypass of load cell",1) Inspection,1) Mooring data lost,Manual in-situ repair and inspection,9,1,1,2,4,Low,Low,Low,Med,,,,,,,,,,,,,,,,,,,,,,,,,,Load cells and cabling will be rated for the environment.,See comment in risk ID 410-10
+410-9,Power supply,Provide power to SCADA,1,none,SCADA offline,"1) No SCADA data
+2) PTO goes to defaul control mode
+3) Cooling controlers go to default control mode","Power supply failure
+- corrosion induced
+- vibration or motion induced
+- water induced",Normal,"1) Power supply Redundancy
+2) Functional redundancy of SCADA components
+3) Individual controllers have default modes of operation in absense of SCADA comm.",1) Status of individual PS,1) No SCADA,Manual in-situ repair and inspection,7,1,1,5,3,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Power supply will be rated for the environment. All failure causes fall into the same risk rankings and so kept in one Risk ID.,"More specific failure mode analysis required, see the suggested breakdown directly below. "
+410-32,Vibration accelerometer,Provide vibration data,1,none,Signal failure,1) No vibration data from failed sensor,Hardware or wiring failure,Normal,1) Redundancy,1) None,1) Data lost,Manual in-situ repair and inspection on most locations,8,1,1,3,3,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Sensor will be rated for the environment.,See comment in risk ID 410-10
+430-1,PLC,Issue cooling commands,"1
+2","none
+Marine application
+Vibration levels",PLC Failure,"1) PTO command failure
+2) Cooling system command failure
+3) Alarming failure",Corrosion induced failure short circuit,Normal,"1) Marine rated corrosion resistant design
+2) Sealed enclosure
+3) PTO goes to default control mode in absence of SCADA communication
+","1) Visual inspection
+2) Fault detection of primary PLC","1) Primary PLC torque command
+2) Primary PLC cooling command
+",Manual in-situ repair and inspection,5,1,1,6,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Individual controllers have default modes of operation in absense of SCADA comm.,"Occurrence class quite low for corrosion. Manufacturers data to be provided to demonstrate failure rate.
+Loss of PTO control and safety functions  should be higher severity class?"
+430-2,PLC,Issue cooling commands,"1
+2","none
+Marine application
+Vibration levels",PLC Failure,"1) PTO command failure
+2) Cooling system command failure
+3) Alarming failure",Improper installation or manufacturing defect results in failure,Normal,"1) V&V (QC)
+2) Redundant SCADA controllers
+3) PTO goes to default control mode in absence of SCADA communication",1) Fault detection of primary PLC,"1) Primary PLC torque command
+2) Primary PLC cooling command
+",Manual in-situ repair and inspection,5,1,1,6,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Individual controllers have default modes of operation in absense of SCADA comm.,See comment in Risk ID 410-1.
+430-3,PLC,Issue PTO commands,"1
+2","none
+Marine application
+Vibration levels",PLC Failure,"1) PTO command failure
+2) Cooling system command failure
+3) Alarming failure",Vibration and/or motion induced failure,Normal,"1) Modal analysis
+2) Redundant SCADA controllers
+3) PTO goes to default control mode in absence of SCADA communication",1) Fault detection of primary PLC,"1) Primary PLC torque command
+2) Primary PLC cooling command
+",Manual in-situ repair and inspection,7,1,1,6,4,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Individual controllers have default modes of operation in absense of SCADA comm.,
+430-4,PLC,Issue PTO commands,"1
+2","none
+Marine application
+Vibration levels",PLC Failure,"1) PTO command failure
+2) Cooling system command failure
+3) Alarming failure","Water induced failure 
+(non-corrosion)",Normal,"1) Marine rated corrosion resistance design
+2) Redundant SCADA controllers
+3) PTO goes to default control mode in absence of SCADA communication","1) Visual inspection
+2) Fault detection of primary PLC","1) Primary PLC torque command
+2) Primary PLC cooling command
+",Manual in-situ repair and inspection,5,1,1,6,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Individual controllers have default modes of operation in absense of SCADA comm.,
+430-6,Server PC,Issue cooling commands,"1
+2","none
+Marine application
+Vibration levels",PC Failure,"1) Data collection failure
+2) HMI visualization failure
+3) Alarm reporting failure",Corrosion induced failure short circuit,Normal,"1) Marine rated corrosion resistance design
+2) Redundant SCADA controllers
+","1) Visual inspection
+2) Fault detection of primary SCADA","1) No primary data collection
+2) Primary HMI unavailable",Manual in-situ repair and inspection,5,1,1,6,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,
+430-7,Server PC,Issue cooling commands,"1
+2","none
+Marine application
+Vibration levels",PC Failure,"1) Data collection failure
+2) HMI visualization failure
+3) Alarm reporting failure",Improper installation or manufacturing defect results in failure,Normal,"1) V&V (QC)
+2) Redundant SCADA controllers
+",1) Fault detection of primary SCADA,"1) No primary data collection
+2) Primary HMI unavailable",Manual in-situ repair and inspection,4,1,1,6,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See comment in Risk ID 410-1
+430-8,Server PC,Issue PTO commands,"1
+2","none
+Marine application
+Vibration levels",PC Failure,"1) Data collection failure
+2) HMI visualization failure
+3) Alarm reporting failure",Vibration and/or motion induced failure,Normal,"1) Modal analysis
+2) Redundant SCADA controllers
+3) Simotion prevents over torque execution
+4)Default linear control command issued by Simotion controller",1) Fault detection of primary SCADA,"1) No primary data collection
+2) Primary HMI unavailable",Manual in-situ repair and inspection,7,1,1,6,4,Low,Low,Med,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,
+430-9,Server PC,Issue PTO commands,"1
+2","none
+Marine application
+Vibration levels",PC Failure,"1) Data collection failure
+2) HMI visualization failure
+3) Alarm reporting failure","Water induced failure 
+(non-corrosion)",Normal,"1) Marine rated corrosion resistance design
+2) Redundant SCADA controllers
+3) Simotion prevents over torque execution
+4) Default torque command issued by Simotion controller","1) Visual inspection
+2) Fault detection of primary SCADA","1) No primary data collection
+2) Primary HMI unavailable",Manual in-situ repair and inspection,5,1,1,6,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,
+435-1,Cooling Command (generate and issue),Issue cooling commands,1,None,"Over, under or no cooling command","1) Under cooling results in PTO shutdown
+2) Overcooling wasted energy",Communication issue,Normal,"1) V&V (QC)
+2) Redundant SCADA controllers
+",1) Fault detection of primary SCADA,"1) Primary SCADA cooling command
+2) Stator temperature(s) out of range",Manual in-situ repair and inspection,6,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,Cooling commands may be replaced by M2G,
+435-2,Cooling Command (generate and issue),Issue cooling commands,1,None,"Over, under or no cooling command","1) Under cooling results in PTO shutdown
+2) Overcooling wasted energy","Software / programming error
+",Normal,"1) V&V (QC)
+2) Redundant SCADA controllers
+",None,"1) Manual check on commissioning
+2) Primary SCADA cooling command
+3) Stator temperature(s) out of range",Remote programming repair,6,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See risk ID 410-4
+435-3,PTO Command,Issue PTO commands,1,None,SCADA torque command excessive or uncontrolled,"1) High/erratic torque on PTO
+2) WEC pitch effected
+3) Generator performance affected
+4) Potential motoring losses
+5) Deviation from control plan",Communication issue,Normal,"1) V&V (QC)
+2) Redundant SCADA controllers
+3) Simotion prevents over torque execution
+4) Default linear control command issued by Simotion controller",1) Fault detection of primary SCADA,1) Primary SCADA torque command,Manual in-situ repair and inspection,6,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,"limited to default linear damping
+These change with control mode. i.e. linear is limited to 2 quadrant. 
+Simotion is always responsible for machine limits.
+Cooling is defaulted to max",
+435-4,PTO Command,Issue PTO commands,1,None,SCADA torque command excessive or uncontrolled,"1) High/erratic torque on PTO
+2) WEC pitch effected
+3) Generator performance affected
+4) Potential motoring losses
+5) Deviation from control plan
+","Software / programming error
+",Normal,"1) Simotion controller fail safe design
+2) Control taken by alternate side PLC ",1) None,"1) Torque command
+2) Simotion current output
+3) Simotion torque output
+4) Stator load cell output",Remote programming repair,6,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See risk ID 410-4
+435-5,PTO Command,Issue PTO commands,1,None,SCADA torque command not issued,"1) Simotion controller takes over torque command
+2) Deviation from control plan",Communication issue,Normal,"1) V&V (QC)
+2) Redundant SCADA controllers
+3) Default linear control command issued by Simotion controller",1) Fault detection of primary SCADA,1) Primary SCADA torque command,Manual in-situ repair and inspection,6,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,
+435-6,PTO Command,Issue PTO commands,1,None,SCADA torque command not issued,"1) Simotion controller takes over torque command
+2) Deviation from control plan","Software / programming error
+",Normal,"1) V&V (QC)
+2) Redundant SCADA controllers
+3) Default torque command issued by Simotion controller",1) Fault detection of primary SCADA,"1) Manual check on commissioning
+2) Primary SCADA torque command",Remote programming repair,6,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,See risk ID 410-4

@@ -1,0 +1,405 @@
+﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+"0571/0572 
+-1",Stbd/Port Spar Bilge Pumps & Controllers,"Remove water from WEC collected from port/stbd PTO or Control Room. 
+ (Two pumps per side - redundant cross connected power)",1,none,"Electrical Fault - 
+Pump","1) Loss of one bilge pump
+2) In the case of water being present, second bilge pump runs to remove normal bilge collection
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"Redundent design
+1) Two pumps
+2) 4 power sources (Port/Stbd PTO, Grid, & UPS) 
+3) Cross connected electrical distribution
+","1) V&V (QC) 
+2) Inspections","1) Secondary bilge pump running
+2) SCADA diagnostics",In-situ repair ,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0571/0572 
+-2",Stbd/Port Spar Bilge Pumps & Controllers,"Remove water from WEC collected from port/stbd PTO or Control Room. 
+ (Two pumps per side - redundant cross connected power)",1,none,"Electrical Fault -
+Controller
+
+","1) Loss of one bilge pump
+2) In the case of water being present, second bilge pump runs to remove normal bilge collection
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"Redundent design
+1) Two pumps
+2) 4 power sources (Port/Stbd PTO, Grid, & UPS) 
+3) Cross connected electrical distribution
+","1) V&V (QC) 
+2) Inspections","1) Secondary bilge pump running
+2) SCADA diagnostics",In-situ repair ,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0571/0572 
+-3",Stbd/Port Spar Bilge Pumps & Controllers,"Remove water from WEC collected from port/stbd PTO or Control Room. 
+ (Two pumps per side - redundant cross connected power)",1,none,Mechanical failure in pump ,"1) Loss of one bilge pump
+2) In the case of water being present, second bilge pump runs to remove normal bilge collection
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"Redundent design
+1) Two pumps
+2) 4 power sources (Port/Stbd PTO, Grid, & UPS) 
+3) Cross connected electrical distribution
+","1) V&V (QC) 
+2) Inspections","1) Secondary bilge pump running
+2) SCADA diagnostics",In-situ repair ,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0571/0572 
+-4",Stbd/Port Spar Bilge Pumps & Controllers,"Remove water from WEC collected from port/stbd PTO or Control Room. 
+ (Two pumps per side - redundant cross connected power)",1,none,Mechanical failure in switch ,"1) Loss of one bilge pump
+2) In the case of water being present, second bilge pump runs to remove normal bilge collection
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"Redundent design
+1) Two pumps
+2) 4 power sources (Port/Stbd PTO, Grid, & UPS) 
+3) Cross connected electrical distribution
+","1) V&V (QC) 
+2) Inspections","1) Secondary bilge pump running
+2) SCADA diagnostics",In-situ repair ,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0571/0572 
+-5",Stbd/Port Spar Bilge Pumps & Controllers,"Remove water from WEC collected from port/stbd PTO or Control Room. 
+ (Two pumps per side - redundant cross connected power)",1,none,Electrical Fault - smoke/fire,"1) Electrical isolation - loss of port/stbd spar bilge pumps
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,Sealed bilge chamber,"1) V&V (QC) 
+2) Inspections","1) Secondary bilge pump running
+2) SCADA diagnostics",In-situ repair ,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0571/0572 
+-5",Stbd/Port Spar Bilge Pumps & Controllers,"Remove water from WEC collected from port/stbd PTO or Control Room. 
+ (Two pumps per side - redundant cross connected power)",1,none,Electrical Fault - smoke/fire,"1) Electrical isolation - loss of port/stbd spar bilge pumps
+2) Water raises in sealed bilge, filling bilge chamber.
+3) Water flow overboard due to pressure differential via check valve
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error","Emergency - Seal Failure
+Pump is running, bilge system working ","1) Sealed bilge chamber
+2) Electrical isolation breakers
+3) Automatic fire suppression
+4) V&V (QC)
+5) 0520 Emergency Systems","1) V&V (QC) 
+2) Inspections","1) 0520 Emergency System
+2) SCADA Diagnostics","In-situ inspection for repair, repair at dry dock as necessary",5,1,1,8,8,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,Second level contingency - flooding followed by fault in system
+"0573/0574 
+-1",Stbd/Port PTO Seal Bilge Pumps & Controllers,Remove water from PTO seal bilge tank and transfer to the spar bilge tank,1,none,"Electrical Fault - 
+Pump","1) Loss of PTO Seal bilge pump
+2) PTO Sealed bilge transfers water to spar bilge via check-valve and pressure differential 
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Sealed PTO seal bilge compartment allow for natural flow once pressure differential is reached to open check valve.
+3) Location of sealed bilge works in both deployed and normal operating conditions
+","1) V&V (QC) 
+2) Inspections",SCADA Diagnostics,in-situ repair during service,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0573/0574 
+-2",Stbd/Port PTO Seal Bilge Pumps & Controllers,Remove water from PTO seal bilge tank and transfer to the spar bilge tank,1,none,"Electrical Fault -
+Controller
+
+","1) Loss of PTO Seal bilge pump
+2) PTO Sealed bilge transfers water to spar bilge via check-valve and pressure differential 
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Sealed PTO seal bilge compartment allow for natural flow once pressure differential is reached to open check valve.
+3) Location of sealed bilge works in both deployed and normal operating conditions
+","1) V&V (QC) 
+2) Inspections",SCADA Diagnostics,in-situ repair during service,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0573/0574 
+-3",Stbd/Port PTO Seal Bilge Pumps & Controllers,Remove water from PTO seal bilge tank and transfer to the spar bilge tank,1,none,Mechanical failure in pump ,"1) Loss of PTO Seal bilge pump
+2) PTO Sealed bilge transfers water to spar bilge via check-valve and pressure differential 
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Sealed PTO seal bilge compartment allow for natural flow once pressure differential is reached to open check valve.
+3) Location of sealed bilge works in both deployed and normal operating conditions
+","1) V&V (QC) 
+2) Inspections",SCADA Diagnostics,in-situ repair during service,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0573/0574 
+-4",Stbd/Port PTO Seal Bilge Pumps & Controllers,Remove water from PTO seal bilge tank and transfer to the spar bilge tank,1,none,Mechanical failure in switch ,"1) Loss of PTO Seal bilge pump
+2) PTO Sealed bilge transfers water to spar bilge via check-valve and pressure differential 
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Sealed PTO seal bilge compartment allow for natural flow once pressure differential is reached to open check valve.
+3) Location of sealed bilge works in both deployed and normal operating conditions
+","1) V&V (QC) 
+2) Inspections",SCADA Diagnostics,in-situ repair during service,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0573/0574 
+-5",Stbd/Port PTO Seal Bilge Pumps & Controllers,Remove water from PTO seal bilge tank and transfer to the spar bilge tank,1,none,Electrical Fault - smoke/fire,"1) PTO floods up to secondary bilge level from leak
+2) Stator segment damage from water","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,Two pumps per compartment,"1) V&V (QC) 
+2) Inspections",SCADA Diagnostics,in-situ repair during service,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0573/0574 
+-6",Stbd/Port PTO Seal Bilge Pumps & Controllers,Remove water from PTO seal bilge tank and transfer to the spar bilge tank,2,none,Electrical Fault - smoke/fire,"1) PTO seal bilge pump does not transfer water
+2) Water is transferred to spar bilge once pressure differentail opens check valve","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error","Emergency - Seal Failure
+Pump is running, bilge system working ","1) Sealed bilge chamber
+2) Electrical isolation breakers
+3) Automatic fire suppression
+4) V&V (QC)
+5) 0520 Emergency Systems","1) V&V (QC) 
+2) Inspections","1) 0520 Emergency System
+2) SCADA Diagnostics","In-situ inspection for repair, repair at dry dock as necessary",5,1,1,8,8,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0575/0576 
+-1",Stbd/Port PTO Bilge Pumps & Controllers,"Port/Stbd identical systems: Remove bilge water from the lowest point of the PTO module, transfering the water to the spar bilge",1,none,"Electrical Fault - 
+Pump","1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Three bilge pumps in PTO compartment
+2) Check valve flow direction restrictions
+3) Bilge level sensors
+4) Surveillance
+5) Air quality monitoring for moisture content.
+","1) V&V (QC) 
+2) Inspections","1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0575/0576 
+-2",Stbd/Port PTO Bilge Pumps & Controllers,"Port/Stbd identical systems: Remove bilge water from the lowest point of the PTO module, transfering the water to the spar bilge",1,none,"Electrical Fault -
+Controller
+
+","1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Three bilge pumps in PTO compartment
+2) Check valve flow direction restrictions
+3) Bilge level sensors
+4) Surveillance
+5) Air quality monitoring for moisture content.
+","1) V&V (QC) 
+2) Inspections","1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0575/0576 
+-3",Stbd/Port PTO Bilge Pumps & Controllers,"Port/Stbd identical systems: Remove bilge water from the lowest point of the PTO module, transfering the water to the spar bilge",1,none,Mechanical failure in pump ,"1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Three bilge pumps in PTO compartment
+2) Check valve flow direction restrictions
+3) Bilge level sensors
+4) Surveillance
+5) Air quality monitoring for moisture content.
+","1) V&V (QC) 
+2) Inspections","1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0575/0576 
+-4",Stbd/Port PTO Bilge Pumps & Controllers,"Port/Stbd identical systems: Remove bilge water from the lowest point of the PTO module, transfering the water to the spar bilge",1,none,Mechanical failure in switch ,"1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Three bilge pumps in PTO compartment
+2) Check valve flow direction restrictions
+3) Bilge level sensors
+4) Surveillance
+5) Air quality monitoring for moisture content.
+","1) V&V (QC) 
+2) Inspections","1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0575/0576 
+-5",Stbd/Port PTO Bilge Pumps & Controllers,"Port/Stbd identical systems: Remove bilge water from the lowest point of the PTO module, transfering the water to the spar bilge",1,none,Electrical Fault - smoke/fire,"1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,"1) Three bilge pumps in PTO compartment
+2) Check valve flow direction restrictions
+3) Bilge level sensors
+4) Surveillance
+5) Air quality monitoring for moisture content.
+","1) V&V (QC) 
+2) Inspections","1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+"0575/0576 
+-5",Stbd/Port PTO Bilge Pumps & Controllers,"Port/Stbd identical systems: Remove bilge water from the lowest point of the PTO module, transfering the water to the spar bilge",2,none,Electrical Fault - smoke/fire,"1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error","Emergency - Seal Failure
+Pump is running, bilge system working ",,,"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0577-1,Deployment Pumping Systems,"During deployment, when WEC is near horizontal oreientation, remove water from port/stbd low point of PTO module, and control room. - (Pump + Control for Port PTO, Stbd PTO, Stbd side control room, Port side control room) ",1,none,"Electrical Fault - 
+Pump","1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Deployment,"1) water level/leek sensors
+2) Tending vessel ",V&V(QC),"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0577-2,Deployment Pumping Systems,"During deployment, when WEC is near horizontal oreientation, remove water from port/stbd low point of PTO module, and control room. - (Pump + Control for Port PTO, Stbd PTO, Stbd side control room, Port side control room) ",1,none,"Electrical Fault -
+Controller
+
+","1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Deployment,"1) water level/leek sensors
+2) Tending vessel ",V&V(QC),"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0577-3,Deployment Pumping Systems,"During deployment, when WEC is near horizontal oreientation, remove water from port/stbd low point of PTO module, and control room. - (Pump + Control for Port PTO, Stbd PTO, Stbd side control room, Port side control room) ",1,none,Mechanical failure in pump ,"1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Deployment,"1) water level/leek sensors
+2) Tending vessel ",V&V(QC),"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0577-4,Deployment Pumping Systems,"During deployment, when WEC is near horizontal oreientation, remove water from port/stbd low point of PTO module, and control room. - (Pump + Control for Port PTO, Stbd PTO, Stbd side control room, Port side control room) ",1,none,Mechanical failure in switch ,"1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Deployment,"1) water level/leek sensors
+2) Tending vessel ",V&V(QC),"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0577-5,Deployment Pumping Systems,"During deployment, when WEC is near horizontal oreientation, remove water from port/stbd low point of PTO module, and control room. - (Pump + Control for Port PTO, Stbd PTO, Stbd side control room, Port side control room) ",1,none,Electrical Fault - smoke/fire,"1) Loss of bilge pump
+2) Any residual bilge collection is not pumped to spar bilge
+","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Deployment,"1) water level/leek sensors
+2) Tending vessel ",V&V(QC),"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0577-6,Deployment Pumping Systems,"During deployment, when WEC is near horizontal oreientation, remove water from port/stbd low point of PTO module, and control room. - (Pump + Control for Port PTO, Stbd PTO, Stbd side control room, Port side control room) ",1,none,Electrical Fault - smoke/fire,,"1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error","Deployment & Emergency Leak/Flood
+-Bilge pumping working to remove water",Two pumps per compartment,,"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0578/0579,"Values & Fittings /
+Pipping",Remove infiltrated water from PTO module ,1,none,"Leak in Values & Fittings /
+Pipping ","1) Not detectable until water is pumped
+2) water drains back to a bilge","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,1) V& V (QC),1) Inspections,"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0578/0579,"Values & Fittings /
+Pipping",Remove infiltrated water from PTO module ,1,none,"Leak in Values & Fittings /
+Pipping ","1) Not detectable until water is pumped
+2) water drains back to a bilge","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error",Normal,1) V& V (QC),1) Inspections,"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+0578/0589,"Values & Fittings /
+Pipping",Remove infiltrated water from PTO module ,1,none,"Leak in Values & Fittings /
+Pipping ","1) Not detectable until water is pumped
+2) water drains back to a bilge","1) Manufacturing defect
+2) Fatigue or degradation over time
+3) Contamination leads to fault
+4) Component corrosion leads to fault
+5) Control fault
+6) Installation error","Deployment & Emergency Leak/Flood
+-Bilge pumping working to remove water",1) V& V (QC),1) Inspections,"1) SCADA diagnostic
+2) Surveillance",in-situ repair,4,1,1,5,4,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

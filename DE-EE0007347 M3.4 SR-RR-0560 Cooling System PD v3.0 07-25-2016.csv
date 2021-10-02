@@ -1,0 +1,160 @@
+﻿"Risk
+ID","Item
+Description",Function,Tech. Class,Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+0560-1,Cooling Pipes,Contain coolant loop,1,none,Large coolant leak,"1) Loss of PTO
+2) Loss of AC power generation
+3) bilge pumps run",Improper installation or manufacturing defect results in failure,Normal,1) V&V (QC),"Moisture sensors
+Inspections","SCADA Diagnostics
+Bilge pumping",Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,"PEX tubing, marine design, etc.",,,,,,,,,,,,,,,,,,,,,,,,,
+"0561/0562 
+- 1",Cooling pumps,Provide electric power to cooling pumps,1,none,Electrical Failure,"1) Loss of PTO
+2) Loss of AC power generation",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance designed enclosure
+2) Redundant design, two cooling pumps per PTO",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Check the QC procedures on all component manufacturing. ,,,,,,,,,,,,,,,,,,,,,,,,,
+"0561/0562 
+- 2",Cooling pumps ,Provide electric power to cooling pumps,1,none,Electrical Failure,"1) Loss of PTO
+2) Loss of AC power generation",Improper installation or manufacturing defect results in failure,Normal,1) V&V (QC),none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Vibration isolation design for all electric components,,,,,,,,,,,,,,,,,,,,,,,,,
+"0561/0562 
+- 3",Cooling pumps ,Provide electric power to cooling pumps,1,none,Electrical Failure,"1) Loss of PTO
+2) Loss of AC power generation","Water induced failure 
+(non-corrosion)",Normal,"1)Marine rated waterproof enclosure
+2) Redundant design, two cooling pumps per PTO","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Corrosion prevention design for all components,,,,,,,,,,,,,,,,,,,,,,,,,
+"0561/0562 
+- 4",Cooling pumps ,Provide electric power to cooling pumps,1,none,Electrical Failure,"1) Loss of PTO
+2) Loss of AC power generation",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two cooling pumps per PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+"0561/0562 
+- 5",Cooling pumps ,Provide electric power to cooling pumps,1,none,Electrical Failure - smoke/fire,"1) Loss of PTO
+2) Loss of AC power generation",All of the faults 1 thru 4,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two cooling pumps per PTO",none,"1) Smoke alarms - reduce time to electrically isolate 
+2) Over-current protection - for electrical isolation
+3) Automatic fire suppression
+4)SCADA Diagnostics",Manual in-situ inspection and repair,6,1,1,7,7,Low,Low,Med,Med,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+"0563/0564 
+- 1",Cooling pump controllers,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure,"1) Loss of PTO
+2) Loss of AC power generation",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance designed enclosure
+2) Redundant design, two cooling pumps per PTO",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Check the QC procedures on all component manufacturing. ,,,,,,,,,,,,,,,,,,,,,,,,,
+"0563/0564 
+- 2",Cooling pump controllers,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure,"1) Loss of PTO
+2) Loss of AC power generation",Improper installation or manufacturing defect results in failure,Normal,1) V&V (QC),none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Vibration isolation design for all electric components,,,,,,,,,,,,,,,,,,,,,,,,,
+"0563/0564 
+- 3",Cooling pump controllers,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure,"1) Loss of PTO
+2) Loss of AC power generation","Water induced failure 
+(non-corrosion)",Normal,"1)Marine rated waterproof enclosure
+2) Redundant design, two cooling pumps per PTO","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Corrosion prevention design for all components,,,,,,,,,,,,,,,,,,,,,,,,,
+"0563/0564 
+- 4",Cooling pump controllers,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure,"1) Loss of PTO
+2) Loss of AC power generation",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two cooling pumps per PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+"0563/0564 
+- 5",Cooling pump controllers,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure - smoke/fire,"1) Loss of PTO
+2) Loss of AC power generation",All of the faults 1 thru 4,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two cooling pumps per PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,5,1,7,7,Low,Low,Med,Med,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0565," Hull 
+Heat Exchanger",Exchange cooling water heat with ocean water,1,none,Leak,"1) Flooding
+2) Loss of cooling
+3) Loss of PTO
+",Vibration and/or motion induced failure,Normal,"1) Marine design/rated heat exchanger
+2) V&V (QC)",none,"SCADA Diagnostics
+Bilge sensors",Manual in-situ inspection and repair,6,5,1,6,5,Low,Low,Med,Low,Look into boi-fouling in warm climates  - bio-fouling prevention,,,,,,,,,,,,,,,,,,,,,,,,,
+0567- 1,"Control room 
+Cooling pump ",Provide electric power to cooling pumps,1,none,Electrical Failure,"1) Loss of PTO
+2)  Loss of AC power generation",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance designed enclosure
+2) Redundant design, two cooling pumps per PTO",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Check the QC procedures on all component manufacturing. ,,,,,,,,,,,,,,,,,,,,,,,,,
+0567- 2,"Control room 
+Cooling pump ",Provide electric power to cooling pumps,1,none,Electrical Failure,"1) Loss of PTO
+2)  Loss of AC power generation",Improper installation or manufacturing defect results in failure,Normal,1) V&V (QC),none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Vibration isolation design for all electric components,,,,,,,,,,,,,,,,,,,,,,,,,
+0567- 3,"Control room 
+Cooling pump ",Provide electric power to cooling pumps,1,none,Electrical Failure,"1) Loss of PTO
+2)  Loss of AC power generation","Water induced failure 
+(non-corrosion)",Normal,"1)Marine rated waterproof enclosure
+2) Redundant design, two cooling pumps per PTO","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Corrosion prevention design for all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0567- 4,"Control room 
+Cooling pump ",Provide electric power to cooling pumps,1,none,Electrical Failure,"1) Loss of PTO
+2)  Loss of AC power generation",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two cooling pumps per PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0567- 5,"Control room 
+Cooling pump ",Provide electric power to cooling pumps,1,none,Electrical Failure - smoke/fire,"1) Loss of PTO
+2)  Loss of AC power generation",All of the faults 1 thru 4,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two cooling pumps per PTO",none,"1) Smoke alarms - reduce time to electrically isolate 
+2) Over-current protection - for electrical isolation
+3) Automatic fire suppression
+4)SCADA Diagnostics",Manual in-situ inspection and repair,6,5,1,7,7,Low,Low,Med,Med,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0568- 1,Cooling pump ,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure,"1) Loss of PTO
+2)  Loss of AC power generation",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance designed enclosure
+2) Redundant design, two cooling pumps per PTO",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Check the QC procedures on all component manufacturing. ,,,,,,,,,,,,,,,,,,,,,,,,,
+0568- 2,Cooling pump ,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure,"1) Loss of PTO
+2)  Loss of AC power generation",Improper installation or manufacturing defect results in failure,Normal,1) V&V (QC),none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Vibration isolation design for all electric components,,,,,,,,,,,,,,,,,,,,,,,,,
+0568- 3,Cooling pump ,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure,"1) Loss of PTO
+2)  Loss of AC power generation","Water induced failure 
+(non-corrosion)",Normal,"1)Marine rated waterproof enclosure
+2) Redundant design, two cooling pumps per PTO","1) SCADA diagnostics 
+2) Visual inspection",SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Corrosion prevention design for all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0568- 4,Cooling pump ,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure,"1) Loss of PTO
+2)  Loss of AC power generation",Vibration and/or motion induced failure,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two cooling pumps per PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,1,1,6,5,Low,Low,Med,Low,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+0568- 5,Cooling pump ,Pump water to Stbd/Port PTO stator segments,1,none,Electrical Failure - smoke/fire,"1) Loss of PTO
+2)  Loss of AC power generation",All of the faults 1 thru 4,Normal,"1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant design, two cooling pumps per PTO",none,SCADA Diagnostics,Manual in-situ inspection and repair,6,5,1,7,7,Low,Low,Med,Med,Waterproofing all components,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

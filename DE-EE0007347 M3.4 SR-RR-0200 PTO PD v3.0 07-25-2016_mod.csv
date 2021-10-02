@@ -1,0 +1,945 @@
+﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Risk
+ID","Item
+Description",Function,"Tech. 
+Class
+",Novel Aspects,"Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
+Actions",DVN GL comments,CPWR Response Notes,Responsible Party,"Actions
+Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
+Actions",Responsible Party (2nd),"Actions
+Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
+(open or closed)",Notes
+200-1,PTO,"PTO functions are electromechanical energy conversion, torque transmission,
+constrain generator to 1DOF rotation and maintain rotor/stator airgap, with minimal friction. The PTO is composed of electrical and mechanical components. ",2,Marine application,"Structural failure
+Loss of PTO","Mechanical 
+Severe structural failure
+WEC is no longer functioning",Loading in fore-in-aft configuration greater than predicted (note that CPwr numerical modeling is not able to accurately represent the very low freeboard fore float in fore-in-aft configuration),Normal,"1) Conservative partial safety factor
+2) Numerical modeling with additional freeboard","monitoring strain gauges (likely not on the fore float or arms, but rather on the shaft and/or nacelle tube)","1) Surveillance
+2) SCADA
+3) etc","Dry dock repair if possible, if not loss of projects",3,4,7,9,9,Low,Low,Med,Med,,,,,,,,,,,,,,,,,,,,,,,,,,,,Determine where strain monitoring can be used effectively
+210-1,Stator Segment,Electromechanical energy conversion,2,"Marine application
+","Fire/smoke due to electrical short
+Loss of stator segment
+Loss of PTO","Electrical 
+1) Stator segment is is electrical isolated 
+2) PTO is shutdown and electrically isolated.
+3) Heat production in shorted segment
+4) Freshwater cooling flow is increased
+5) smoke/fire 
+6) Fire spreads
+","Electrical short (non-moisture or corrosion)
+- Short in coils
+- Short in connector
+- Short in PTC or KTY circuit
+Creating an overheating condition which leads to fire/smoke
+",Normal,"1) Segmented design
+2) PTC elements iniating automatic disconnect on overtemperature
+3) Circuit breaker isolates each stator segment on over current and/or ground fault
+3) Quality marine design and manufacturing
+4) V&V (insulation check, pulse test, high voltage test)","1) Automated stator disconnect, overcurrent protection.
+2) PTC element initiates overtemperature shutdown.
+3) KTY 84 sensor - temperature monitoring circuit for data trend analysis 
+2) Stator group performance analysis, data trend.
+","1) PTC Stator fault Alarm - overtemperature stator segment
+2) PTO shutdown fault Alarm
+3) PTO fire Alarm
+4) PTO compartment air quality monitoring & alarm
+5) Surveillance system - PTO visible & IR camera",Dry dock repair/overall depending on extent of the fire damage,4,1,3,7,7,Low,Low,Low,Low,"Demonstrate fire can be contained within a compartment. Definition of the acceptable damage due to fire to be provided, and it has to be demonstrated that extent of fireproofing is compatible with the allowable damage.
+Manufacturing documentation to demonstrate the frequency of short circuit of coils are compatible with the occurrence class defined.","CP to clarify if temperature monitoring of the stator segments/coil is present?
+Suggest text for recommended action:
+Demonstrate fire can be contained within a compartment. Definition of the acceptable damage due to fire to be provided, and it has to be demonstrated that extent of fireproofing is compatible with the allowable damage.
+Manufacturing documentation to demonstrate the frequency of short circuit of coils are compatible with the occurrence class defined.
+","Each stator has KTY 84 sensor - temperature monitoring circuit and a PTC element for overtemperature shutdown.  Stators short circuit torque is less then rated torque, no mechanical issue.  Average thermal dissipation (heat) is much lower then rated. Further investigation during LandRAY testing will refine cooling requirements and cooling system controls. Cooling system will meet or exceed flow requirements of stator continuous load rating.  Stators will be rating either IEC 600034-1 S3, S9, or other based on LandRAY testing. LandRAY stator is rated S3, and will be analyzed for S9 non-periodic load and speed variations, and for real seas stochastic load variations. ",JP,,,,,,,,,,,,,,,,,,,,,,,,
+210-1,Stator Segment,Electromechanical energy conversion,2,"Marine application
+","Loss of stator segment due to high heat,
+Loss of PTO ","Electrical 
+1) Stator is isolated, PTC overtemperature initiates segment isolation breaker to open 
+2) PTO inisates a controlled shutdown
+3) Heat production in shorted segment
+4) Cooling system flow is increased to reduce temperature
+","Overheating - single stator segment cause by:
+1) Short circuit in stator segment
+2) Faulty PTC temperature
+3) Short in back iron leading to high eddy current losses. 
+4) Stator segment internal cooling tube blockage or leak. 
+",Normal,"1) Segmented design
+2) PTC elements iniating automatic disconnect on overtemperature
+3) Circuit breaker isolates each stator segment on over current and/or ground fault
+3) Quality marine design and manufacturing
+4) V&V (insulation check, pulse test, high voltage test)
+","1) KTY 84 sensor - temperature monitoring circuit for data trend analysis of each segment
+2) Stator group performance analysis, data trend.
+","1) Stator fault Alarm - overtemperature stator segment
+2) PTO shutdown fault Alarm
+3) KTY temperature monitor data
+","1) Dry dock repair to replace stator segment, 
+2) Determine segment is not an issue, and operate PTO with one less segment. PTO is design to operate with any number of stator segments to reduce dry dock repair frequency in the case of a stator segment fault.",5,1,3,4,4,Low,Low,Low,Low,LandRAY - Testing reports of the stator segment to demonstrate that temperature of the stator segment is below the limit for overheating. The environment for testing shall replicate the actual operating conditions in WEC.,"Suggest text for recommended action:
+Testing reports of the stator segment to demonstrate that temperature of the stator segment is below the limit for overheating. The environment for testing shall replicate the actual operating conditions in WEC. 
+","Overheating in single stator segment would note normally not lead to fire. Segment is immediately electrically isolated from the rest of the generator/electric plant. PTO controlled shut-down is initiated. Service request is submitted. 
+**(Cooling demand is less then stator segment rated. Cooling system is design to be meet maximum rated cooling flow of segments. To increase efficiency, cooling flow is reduced to meet demand.) ",JP,,,,,,,,,,,,,,,,,,,,,,,,
+210-2,Stator Segment,Electromechanical energy conversion,2,"Marine application
+",Single Multiple stator segment failure,"Mechanical 
+1) Heat in segment due to eddy currents at back iron corrosion location.
+2) Corrosion leads to electrical short in coils, high heat and current.
+3) Stator segment is electrically isolated, PTO is shut down. 
+5) Deformation/expansion from overheating rusting back iron and reduction of air gap.
+6) Impact with rotor, debris from damage travel to air gap causing damage to other segments and ultimately failure of the generator",Corrosion induced failure ,Normal,"1) Resin encased stators
+2) Sealing epoxy coating on stator segments to seal any mirco cracks in resin
+2) Automatic disconnect due to overtemperaure
+3) Automatic disconnect on overcurrent
+4) Stainless and aluminum stator housing materials
+
+
+","1) Visual inspection
+2) Surveillence system cameras
+3) KTC stator tempature profile monitoring. Alarm if out of operating range before overtemperature.
+
+","1) PTC Stator fault Alarm - overtemperature stator segment
+2) PTO shutdown fault Alarm
+3) Surveillance system - PTO visible & IR camera
+4)Vibration monitoring: Vibration sensor threshold high alarm. ",Dry dock repair ,4,1,1,7,7,Low,Low,Low,Low,,Multiple stator segment failure in the failure mode is because of the possible resultant damage due to the debris in the air gap (from mechanical failure of a stator segment). ,"Multiple stator failures considered. Risk is similar because occurrence goes down and severity goes up.
+Specific to mechanical failure - complete structure degradation of stator segment. Very unliked.",,,,,,,,,,,,,,,,,,,,,,,,,
+210-3,Stator Segment,Electromechanical energy conversion,2,"Marine application
+",Single Multiple stator segment failure ,"Mechanical 
+1) Heat in segment due to eddy currents at back iron corrosion location.
+2) Corrosion leads to electrical short in coils, high heat and current.
+3) Stator segment is electrically isolated, PTO is shut down. 
+5) Deformation/expansion from overheating rusting back iron and reduction of air gap.
+6) Impact with rotor, debris from damage travel to air gap causing damage to other segments and ultimately failure of the generator",Manufacturing defect results in failure,Normal,"1) Commercial product
+2) V&V (QC)
+","1) Visual inspection
+2) Surveillence system cameras
+3) KTC stator tempature profile monitoring. Alarm if out of operating range before overtemperature.
+
+","1) PTC Stator fault Alarm - overtemperature stator segment
+2) PTO shutdown fault Alarm
+3) Surveillance system - PTO visible & IR camera
+4)Vibration monitoring: Vibration sensor threshold high alarm. ",Dry dock repair ,3,1,1,7,7,Low,Low,Low,Low,,"General comment for components with ""Manufacturing defect results in failure"" as the failure cause:
+Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class. Please confirm.",Commercial manufacturing techniques used for linear motors. Reliable compatible since manufacturing method is established and proven successful.   ,,,,,,,,,,,,,,,,,,,,,,,,,
+210-4,Stator Segment,Electromechanical energy conversion,2,"Marine application
+",Single stator segment failure ,"Electrical 
+1) Stator is isolated, PTC overtemperature or over current shutdown. 
+2) PTO inisates a controlled shutdown
+3) Heat production in shorted segment
+4) Cooling system flow is increased to reduce temperature
+","Moisture induced failure, moisture leads to stator internal electrical short. ",Normal,"1) Resin encased stators
+2) Sealing epoxy coating on stator segments to seal any mirco cracks in resin
+2) Automatic disconnect due to overtemperaure
+3) Automatic disconnect on overcurrent
+4) Stainless and aluminum stator housing materials
+5) Each segment has isolation breaker.","1) Compartment environmental moniotring - moisture and humidity kept within compartmetnal specifications by climate control system
+2) Bilge level sensor
+3) Surveillence system cameras
+4) Visual inspection
+5) KTC stator tempature profile monitoring 
+
+","1) PTC Stator fault Alarm - overtemperature and overcurrent stator segment
+2) PTO shutdown fault Alarm
+3) Compartment environmental monitoring and bilge sensors
+4) Surveillance system - PTO visible & IR camera
+5) Visual inspection
+",Dry dock repair ,4,1,1,7,7,Low,Low,Low,Low,,,Moisture/ater induced electrical fault that does not lead to fire is more likely then fire.  Need to reduce occurance of fire/smoke. ,,,,,,,,,,,,,,,,,,,,,,,,,
+210-5,Stator Segment,Electromechanical energy conversion,2,"Marine application
+",Multiple stator segment failure ,"Mechanical 
+1) Loss of stator segment
+2) Loss of PTO - control shutdown after segment is lost.
+3) Heat in segment
+4) Damage to components and debris travel to air gap causing more damage",Vibration induced failure,Normal,"1) Vibration monitoring
+2) Stator Cart design engages segment locally to rotor
+3) Reduced cogging forces
+4) Structural rigidity high for extreme loads. Vibration load causes very minimal deflection/movement.
+5) Structural design
+
+","1) Vibration monitoring
+2) Torque rod load cells on smart cart.
+","1) PTC Stator fault Alarm - overtemperature and overcurrent stator segment
+2) PTO shutdown fault Alarm
+3) Surveillance system - PTO visible & IR camera
+4) Visual inspection
+",Dry dock repair ,5,1,1,7,7,Low,Low,Med,Med,,"Probability class lower than that for FLS design because  of multiple failure of stator segment 
+Suggested text for recommended action :
+Manufacturing documentation to demonstrate the limits of vibration level on the component is higher than the maximum level of vibration of the WEC.","Vibration load should have minimal/negligible effects on the stator cart.  Initial analysis of design shows extreme loads much higher; therefore, due to rigidity of the design, deflection of component (stator cart and relative position on rotor) during vibration is fiducial, below reasonability detectable.  What is required for this proof?",,,,,,,,,,,,,,,,,,,,,,,,,
+210-6,Stator Segment,Electromechanical energy conversion,2,"Marine application
+",Multiple stator segment failure ,"1) Loss of stator segment
+2) Loss of PTO
+3) Damage to components and debris travel to air gap causing more damage",Accidental impact from rotor or Operational impact between stator segment and rotor.,Normal,"1) Stator cart design 
+- localize tolerances to a single segment
+- localize and isolate loads 
+- Position of stator localized to rotor position below stator.","1) Airgap sensors on smart cart
+2) Noise monitoring
+3) Surveillance systems - camera visually inspections
+","1) SCADA diagnostics - PTO shutdown
+2)  Audio  noise threshold alarm
+3) Vibration sensors
+4) Suveillance system - camera 
+ ",Dry dock repair ,3,1,1,7,7,Low,Low,Low,Low,,"Suggest text for recommended action:
+Demonstrate, via analysis, that contact between stator and rotor segments can be avoided in the worse load case. If impact is possible, then the structural analysis shall demonstrate structural integrity of the component is within the acceptance criteria when subject to the impact","Design of stator care and rail bearingssystem, and FEA analysis of design for extreme loading, designed and proven no contact. Worst load case does not effect airgap, only acceleration in the X-Y axis, which in extreme increases airgap, not decreases. ",,,,,,,,,,,,,,,,,,,,,,,,,
+220-1,"Rotor Segment
+mounting",Hold rotor in place,2,Marine application,mechanical failure,"1) Rotor segment impacts stator segments
+- Magnet comes loose
+- Corrosion bubbles up the magent material greater than airgap
+- Material scraping and damage to surfaces
+",Corrosion induced failure ,Normal,"1) Proper hardware material selection
+2) Rotor special moisture resistance epoxy coating
+3) Magnet coating design for marine applications
+","1) Compartment environmental moniotring - moisture and humidity kept within compartmetnal specifications by climate control system
+2) Bilge level sensor
+3) Surveillence system cameras
+4) Visual inspection
+5) KTC stator tempature profile monitoring 
+
+","1) Surveillance system - PTO visible & IR camera
+2)Vibration monitoring: Vibration sensor threshold high alarm. ",Dry dock repair,5,1,1,7,7,Low,Low,Med,Med,,"Assume it has the same occurrence class as operation impact. Recommended action same as that for stator segment.
+Please clarify what is the corrosion protection system on the rotor segment mounting.",Corrosion coating rated to meet or exceed the compartmental rating of the generator.  Each Rotor segment is vacuum impregnated with epoxy resin and them coating with marine grade epoxy coating.,,,,,,,,,,,,,,,,,,,,,,,,,
+220-2,"Rotor Segment
+mounting",Hold rotor in place,2,Marine application,mechanical failure,"T-bar hardware failure
+ - Bolts that hold T bar in place",Manufacturing defect results in failure,Normal,"1) V&V
+ - Quality of bolt
+ - Torque spec inspection
+2) Adjacent rotor hold rotor in place with magnetic force coupling of permanent magnets","1) Surveillence system cameras
+2) Visual inspection
+3) Airgap measurement on smart stator cart","1) Surveillance system - PTO visible & IR camera
+2)Vibration monitoring: Vibration sensor threshold high alarm. ",Dry dock repair,3,1,1,7,7,Low,Low,Low,Low,,See risk ID 210-3 for comment,Material selection and sourcing.  Quality bolts.,,,,,,,,,,,,,,,,,,,,,,,,,
+220-3,"Rotor Segment
+mounting",Hold rotor in place,2,Marine application,mechanical failure,"1) Rotor segment impacts stator segments
+",Vibration induced failure,Normal,"1) Use of COTS mounting technique
+2) Proper torque spec on hardware for mounting to FRP backing","1) Surveillence system cameras
+2) Visual inspection
+3) Airgap measurement on smart stator cart",Surveillance camera,Dry dock repair,7,1,1,7,7,Low,Low,Med,Med,"The recommended action is to investigate the dynamic movement of the rotor and assess the effect of the vibration loads on the structure integrity (fatigue) of the component. The acceptance criteria for the maximum vibration level shall be defined, based on FE analysis. 
+The FE analysis, considering these failure mechanisms, need to demonstrate the structural strength is within the acceptance criteria in the standard and the impact on functionality of the device is within the acceptance criteria. 
+The monitoring of the vibration shall be done to identify the level of vibrations during in-service life. If any excessive vibration is detected, intervention is required to reduce the vibration level below the maximum level, as defined in the acceptance criteria (conditioning monitoring). ","Probability class same as FLS design
+Suggested text for recommended action:
+The recommended action is to investigate the dynamic movement of the rotor and assess the effect of the vibration loads on the structure integrity (fatigue) of the component. The acceptance criteria for the maximum vibration level shall be defined, based on FE analysis. 
+The FE analysis, considering these failure mechanisms, need to demonstrate the structural strength is within the acceptance criteria in the standard and the impact on functionality of the device is within the acceptance criteria. 
+The monitoring of the vibration shall be done to identify the level of vibrations during in-service life. If any excessive vibration is detected, intervention is required to reduce the vibration level below the maximum level, as defined in the acceptance criteria (conditioning monitoring). ","Extreme is much higher than vibration, for most cases, virbation fatique failure not a concern due to the extreme load design cases much higher then vibration. Will be investigatd further during LandRAY. As recommended, the acceptance criteria for the maximum vibration level shall be defined, based on FE analysis. 
+Why is occurrence high? (7).   T-bar rotor attachment is a commerical standard used by Siemens.  The only varaition is using FRP for the rotor tire.  Torque specificaion takes into consideration the FRP properties. Analysis will be made and risk should be low.",,,,,,,,,,,,,,,,,,,,,,,,,
+220-4,Rotor Segment,Create magnetic field ,2,Marine application,Failure of single rotor magnet,"1) Loss of field strength 
+2) Reduction in voltage
+3) Reduction in power",Corrosion induced failure ,Normal,"1) Resin encased
+2) Special marine grade epoxy coating on surface mountied magnets","Visual inspection
+","Visual inspection
+",Dry dock repair,5,1,1,6,7,Low,Low,Low,Med,"Demonstrate, via manufacturing documentation or testing reports, that the long term integrity of the coating is within the design criteria for the corrosion protection system on the rotor.","Please state the material of the bolts and its corrosion protection system.
+Suggest text for recommended action:
+Demonstrate, via manufacturing documentation or testing reports, that the long term integrity of the coating is within the design criteria for the corrosion protection system on the rotor.",Components are/will designed to exceed the compartment environmental rating. Documentation of magnetic rotor segments and associated mounting hardware will be included,,,,,,,,,,,,,,,,,,,,,,,,,
+220-5,Rotor Segment,Create magnetic field ,2,Marine application,Failure of single rotor magnet,"1) Loss of field strength 
+2) Reduction in voltage
+3) Reduction in power",Manufacturing defect results in failure,Normal,V&V,"Visual inspection
+","Visual inspection
+",Dry dock repair,4,1,1,6,7,Low,Low,Low,Low,,Occurrence is low based on the assumption that Siemens is able to provide evidence for reliability compatible to the occurrence class. Please confirm,"Yes, Siemens is using commercial manufacturing techniques and quality control which will result in s low probability of manufacturing defects. ",,,,,,,,,,,,,,,,,,,,,,,,,
+220-6,Rotor Segment,Create magnetic field ,2,Marine application,Failure of single rotor magnet,"1) Loss of field strength 
+2) Reduction in voltage
+3) Reduction in power",Vibration induced failure,Normal,"1) Resin encased
+2) Modal analysis","Visual inspection
+","Visual inspection
+",Dry dock repair,7,1,1,6,7,Low,Low,Med,Med,,Probability class same as FLS design,Why is occurrence high? (7).   T-bar rotor attachment is a commerical standard used by Siemens.  The only varaition is using FRP for the rotor tire.  Torque specificaion takes into consideration the FRP properties. Analysis will be made and risk should be low.  Also StingRAY has a shorter deployment life.,,,,,,,,,,,,,,,,,,,,,,,,,
+220-7,Rotor Segment,Create magnetic field ,2,Marine application,"1) Short circuit in stator - high current and heat leading to
+2) de-magnetization of magnets over range of operation of faulted stator segment. ",Reduced magnetic field (EMF) for part of the rotor over the theta angle range of operation. ,"Fault in stator segment
+- High current
+- High heat
+Coupled with vibration",Normal,"1) Rare earth NdFeB magnetics reduce risk of de-mag
+2) Airgap designed for mutual inductance high enough to protect against short circuit current.  Includes knowledge of phase shift of current with regards to the electrical pole position, out of pole alignment, reduced ability to demagnetize
+","Design 
+
+",None ,Dry dock repair,3,1,1,6,6,Low,Low,Low,Low,,"De-magnetization of magnets (BH-curves of magnet material at elevated temperatures) due to short-circuit in e.g. connection line should be addressed as a risk somewhere, where the failure cause can range from material defects over thermal issues to damages by service personnel. Please update the FMECA.","OK, this is a second level contingency design, first there must be a short circuit in stator segment - Siemens noted as low risk due the NdFeB magnets, short circuit with relutance of magnetic circuit and phase shift of current would not normally cause de-mag. It should be documented and explained in more detail.",,,,,,,,,,,,,,,,,,,,,,,,,
+230-1,Stator Cables,Connection between stator segments in PTO compartment to MoMos in dry control room,1,none,Stator cable open,"1) Loss of stator segment
+2) Other stator segments with same MoMo gets extra current for one wave cycle
+3) failure detected
+4) Command higher damping on other 35 stators
+5) Reduced efficiency",Corrosion induced failure ,Normal,"1) Marine rated cable and corrector
+2) Climate control",,SCADA diagnostics,Accept failure or dry dock repair,7,1,1,4,4,Low,Low,Low,Low,,"Low severity assuming single failure
+Corrosion occurrence in line with corrosion failures (FLS)",,,,,,,,,,,,,,,,,,,,,,,,,,
+230-2,Stator Cables,Connection between stator segments in PTO compartment to MoMos in dry control room,1,none,Stator cable open,"1) Loss of stator segment
+2) Other stator segments with same MoMo gets extra current for one wave cycle
+3) failure detected
+4) Command higher damping on other 35 stators
+5) Reduced efficiency",Manufacturing defect results in failure,Normal,"1) Commercial product
+2) V&V (QC)
+",,SCADA diagnostics,Accept failure or dry dock repair,3,1,1,4,4,Low,Low,Low,Low,,Low severity assuming single failure,,,,,,,,,,,,,,,,,,,,,,,,,,
+230-3,Stator Cables,Connection between stator segments in PTO compartment to MoMos in dry control room,1,none,Stator cable short,"1) Loss of stator segment
+2) Heat in segment
+3) Command higher damping on other 35 stators
+4) Reduced efficiency
+",Moisture induced failure,Normal,"1) Marine rated cable and corrector
+2) Climate control
+",,SCADA diagnostics,"1) Automatic breaker trip
+2) accept failure or dry dock repair",4,1,1,4,4,Low,Low,Low,Low,,Low severity assuming single failure,,,,,,,,,,,,,,,,,,,,,,,,,,
+230-4,Stator Cables,Connection between stator segments in PTO compartment to MoMos in dry control room,1,none,Stator cable open,"1) Loss of stator segment
+2) Other stator segments with same MoMo gets extra current for one wave cycle
+3) failure detected
+4) Command higher damping on other 35 stators
+5) Reduced efficiency",Vibration induced failure,Normal,"1) Marine rated cable and corrector
+",,SCADA diagnostics,Accept failure or dry dock repair,7,1,1,4,4,Low,Low,Low,Low,,Low severity assuming single failure,,,,,,,,,,,,,,,,,,,,,,,,,,
+240-1,PTO to hull interface,Transfer PTO and rotor loads to sub-structure,2,Loading,FRP fracture,"1) Loss of torque transmitted by PTO
+2) Flooded PTO compartment
+3) Debris broken off",Wear/fatigue,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,4,1,4,9,8,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",Please include the FMECA of item 240,,,,,,,,,,,,,,,,,,,,,,,,,,
+240-2,PTO to hull interface,Transfer PTO and rotor loads to sub-structure,2,Loading,FRP fracture,"1) Loss of torque transmitted by PTO
+2) Flooded PTO compartment
+3) Debris broken off",Manufacturing defect,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,3,1,4,9,8,Low,Low,Med,Low,"1) Cpower to provide evidence that maintenance not needed in 20 years by manufacturer for all loading cases and with use of lubrication system
+2) Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class.",Please include the FMECA of item 240,,,,,,,,,,,,,,,,,,,,,,,,,,
+240-3,PTO to hull interface,Transfer PTO and rotor loads to sub-structure,2,Loading,FRP fracture,"1) Loss of torque transmitted by PTO
+2) Flooded PTO compartment
+3) Debris broken off","Contamination, corrosion",Normal,FRP material selection,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,3,1,4,9,8,Low,Low,Med,Low,,Please include the FMECA of item 240,,,,,,,,,,,,,,,,,,,,,,,,,,
+240-4,PTO to hull interface,Transfer PTO and rotor loads to sub-structure,2,Loading,FRP fracture,"1) Loss of torque transmitted by PTO
+2) Flooded PTO compartment
+3) Debris broken off",Extreme loading,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,4,1,4,9,8,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) Research how to measure loads during StingRAY to increase certainty of extreme load modelling",Please include the FMECA of item 240,,,,,,,,,,,,,,,,,,,,,,,,,,
+250-1,PTO shaft,Transmit torque from float drive arm to the rotor,2,Loading,Steel fracture,"1) Shaft broken off
+2) Loss of torque transmitted to PTO
+3) Damage to nacelle tube from broken off shaft and float arm",Wear/fatigue,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,4,1,1,9,8,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",Please include the FMECA of item 250,,,,,,,,,,,,,,,,,,,,,,,,,,
+250-2,PTO shaft,Transmit torque from float drive arm to the rotor,2,Loading,Steel fracture,"1) Shaft broken off
+2) Loss of torque transmitted to PTO
+3) Damage to nacelle tube from broken off shaft and float arm",Manufacturing defect,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,3,1,1,9,8,Low,Low,Med,Low,"1) Cpower to provide evidence that maintenance not needed in 20 years by manufacturer for all loading cases and with use of lubrication system
+2) Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class.",Please include the FMECA of item 250,,,,,,,,,,,,,,,,,,,,,,,,,,
+250-3,PTO shaft,Transmit torque from float drive arm to the rotor,2,Loading,Steel fracture,"1) Shaft broken off
+2) Loss of torque transmitted to PTO
+3) Damage to nacelle tube from broken off shaft and float arm","Contamination, corrosion",Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,4,1,1,9,8,Low,Low,Med,Med,,Please include the FMECA of item 250,,,,,,,,,,,,,,,,,,,,,,,,,,
+250-4,PTO shaft,Transmit torque from float drive arm to the rotor,2,Loading,Steel fracture,"1) Shaft broken off
+2) Loss of torque transmitted to PTO
+3) Damage to nacelle tube from broken off shaft and float arm",Extreme loading,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,4,1,1,9,8,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) Research how to measure loads during StingRAY to increase certainty of extreme load modelling",Please include the FMECA of item 250,,,,,,,,,,,,,,,,,,,,,,,,,,
+250-5,PTO rotor,Transmit torque from drive shaft to rotor segments,2,Loading,FRP fracture,"1) FRP rotor no longer maintains airgap
+2) Loss of PTO
+3) Stator and rotor components damaged",Wear/fatigue,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,4,1,1,9,8,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",Please include the FMECA of item 250,,,,,,,,,,,,,,,,,,,,,,,,,,
+250-6,PTO rotor,Transmit torque from float drive arm to the rotor,2,Loading,FRP fracture,"1) FRP rotor no longer maintains airgap
+2) Loss of PTO
+3) Stator and rotor components damaged",Manufacturing defect,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,3,1,1,9,8,Low,Low,Med,Low,"1) Cpower to provide evidence that maintenance not needed in 20 years by manufacturer for all loading cases and with use of lubrication system
+2) Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class.",Please include the FMECA of item 250,,,,,,,,,,,,,,,,,,,,,,,,,,
+250-7,PTO rotor,Transmit torque from float drive arm to the rotor,2,Loading,FRP fracture,"1) FRP rotor no longer maintains airgap
+2) Loss of PTO
+3) Stator and rotor components damaged","Contamination, corrosion",Normal,FRP material selection,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,3,1,1,9,8,Low,Low,Med,Low,,Please include the FMECA of item 250,,,,,,,,,,,,,,,,,,,,,,,,,,
+250-8,PTO rotor,Transmit torque from float drive arm to the rotor,2,Loading,FRP fracture,"1) FRP rotor no longer maintains airgap
+2) Loss of PTO
+3) Stator and rotor components damaged",Extreme loading,Normal,None,None,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Dry dock repair,4,1,1,9,8,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) Research how to measure loads during StingRAY to increase certainty of extreme load modelling",Please include the FMECA of item 250,,,,,,,,,,,,,,,,,,,,,,,,,,
+"261-1
+262-1",Main Bearings,"Allow smooth rotation of rotor
+Constrain relative generator (and float/nacelle) motion to 1 DOF
+Transmit loads from drive arms to nacelle tube
+Transmit loads on PTO hulls to PTO shafts",2,Loading,Binding,"1) Damaged raceway
+2) Broken rollers
+3) Added friction
+",Wear/fatigue,Normal,None,none,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Moderate increase in friction accepted,4,1,1,5,6,Low,Low,Low,Low,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.","General comment for all items that has ""high safety factors"" as risk reduction design
+Please clarify if ""high safety factor"" means higher than recommended safety factors in the standard and explain how it can be demonstrated that it provides sufficient margin to lower the probability of occurrence to the (occurrence) class assigned for each risks.",See recommended action 1,,,,,,,,,,,,,,,,,,,,,,,,,
+"261-10
+262-10","Main Bearing
+Seals",Retain bearing lubrication,2,"Loading
+Maintenance intervals
+",Seal failure,"1) Lose of lubrication
+2) Bearing failure",Wear/fatigue,Normal,Extra lubrication stored in lubrication system,none,"1) Surveillance camera
+2) Lubrication level indicator
+3) On-board inspection",1) Dry dock to replace seal failure,6,1,3,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.","Action the same as ""Wear/fatigue"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,
+"261-11
+262-11","Main Bearing
+Seals",Retain bearing lubrication,2,"Loading
+Maintenance intervals
+",Seal failure,"1) Lose of lubrication
+2) Bearing failure",Manufacturing defect,Normal,Extra lubrication stored in lubrication system,none,"1) Surveillance camera
+2) Lubrication level indicator
+3) On-board inspection",1) Dry dock to replace seal failure,2,1,3,7,7,Low,Low,Low,Low,1) Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class.,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,
+"261-12
+262-12","Main Bearing
+Seals",Retain bearing lubrication,2,"Loading
+Maintenance intervals
+",Seal failure,"1) Lose of lubrication
+2) Bearing failure",Contamination puncture,Normal,Extra lubrication stored in lubrication system,none,"1) Surveillance camera
+2) Lubrication level indicator
+3) On-board inspection",1) Dry dock to replace seal failure,2,1,3,7,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"261-13
+262-13","Main Bearing
+Seals",Retain bearing lubrication,2,"Loading
+Maintenance intervals
+",Seal failure,"1) Lose of lubrication
+2) Bearing failure",Deformation of shaft,Normal,Extra lubrication stored in lubrication system,none,"1) Surveillance camera
+2) Lubrication level indicator
+3) On-board inspection",1) Dry dock to replace seal failure,2,1,3,7,7,Low,Low,Low,Low,1) FEA to show ldeformation of shaft to be within range of seal tolerance,"Action the same as ""Deformation of shaft"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,
+"261-2
+262-2",Main Bearings,"Allow smooth rotation of rotor
+Constrain relative generator (and float/nacelle) motion to 1 DOF
+Transmit loads from drive arms to nacelle tube
+Transmit loads on PTO hulls to PTO shafts",2,"Loading
+Maintenance intervals
+",Binding,"1) Damaged raceway
+2) Broken rollers
+3) Added friction
+",Manufacturing defect,Normal,V&V,none,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Moderate increase in friction accepted,4,1,1,5,6,Low,Low,Low,Low,"1) Cpower to provide evidence that maintenance not needed in 20 years by manufacturer for all loading cases and with use of lubrication system
+2) Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class.","General comment for components with maintenance intervals in novel aspects:
+Please clarify if the manufacturer is able to provide evidence that reliability of the component is compatible to the occurrence class, given the loading envelopes (FLS and ULS) of the WEC.",Lubrication (split water/oil) in novel aspects - There is no water in the main bearings. The bearings each have seals that keep lubrication in and contamination out.,,,,,,,,,,,,,,,,,,,,,,,,,
+"261-3
+262-3",Main Bearings,"Allow smooth rotation of rotor
+Constrain relative generator (and float/nacelle) motion to 1 DOF
+Transmit loads from drive arms to nacelle tube
+Transmit loads on PTO hulls to PTO shafts",2,"Loading
+Maintenance intervals
+",Binding,"1) Damaged raceway
+2) Broken rollers
+3) Added friction
+","Contamination, corrosion",Normal,Bearing seals,"1) Bearing and lubrication checks, look for signs of bearing failure and contaminants in used grease.","1) Vibration sensors
+2) bearing temperature
+3) lubrication inspection",Moderate increase in friction accepted,5,1,1,5,6,Low,Low,Low,Low,"1) Cpower to provide evidence that maintenance not needed in 20 years by manufacturer for all loading cases and with use of lubrication system
+2) Metal content / foreign particles in lubrication oil to be monitored and implementation of early detection measure in order to limit the consequence of failure. ",,Lubrication (split water/oil) in novel aspects - There is no water in the main bearings. The bearings each have seals that keep lubrication in and contamination out.,,,,,,,,,,,,,,,,,,,,,,,,,
+"261-4
+262-4",Main Bearings,"Allow smooth rotation of rotor
+Constrain relative generator (and float/nacelle) motion to 1 DOF
+Transmit loads from drive arms to nacelle tube
+Transmit loads on PTO hulls to PTO shafts",2,"Loading
+Maintenance intervals
+",Binding,"1) Damaged raceway
+2) Broken rollers
+3) Added friction
+",Extreme loading,Normal,None,none,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",Moderate increase in friction accepted,5,1,1,5,6,Low,Low,Low,Low,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) Research how to measure loads during StingRAY to increase certainty of extreme load modelling
+3) Cpower to provide evidence that maintenance not needed in 20 years by manufacturer for all loading cases and with use of lubrication system
+4) FEA to show loading on bearing considers deformation of shaft",,Lubrication (split water/oil) in novel aspects - There is no water in the main bearings. The bearings each have seals that keep lubrication in and contamination out.,AS,,,,,,,,,,,,,,,,,,,,,,,,
+"261-5
+262-5",Main Bearings,"Allow smooth rotation of rotor
+Constrain relative generator (and float/nacelle) motion to 1 DOF
+Transmit loads from drive arms to nacelle tube
+Transmit loads on PTO hulls to PTO shafts",2,"Loading
+Maintenance intervals
+",Bearing Failure,"1) Damaged raceway
+2) Broken rollers
+3) Added friction
+4) Bearing damaged and unusable
+",Extreme loading,Normal,None,none,"1) Vibration sensors and bearing temperature
+2) Abnormal speed with respect to the wave climate and damping",dry dock replacement,5,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) Research how to measure loads during StingRAY to increase certainty of extreme load modelling
+3) Cpower to provide evidence that maintenance not needed in 20 years by manufacturer for all loading cases and with use of lubrication system","Suggest text for recommended action:
+Demonstrate, via structural analysis, the loading on the bearing is within the acceptance criteria, considering induction of other modes of loading, such as bending moment due to the long torque arm of float drive arms.",Lubrication (split water/oil) in novel aspects - There is no water in the main bearings. The bearings each have seals that keep lubrication in and contamination out.,AS,,,,,,,,,,,,,,,,,,,,,,,,
+"261-6
+262-6","Main Bearing
+Seals",Retain bearing lubrication,2,"Loading
+Maintenance intervals
+",Loss of lubrication,"1) Lubrication leaks out
+2) Increase service outside of maintenance interval
+
+",Wear/fatigue,Normal,Extra lubrication stored in lubrication system,none,"1) Surveillance camera
+2) Lubrication level indicator
+3) On-board inspection",1) Increase service outside of maintenance interval,7,1,3,1,5,Low,Low,Low,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.","Action the same as ""Wear/fatigue"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,Use central lubrication system with small piping to all bearing lub points. Investigate lubrication canisters and camera locations for visual inspections 
+"261-7
+262-7","Main Bearing
+Seals",Retain bearing lubrication,2,"Loading
+Maintenance intervals
+",Loss of lubrication,"1) Lubrication leaks out
+2) Increase service outside of maintenance interval
+
+",Manufacturing defect,Normal,Extra lubrication stored in lubrication system,none,"1) Surveillance camera
+2) Lubrication level indicator
+3) On-board inspection",1) Increase service outside of maintenance interval,3,1,3,1,5,Low,Low,Low,Low,1) Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class.,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,Use central lubrication system with small piping to all bearing lub points. Investigate lubrication canisters and camera locations for visual inspections 
+"261-8
+262-8","Main Bearing
+Seals",Retain bearing lubrication,2,"Loading
+Maintenance intervals
+",Loss of lubrication,"1) Lubrication leaks out
+2) Increase service outside of maintenance interval
+
+",Contamination puncture,Normal,Extra lubrication stored in lubrication system,none,"1) Surveillance camera
+2) Lubrication level indicator
+3) On-board inspection",1) Increase service outside of maintenance interval,3,1,3,1,5,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,Use central lubrication system with small piping to all bearing lub points. Investigate lubrication canisters and camera locations for visual inspections 
+"261-9
+262-9","Main Bearing
+Seals",Retain bearing lubrication,2,"Loading
+Maintenance intervals
+",Loss of lubrication,"1) Lubrication leaks out
+2) Increase service outside of maintenance interval
+
+",Deformation of shaft,Normal,Extra lubrication stored in lubrication system,none,"1) Surveillance camera
+2) Lubrication level indicator
+3) On-board inspection",1) Increase service outside of maintenance interval,3,1,3,1,5,Low,Low,Low,Low,1) FEA to show ldeformation of shaft to be within range of seal tolerance,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"265-1
+266-1","Idler Bearing - STBD
+Idler Bearing - PORT","Attach float idler arm to nacelle tube / PTO shaft
+Support radial and axial loads",2,"Loading
+Maintenance intervals
+",Binding,"1) Reduced efficiency 
+2) Increased friction",Wear/fatigue,Normal,None,none,"1) Vibration sensors
+",Dry dock to replace bushing,6,1,1,7,7,Low,Low,Med,Med,1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.,"Action the same as ""Wear/fatigue"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,"Vibration sensors on the inside of the nacelle tube, starboard side. Port side vibration sensors on shaft"
+"265-2
+266-2","Idler Bearing - STBD
+Idler Bearing - PORT","Attach float idler arm to nacelle tube / PTO shaft
+Support radial and axial loads",2,"Loading
+Maintenance intervals
+",Binding,"1) Reduced efficiency 
+2) Increased friction",Manufacturing defect,Normal,V&V,none,"1) Vibration sensors
+",Dry dock to replace bushing,4,1,1,7,7,Low,Low,Low,Low,1) Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class.,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,
+"265-3
+266-3","Idler Bearing - STBD
+Idler Bearing - PORT","Attach float idler arm to nacelle tube / PTO shaft
+Support radial and axial loads",2,"Loading
+Maintenance intervals
+",Binding,"1) Reduced efficiency 
+2) Increased friction",Debris,Normal,none,none,"1) Vibration sensors
+",Dry dock to replace bushing,6,1,1,7,7,Low,Low,Med,Med,"CP to define a debris management plan:
+1. Define the acceptance criteria for debris, taking into account the gap between the bearings, the maximum acceptable damage. 
+2. Define the debris management plan, such as design of diversion features for debris of unacceptable size, design features to reduce the part count per unit volume of debris and external debris identification and management.
+CP to document the management plan, demonstrating the measures are being implemented in design, manufacturing and 
+operational stages.
+Consider the debris in the wear rate of the bearing pads, if not already considered by the manufacturer. The assessment of the effect of debris on bearing wear rate shall be based on the results of the site assessment on debris at the deployment site. Following that, the bearing inspection and maintenance plan can be defined based on the results of the assessments.  
+It is to be demonstrate that the bearing life, considering the additional wear due to debris, is within the design limits between maintenance periods.
+","CP to define a debris management plan:
+1. Define the acceptance criteria for debris, taking into account the gap between the bearings, the maximum acceptable damage. 
+2. Define the debris management plan, such as design of diversion features for debris of unacceptable size, design features to reduce the part count per unit volume of debris and external debris identification and management.
+CP to document the management plan, demonstrating the measures are being implemented in design, manufacturing and 
+operational stages.
+Consider the debris in the wear rate of the bearing pads, if not already considered by the manufacturer. The assessment of the effect of debris on bearing wear rate shall be based on the results of the site assessment on debris at the deployment site. Following that, the bearing inspection and maintenance plan can be defined based on the results of the assessments.  
+It is to be demonstrate that the bearing life, considering the additional wear due to debris, is within the design limits between maintenance periods.
+",,,,,,,,,,,,,,,,,,,,,,,,,,
+"265-4
+266-4","Idler Bearing - STBD
+Idler Bearing - PORT","Attach float idler arm to nacelle tube / PTO shaft
+Support radial and axial loads",3,"Loading
+Maintenance intervals
+",Binding,"1) Reduced efficiency 
+2) Increased friction",Extreme loading,Normal,none,none,"1) Vibration sensors
+",Dry dock to replace bushing,5,1,1,7,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) Research how to measure loads during StingRAY to increase certainty of extreme load modelling
+3) Cpower to provide evidence that maintenance not needed in 20 years by manufacturer for all loading cases and with use of lubrication system
+4) FEA to show loading on bearing considers deformation of shaft","Action the same as ""Extreme Loading"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,
+"265-5
+266-5","Idler Bearing - STBD
+Idler Bearing - PORT","Attach float idler arm to nacelle tube / PTO shaft
+Support radial and axial loads",4,"Loading
+Maintenance intervals
+",Binding,"1) Reduced efficiency 
+2) Increased friction",Deformation of shaft,Normal,none,none,"1) Vibration sensors
+",Dry dock to replace bushing,5,1,1,7,7,Low,Low,Med,Med,1) FEA to show ldeformation of shaft to be within range of seal tolerance,"Action the same as ""Deformation of shaft"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,
+270-1,"Stator Cart
+Torque Rods","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Single torque rod failure,"1) Stator segment loosely attached to outer housing
+2) Shut down MoMo for stator group
+3) Large side load on V-rail",Wear/fatigue ,Normal,1) Redundant torque rod,none,"1) Surveillance camera
+2) Surveillance microphone ",Dry dock to replace torque rod,7,1,1,6,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.
+3) take into consideration the following loads in the derivation of fatigue loading: 
+1. Load induced due to dynamic movement of the stator carts on the rotor 
+2. Magnetic force induced by the rotor.
+Fatigue assessment to demonstrate the structural strength is within the acceptance criteria in the standard. 
+Recommended fatigue assessment methodology as below:
+Use of the design fatigue factor (DFF) philosophy in DNV-RP-0005 (DNV-RP-C205) in fatigue assessment.
+To take into account of the uncertainties in the loading, CP to define the fatigue philosophy which includes the definition of loading and structure response for fatigue damage calculation. CP shall define fatigue load cases that are representative of the lifetime of the specific components. 
+Due to the level of uncertainties in the loading methodology, validation of the methodology for loading calculation, estimation of structural response based on the assessment of the data acquired from the existing prototype WECs should be provided.
+In the fatigue calculation, the appropriate SN-curves need to be applied, taking into account the allowance for corrosion in case the corrosion protection system cannot provide full corrosion protection. ","1. Probability class same as FLS design
+2. Action the same as ""Wear/Fatigue"" for main bearing and to take into consideration the following loads in the derivation of fatigue loading: 
+1. Load induced due to dynamic movement of the stator carts on the rotor 
+2. Magnetic force induced by the rotor.
+Fatigue assessment to demonstrate the structural strength is within the acceptance criteria in the standard. 
+Recommended fatigue assessment methodology as below:
+Use of the design fatigue factor (DFF) philosophy in DNV-RP-0005 (DNV-RP-C205) in fatigue assessment.
+To take into account of the uncertainties in the loading, CP to define the fatigue philosophy which includes the definition of loading and structure response for fatigue damage calculation. CP shall define fatigue load cases that are representative of the lifetime of the specific components. 
+Due to the level of uncertainties in the loading methodology, validation of the methodology for loading calculation, estimation of structural response based on the assessment of the data acquired from the existing prototype WECs should be provided.
+In the fatigue calculation, the appropriate SN-curves need to be applied, taking into account the allowance for corrosion in case the corrosion protection system cannot provide full corrosion protection. ",,,,,,,,,,,,,,,,,,,,,,,,,,"1) Items to be inspected by cameras have paint and indicators on them for the inspection
+2) Surveillance audio - mechanical noise in PTO space"
+270-10,"Stator Cart
+Wheel load pin","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Single track roller failure,"1) Single track roller load pin fails
+2) Stator makes contact with rotor
+3) Permanent damage to surrounding rotors and stators",fatigue ,Normal,none,none,"1) SCADA diagnostics
+2) Surveillance camera
+3) Surveillance microphone 
+4) Accelerometer
+5) Gap sensors",Dry dock to replace damaged components,7,1,1,8,8,Low,Low,Med,Med,Investigation of design and requirement for load pins. ,"CP to provide more specific description of the function
+Fatigue and overload failure causes separated. 
+See main bearing and Stator Cart Torque Rods for recommended action",The load pin is used to measure the normal force in each wheel. This data is used to guide future designs of the wheels. The wheels are large because of the high load on them.,AS,,,,,,,,,,,,,,,,,,,,,,,,
+270-11,"Stator Cart
+Wheel load pin","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,,Single track roller failure,,Deformation of rotor,,,,,,5,1,1,8,8,Low,Low,Med,Med,"Identify the likely rotor deformation during operating conditions and extreme events. In the rotor FE model, the deformation is to be assessed with the stator/rotor loads and the environmental loading, and estimate the mode and magnitude of deformation in FE analysis. In the FE model, the results shall demonstrate stresses are within the acceptance criteria for associated strain and stresses imposed on the component. Measures to improve the design of the component to reduce deformation can be considered, if it is necessary. ","Action the same as ""Deformation of rotor"" for stator cart torque rods",,,,,,,,,,,,,,,,,,,,,,,,,,
+270-12,"Stator Cart
+Track rollers","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour
+Wear rate",Single track roller failure,"1) Roller bearing not functioning properly
+2) Wheels slide on track
+3) Increase wear on the wheel 
+4) Air gap no longer controlled at that location
+5) stator makes contact with rotor",Wear/fatigue ,Normal,None,none,"1) Surveillance camera
+2) Accelerometer on rotor/shaft
+3) Noise detected on microphone",Dry dock to replace damaged components,7,1,1,6,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) The wheel manufacturer has a calculation to determine the L10 life of the bearing. The calculation includes radial load, speed, basic dynamic load rating, and time. The radial load will be measured from the load pins, the speed will be measured by the encoders, the basic dynamic load rating is a constant value for each part, and time will be accumulated. These values will be used to ensure the life is within expected values.
+3) Our land based generator test will be used to validate our design values.","CP to provide more specific description of the function
+Occurrence compatible to FLS design.
+Refer to main bearing for the recommended action on reducing uncertainties in loading
+Wheel wear rate to be estimated via testing. The test results shall be used as the evidence to demonstrate that the wear rate on the wheel between maintenance intervals is within the acceptance criteria.
+",The track rollers are wheels that are attached to the stator cart. These wheel ride on tracks that are attached to the rotor. The wheels maintain the airgap between the stator and rotor.,,,,,,,,,,,,,,,,,,,,,,,,,
+270-13,"Stator Cart
+Track rollers","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour
+Wear rate",Single track roller failure,"1) Air gap no longer controlled at that location
+2) stator makes contact with rotor
+3) Permanent damage to surrounding rotors",Manufacturing defect,Normal,1) V&V (commissioning testing and post inspection),none,"1) Surveillance camera
+2) Accelerometer on rotor/shaft
+3) Noise detected on microphone",Dry dock to replace damaged components,3,1,1,8,8,Low,Low,Low,Low,1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.,"CP to provide more specific description of the function
+See risk ID 210-3 for comment",,,,,,,,,,,,,,,,,,,,,,,,,,
+270-14,"Stator Cart
+Track rollers","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour
+Wear rate",Single track roller failure,"1)  Increase wear on the wheel 
+2) Air gap no longer controlled at that location
+3) stator makes contact with rotor",Excessive wear (debris),Normal,None,None,"1) Surveillance camera
+2) Accelerometer on rotor/shaft",Dry dock to replace damaged components,7,1,1,6,7,Low,Low,Med,Med,"1. Design of the roller to take into account higher level of contamination. Sufficient wear allowance between maintenance intervals shall be demonstrated (using the results from testing). The level of contamination shall be compatible with the expected debris in the compartment
+2. CP to define a debris management plan, including but not limited to the follow aspects:
+a. Define the acceptance criteria for debris
+b. Debris identification and management.
+c. Design of diversion features for debris of unacceptable size, or design to reduce the impact on air gap due to the presence of debris.
+d. Design features to reduce the part count per unit volume of debris.
+CP to document the management plan, demonstrating the measures are being implemented in design, manufacturing and operational stages.","CP to provide more specific description of function
+Suggested text for recommended action:
+1. Design of the roller to take into account higher level of contamination. Sufficient wear allowance between maintenance intervals shall be demonstrated (using the results from testing). The level of contamination shall be compatible with the expected debris in the compartment
+2. CP to define a debris management plan, including but not limited to the follow aspects:
+a. Define the acceptance criteria for debris
+b. Debris identification and management.
+c. Design of diversion features for debris of unacceptable size, or design to reduce the impact on air gap due to the presence of debris.
+d. Design features to reduce the part count per unit volume of debris.
+CP to document the management plan, demonstrating the measures are being implemented in design, manufacturing and operational stages.",,,,,,,,,,,,,,,,,,,,,,,,,,
+270-15,"Stator Cart
+Track","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Air gap tolerance exceeded,"1) Air gap no longer controlled at that location
+",Debris,Normal,none,none,"1) Surveillance camera
+2) Accelerometer on rotor/shaft
+3) Noise detected on microphone",plastic air hose used to clean off either inboard or outboard track,5,1,1,5,4,Low,Low,Low,Low,,"It is expected damage on the rotors will occur (worst case) if air gap is not kept.
+CP to provide more specific description of the function.
+Suggested text for recommended action:
+CP to define a debris management plan, including but not limited to the follow aspects:
+a. Define the acceptance criteria for debris
+b. Debris identification and management.
+c. Design of diversion features for debris of unacceptable size, or design to reduce the impact on air gap i due to the presence of debris.
+d. Design features to reduce the part count per unit volume of debris.
+CP to document the management plan, demonstrating the measures are being implemented in design, manufacturing and operational stages.",The piece of debris would have to be extremely large to cause the v-wheel to jump off of the track. This is not expected and is the only way contact can happed between the stator and the rotor.,,,,,,,,,,,,,,,,,,,,,,,,,
+270-16,"Stator Cart
+Stator segment mount","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Failure of mechanical mounting,"1) Stator segment no longer attached to outer housing
+2) Stator makes contact with rotor
+3) Permanent damage to surrounding rotors and stators",Improper installation,Normal,"1) V&V (commissioning testing and post inspection)
+2) Redundant hardware",none,"1) Surveillance camera
+2) Accelerometer on rotor/shaft
+3) Noise detected on microphone",Dry dock to replace damaged components,7,1,1,8,8,Low,Low,Med,Med,A quality control plan to be implemented to verify correct assembly of every component during assembly.,"For probability of occurrence to be low (class 3), a quality control plan needs to be defined and implemented to verify the installation is correct. Hence, suggest increasing probability to class 7, and include the following recommended action:
+A quality control plan to be implemented to verify correct assembly of every component during assembly.","All fasteners must be torqued to a set value. Once torqued, they are painted and checked prior to assembly sign off. Additionally, during commissioning testing, all components will be tested to ensure they are installed properly. Does this still need to be a 7?",,,,,,,,,,,,,,,,,,,,,,,,,
+270-17,"Stator Cart
+Stator segment mount","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Failure of mechanical mounting,"1) Stator segment no longer attached to outer housing
+2) Stator makes contact with rotor
+3) Permanent damage to surrounding rotors and stators",Manufacturing defect,Normal,"1) V&V (commissioning testing and post inspection)
+2) Redundant hardware",none,"1) Surveillance camera
+2) Accelerometer on rotor/shaft
+3) Noise detected on microphone",Dry dock to replace damaged components,3,1,1,8,8,Low,Low,Low,Low,,"For probability of occurrence to be low (class 3), a quality control plan needs to be defined and implemented to verify the quality of the component. Please explain the quality control in place for the component and higher occurrence class is recommended.","The commissioning testing will test each stator segment up to its full torque value. If an defect is found, it will be in a controlled enviornment and on the dock.",,,,,,,,,,,,,,,,,,,,,,,,,
+270-18,"Stator Cart
+Stator segment mount","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Failure of mechanical mounting,"1) Stator segment no longer attached to outer housing
+2) Stator makes contact with rotor
+3) Permanent damage to surrounding rotors and stators",Vibration,Normal,"1) Modal Analysis
+2) V&V (commissioning testing and post inspection)
+3) Redundant hardware
+4) Loctite and proper torque specs",none,"1) Surveillance camera
+2) Accelerometer on rotor/shaft
+3) Noise detected on microphone",Dry dock to replace damaged components,7,1,1,8,8,Low,Low,Med,Med,"The recommended action is to investigate the dynamic movement of the stator and assess the effect of the vibration loads on the structure integrity (fatigue) of the component. The acceptance criteria for the maximum vibration level shall be defined, based on FE analysis. 
+The FE analysis, considering these failure mechanisms, need to demonstrate the structural strength is within the acceptance criteria in the standard and the impact on functionality of the device is within the acceptance criteria. 
+The monitoring of the vibration shall be done to identify the level of vibrations during in-service life. If any excessive vibration is detected, intervention is required to reduce the vibration level below the maximum level, as defined in the acceptance criteria (conditioning monitoring). ","Probability class same as FLS design
+Action the same as ""Vibration"" for rotor segment mounting",,,,,,,,,,,,,,,,,,,,,,,,,,
+270-19,"Stator Cart
+Bolts","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Loosening,"1) Excessive vibration
+2) Bolts travel into air gap, damaging the stator and rotor segments",Loss of pretension,Normal,"1) painted torqued bolts
+2) V&V (commissioning testing and post inspection)
+3) Redundant hardware
+4) Loctite and proper torque specs",none,"1) Surveillance camera
+2) Accelerometer on rotor/shaft
+3) Noise detected on microphone",Dry dock to replace damaged components,7,1,1,8,8,Low,Low,Med,Med,"CP to demonstrate, via documented evidence (material certificate, testing reports), the pretension on the bolts can be maintained between maintenance intervals. ","Suggested text for recommended action:
+CP to demonstrate, via documented evidence (material certificate, testing reports), the pretension on the bolts can be maintained between maintenance intervals. ",,,,,,,,,,,,,,,,,,,,,,,,,,
+270-2,"Stator Cart
+Torque Rods","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Single torque rod failure,"1) Stator segment loosely attached to outer housing
+2) Shut down MoMo for stator group
+3) Large side load on V-rail",Manufacturing defect,Normal,"1) Redundant torque rod
+2) V&V",none,"1) Surveillance camera
+2) Surveillance microphone ",Dry dock to replace torque rod,3,1,1,6,7,Low,Low,Low,Low,1) Occurrence is low based on the assumption that the manufacturer is able to provide evidence for reliability compatible to the occurrence class.,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,
+270-3,"Stator Cart
+Torque Rods","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Single torque rod failure,"1) Stator segment loosely attached to outer housing
+2) Shut down MoMo for stator group
+3) Large side load on V-rail",Vibration,Normal,1) Redundant torque rod,none,"1) Surveillance camera
+2) Surveillance microphone ",Dry dock to replace torque rod,7,1,1,6,7,Low,Low,Med,Med,"The recommended action is to investigate the dynamic movement of the rotor and assess the effect of the vibration loads on the structure integrity (fatigue) of the component. The acceptance criteria for the maximum vibration level shall be defined, based on FE analysis. 
+The FE analysis, considering these failure mechanisms, need to demonstrate the structural strength is within the acceptance criteria in the standard and the impact on functionality of the device is within the acceptance criteria. 
+The monitoring of the vibration shall be done to identify the level of vibrations during in-service life. If any excessive vibration is detected, intervention is required to reduce the vibration level below the maximum level, as defined in the acceptance criteria (conditioning monitoring). ","Probability class same as FLS design
+Action the same as ""Vibration"" for rotor segment mounting
+",,,,,,,,,,,,,,,,,,,,,,,,,,
+270-4,"Stator Cart
+Torque Rods","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Single torque rod failure,"1) Stator segment loosely attached to outer housing
+2) Shut down MoMo for stator group
+3) Large side load on V-rail",Deformation of rotor,Normal,1) Redundant torque rod,none,"1) Surveillance camera
+2) Surveillance microphone ",Dry dock to replace torque rod,5,1,1,6,7,Low,Low,Low,Med,"Identify the likely rotor deformation during operating conditions and extreme events. In the rotor FE model, the deformation is to be assessed with the stator/rotor loads and the environmental loading, and estimate the mode and magnitude of deformation in FE analysis. In the FE model, the results shall demonstrate stresses are within the acceptance criteria for associated strain and stresses imposed on the component. Measures to improve the design of the component to reduce deformation can be considered, if it is necessary. ","Suggest text for recommended action:
+Identify the likely rotor deformation during operating conditions and extreme events. In the rotor FE model, the deformation is to be assessed with the stator/rotor loads and the environmental loading, and estimate the mode and magnitude of deformation in FE analysis. In the FE model, the results shall demonstrate stresses are within the acceptance criteria for associated strain and stresses imposed on the component. Measures to improve the design of the component to reduce deformation can be considered, if it is necessary. 
+",,,,,,,,,,,,,,,,,,,,,,,,,,
+270-5,"Stator Cart
+Torque Rods","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Double torque rod failure,"1) Stator segment loosely attached to outer housing
+2) Stator makes contact with neighbouring stators
+3) Shut down MoMo for stator group.
+",Wear/fatigue ,Normal,None,none,"1) Surveillance camera
+2) Surveillance microphone ",Dry dock to replace damaged components,6,1,1,7,7,Low,Low,Med,Med,1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.,"Probability class lower than that for single rod failure.
+Action the same as ""Wear/Fatigue"" for the main bearing and Stator Cart Torque Rods ",,,,,,,,,,,,,,,,,,,,,,,,,,Rubber spacers to be investigated
+270-6,"Stator Cart
+Torque Rods","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Double torque rod failure,"1) Stator segment loosely attached to outer housing
+2) Stator makes contact with neighbouring stators
+3) Shut down MoMo for stator group.
+",Manufacturing defect,Normal,1) V&V,none,"1) Surveillance camera
+2) Surveillance microphone ",Dry dock to replace damaged components,2,1,1,7,7,Low,Low,Low,Low,1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,Rubber spacers to be investigated
+270-7,"Stator Cart
+Torque Rods","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Double torque rod failure,"1) Stator segment loosely attached to outer housing
+2) Stator makes contact with neighbouring stators
+3) Shut down MoMo for stator group.
+",Vibration,Normal,None,none,"1) Surveillance camera
+2) Surveillance microphone ",Dry dock to replace damaged components,6,1,1,7,7,Low,Low,Med,Med,"The recommended action is to investigate the dynamic movement of the stator and assess the effect of the vibration loads on the structure integrity (fatigue) of the component. The acceptance criteria for the maximum vibration level shall be defined, based on FE analysis. 
+The FE analysis, considering these failure mechanisms, need to demonstrate the structural strength is within the acceptance criteria in the standard and the impact on functionality of the device is within the acceptance criteria. 
+The monitoring of the vibration shall be done to identify the level of vibrations during in-service life. If any excessive vibration is detected, intervention is required to reduce the vibration level below the maximum level, as defined in the acceptance criteria (conditioning monitoring). ","Probability class lower than that for single rod failure.
+Action the same as ""Vibration"" for rotor segment mounting",,,,,,,,,,,,,,,,,,,,,,,,,,Rubber spacers to be investigated
+270-8,"Stator Cart
+Torque Rods","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Double torque rod failure,"1) Stator segment loosely attached to outer housing
+2) Stator makes contact with neighbouring stators
+3) Shut down MoMo for stator group.
+",Deformation of rotor,Normal,None,none,"1) Surveillance camera
+2) Surveillance microphone ",Dry dock to replace damaged components,4,1,1,7,7,Low,Low,Low,Low,"Identify the likely rotor deformation during operating conditions and extreme events. In the rotor FE model, the deformation is to be assessed with the stator/rotor loads and the environmental loading, and estimate the mode and magnitude of deformation in FE analysis. In the FE model, the results shall demonstrate stresses are within the acceptance criteria for associated strain and stresses imposed on the component. Measures to improve the design of the component to reduce deformation can be considered, if it is necessary. ",,,,,,,,,,,,,,,,,,,,,,,,,,,
+270-9,"Stator Cart
+Torque rod load cell ","Transmit torque from stator segment to PTO structure
+Maintains generator air gap locally
+",3,"Loading
+Local tolerance requirement
+Long term behaviour",Single torque rod load cell failure,"1) Stator segment loosely attached to outer housing
+2) Shut down MoMo for stator group
+3) Large side load on V-rail",fatigue ,Normal,1) Each torque rod is designed to take the entire load,none,"1) SCADA diagnostics
+2) Surveillance camera
+3) Surveillance microphone 
+",Dry dock to replace damaged components,5,1,1,7,7,Low,Low,Med,Med,,CP to provide more specific description of the function,The load cell is used to measure the load in the torque rod. This value is used calculate the generator torque.,,,,,,,,,,,,,,,,,,,,,,,,,
+280-1,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Long term behavior",Moderate Leak,1) Flooded bilge tank within primary bilge capabilities,Wear/fatigue,Normal,"1) Regular seal replacement
+2) Large deflection in seal acceptable
+3) Large pumps",none,level sensors,dry dock repair of seal,7,1,1,6,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.","Occurrence class adjusted to be consistent with FLS criteria
+Action the same as ""Wear/Fatigue"" for main bearing ",The land based test is measuring the deformation in the shafts for a given load. This data will be used to validate the expected travel and ensure the seals can handle that deflection.,,,,,,,,,,,,,,,,,,,,,,,,,
+280-10,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Long term behavior",Large leak,"1) Flooded bilge tank beyond primary bilge capabilities
+2) Secondary bilge turns on",Over pressurization,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,4,1,1,6,7,Low,Low,Low,Low,,,"Our current design holds up to 100 psi at a max offset of 1/4"". Both of these values are over the expected and not intended to happen at the same time. The land based generator test will test the system at 100 psi and with the maximum non torque loads expected. Any leaks will be detected. The pressure against the seal is provided by a seal carrier. This seal carrier is bolted into place and its initial position is determined by the gap between the seal carrier and the running surface. This gap is determined based on measurements take after the seal has been manufactured.",,,,,,,,,,,,,,,,,,,,,,,,,
+280-11,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Long term behavior",Large leak,"1) Flooded bilge tank beyond primary bilge capabilities
+2) Secondary bilge turns on",Material degradation,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,4,1,1,6,7,Low,Low,Low,Low,"Demonstrate, via manufacturing documentation, that the long term stability of the integrity of the material is within the acceptance criteria for design",,,,,,,,,,,,,,,,,,,,,,,,,,,
+280-12,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Long term behavior",Large leak,"1) Flooded bilge tank beyond primary bilge capabilities
+2) Secondary bilge turns on",Deformation of shaft,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,4,1,1,6,7,Low,Low,Low,Low,"Identify the likely shaft deformation during operating conditions and extreme events. In the shaft FE model, the deformation is to be assessed with the stator/rotor loads and the environmental loading, and estimate the mode and magnitude of deformation in FE analysis. In the FE model, the results shall demonstrate stresses are within the acceptance criteria for associated strain and stresses imposed on the component. Measures to improve the design of the component to reduce deformation can be considered, if it is necessary. ",,,,,,,,,,,,,,,,,,,,,,,,,,,
+280-13,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Catastrophic leak greater than secondary bilge can handle,"1) Flooded bilge tank beyond secondary bilge capabilities
+2) water fills up bilge pipes to main bearings
+3) seals in bearings keep water from entering PTO space",Wear/fatigue,Normal,"1) Regular seal replacement
+2) Large deflection in seal acceptable
+3) Large pumps",none,level sensors,dry dock repair of seal,5,1,1,6,7,Low,Low,Low,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.","Action the same as ""Wear/fatigue"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,Does lubrication system pressure exceed that of water from leaking seal?
+280-14,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Catastrophic leak greater than secondary bilge can handle,"1) Flooded bilge tank beyond secondary bilge capabilities
+2) water fills up bilge pipes to main bearings
+3) seals in bearings keep water from entering PTO space",Contamination,Normal,"1) Rope guard per DNV standards
+2) Large pumps",none,level sensors,dry dock repair of seal,4,1,1,6,7,Low,Low,Low,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,Does lubrication system pressure exceed that of water from leaking seal?
+280-15,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Catastrophic leak greater than secondary bilge can handle,"1) Flooded bilge tank beyond secondary bilge capabilities
+2) water fills up bilge pipes to main bearings
+3) seals in bearings keep water from entering PTO space",Manufacturing defect,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,8,1,1,6,7,Low,Low,Med,Med,1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,Does lubrication system pressure exceed that of water from leaking seal?
+280-16,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Catastrophic leak greater than secondary bilge can handle,"1) Flooded bilge tank beyond secondary bilge capabilities
+2) water fills up bilge pipes to main bearings
+3) seals in bearings keep water from entering PTO space",Over pressurization,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,3,1,1,6,7,Low,Low,Low,Low,,,"Our current design holds up to 100 psi at a max offset of 1/4"". Both of these values are over the expected and not intended to happen at the same time. The land based generator test will test the system at 100 psi and with the maximum non torque loads expected. Any leaks will be detected. The pressure against the seal is provided by a seal carrier. This seal carrier is bolted into place and its initial position is determined by the gap between the seal carrier and the running surface. This gap is determined based on measurements take after the seal has been manufactured.",,,,,,,,,,,,,,,,,,,,,,,,,
+280-17,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Catastrophic leak greater than secondary bilge can handle,"1) Flooded bilge tank beyond secondary bilge capabilities
+2) water fills up bilge pipes to main bearings
+3) seals in bearings keep water from entering PTO space",Material degradation,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,3,1,1,6,7,Low,Low,Low,Low,"Demonstrate, via manufacturing documentation, that the long term stability of the integrity of the material is within the acceptance criteria for design",,,,,,,,,,,,,,,,,,,,,,,,,,,
+280-18,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Catastrophic leak greater than secondary bilge can handle,"1) Flooded bilge tank beyond secondary bilge capabilities
+2) water fills up bilge pipes to main bearings
+3) seals in bearings keep water from entering PTO space",Deformation of shaft,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,3,1,1,6,7,Low,Low,Low,Low,"Identify the likely shaft deformation during operating conditions and extreme events. In the shaft FE model, the deformation is to be assessed with the stator/rotor loads and the environmental loading, and estimate the mode and magnitude of deformation in FE analysis. In the FE model, the results shall demonstrate stresses are within the acceptance criteria for associated strain and stresses imposed on the component. Measures to improve the design of the component to reduce deformation can be considered, if it is necessary. ",,,,,,,,,,,,,,,,,,,,,,,,,,,
+280-19,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Quality control: Failure to manufacture to acceptable level of tolerance and/or inability to manufacture seals,No seals availble for installation,Manufacturing defect,Assembly,Design and manufacturing changes required,V&V of assembly,n/a,n/a,10,1,1,9,9,Low,Low,High,High,"New manufacturing design, re-analyse seal design ",,"Requires extensive investigation, more coorperative R&D with seal manufacturer",,,,,,,,,,,,,,,,,,,,,,,,,
+280-2,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Moderate Leak,1) Flooded bilge tank within primary bilge capabilities,Contamination,Normal,"1) Rope guard per DNV standards
+2) Large pumps",none,level sensors,dry dock repair of seal,6,1,1,6,7,Low,Low,Med,Med,1) Metal content / foreign particles to be monitored and implementation of early detection measure in order to limit the consequence of failure. ,"Action the same as ""Contamination, corrosion"" for the main bearings",How do we monitor for contamination in the ocean water? Does the rope guard not cover against this?,,,,,,,,,,,,,,,,,,,,,,,,,
+280-3,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Moderate Leak,1) Flooded bilge tank within primary bilge capabilities,Manufacturing defect,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,4,1,1,6,7,Low,Low,Low,Low,1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,
+280-4,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Moderate Leak,1) Flooded bilge tank within primary bilge capabilities,Over pressurization,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,5,1,1,6,7,Low,Low,Low,Med,,"Please explain how the pressure in the seal is maintained.
+Suggest text for recommended action:
+Demonstrate, via analysis, that the maximum pressure on the seal, taking into account the pressure fluctuation due to loading on the shaft, is within the acceptable limits in design. Consideration of active pressure compensation or the use of back up seal is possible to reduce the consequence if the risks cannot be lowered. ","Our current design holds up to 100 psi at a max offset of 1/4"". Both of these values are over the expected and not intended to happen at the same time. The land based generator test will test the system at 100 psi and with the maximum non torque loads expected. Any leaks will be detected. The pressure against the seal is provided by a seal carrier. This seal carrier is bolted into place and its initial position is determined by the gap between the seal carrier and the running surface. This gap is determined based on measurements take after the seal has been manufactured.",,,,,,,,,,,,,,,,,,,,,,,,,
+280-5,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Moderate Leak,1) Flooded bilge tank within primary bilge capabilities,Material degradation,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,5,1,1,6,7,Low,Low,Low,Med,"Demonstrate, via manufacturing documentation, that the long term stability of the integrity of the material is within the acceptance criteria for design","Suggest text for recommended action:
+Demonstrate, via manufacturing documentation, that the long term stability of the integrity of the material is within the acceptance criteria for design",,,,,,,,,,,,,,,,,,,,,,,,,,
+280-6,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Moderate Leak,1) Flooded bilge tank within primary bilge capabilities,Deformation of shaft,Normal,"1) Precommissioning seal test
+2) Large pumps",none,level sensors,dry dock repair of seal,5,1,1,6,7,Low,Low,Low,Med,"Identify the likely shaft deformation during operating conditions and extreme events. In the shaft FE model, the deformation is to be assessed with the stator/rotor loads and the environmental loading, and estimate the mode and magnitude of deformation in FE analysis. In the FE model, the results shall demonstrate stresses are within the acceptance criteria for associated strain and stresses imposed on the component. Measures to improve the design of the component to reduce deformation can be considered, if it is necessary. ","Action the same as ""Deformation of shaft"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,
+280-7,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Large leak,"1) Flooded bilge tank beyond primary bilge capabilities
+2) Secondary bilge turns on",Wear/fatigue,Normal,"1) Regular seal replacement
+2) Large deflection in seal acceptable
+3) Secondary Pump",none,level sensors,dry dock repair of seal,6,1,1,6,7,Low,Low,Med,Med,"1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.
+2) CPower to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.","Action the same as ""Wear/fatigue"" for main bearing",,,,,,,,,,,,,,,,,,,,,,,,,,
+280-8,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Large leak,"1) Flooded bilge tank beyond primary bilge capabilities
+2) Secondary bilge turns on",Contamination,Normal,"1) Rope guard per DNV standards
+2) Secondary Pump",none,level sensors,dry dock repair of seal,5,1,1,6,7,Low,Low,Low,Med,1) Metal content / foreign particles to be monitored and implementation of early detection measure in order to limit the consequence of failure. ,"Action the same as ""Contamination, corrosion"" for the main bearings",How do we monitor for contamination in the ocean water? Does the rope guard not cover against this?,,,,,,,,,,,,,,,,,,,,,,,,,
+280-9,Shaft Seals,Maintain watertight integrity of PTO structure where it is pierced by a rotating shaft,2,"Loading
+Maintenance intervals
+Deformation uncertainty
+Long term behavior",Large leak,"1) Flooded bilge tank beyond primary bilge capabilities
+2) Secondary bilge turns on",Manufacturing defect,Normal,"1) Precommissioning seal test
+2) Secondary Pump",none,level sensors,dry dock repair of seal,3,1,1,6,7,Low,Low,Low,Low,1) Load derivation methodology to take into account the uncertainties in the loading due to site characterization measurements and hydrodynamic modelling.,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,"Please clarify the watertight integrity requirements for the bulkhead in PTO, including the penetration for cable transits.",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,"Suggest text for recommended action:
+Load derivation methodology to take into account the uncertainties in the loading due to site characterisation measurements and hydrodynamic modelling.
+CP to demonstrate the derivation of loading is conservative for the site, including providing evidence from site assessment and validation of the overall loading upon deployment.",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,"Suggest text for recommended action:
+Metal content / foreign particles in lubrication oil to be monitored and implementation of early detection measure in order to limit the consequence of failure. ",,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,"Suggest text for recommended action:
+Demonstrate, via structural analysis, the loading on the bearing is within the acceptance criteria in the load case with largest deformation on the shaft.",See 261-4 recommended action #4,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,See risk ID 210-3 for comment,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
