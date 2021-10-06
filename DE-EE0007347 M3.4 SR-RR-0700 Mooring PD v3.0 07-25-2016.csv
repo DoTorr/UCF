@@ -1,24 +1,4 @@
-﻿"Risk
-ID","Item
-Description",Function,Tech. Class,Novel Aspects,"Failure
-Mode","Failure 
-Effects
-(Local, WEC, System)","Failure
-Cause(s)","Initial Mode
- of
-Operation
-","Risk Reduction 
-Design","Preventative
-Detection","Post Failure
-Detection","Post Failure
-Repair
-Strategy 
-(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
-Actions",Responsible Party,"Actions
-Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
-Actions",Responsible Party (2nd),"Actions
-Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
-(open or closed)",Notes
+"Risk ID","Item Description",Function,Tech. Class,Novel Aspects,"Failure Mode","Failure Effects","Failure Causes","Initial Mode of Operation","Risk Reduction Design","Preventative Detection","Post Failure Detection","Post Failure Repair Strategy",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended Actions",Responsible Party,"Actions Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended Actions",Responsible Party (2nd),"Actions Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status",Notes
 0710-1,"Single point (Hawser lines, Shackles and Pendants)",Primary station keeping,2,Loading,Double hawser failure (including hardware failure),"1) Loss of station keeping
 2) Loss of umbilical (see 0800)
 4) BOB - buoy on beach or BOTS - buoy out to sea
