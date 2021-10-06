@@ -1,24 +1,4 @@
-"Risk
-ID","Item
-Description",Function,Tech. Class,Novel Aspects,"Failure
-Mode","Failure 
-Effects
-(Local, WEC, System)","Failure
-Cause(s)","Initial Mode
- of
-Operation
-","Risk Reduction 
-Design","Preventative
-Detection","Post Failure
-Detection","Post Failure
-Repair
-Strategy 
-(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
-Actions",Responsible Party,"Actions
-Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
-Actions",Responsible Party (2nd),"Actions
-Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
-(open or closed)",Notes
+"Risk ID","Item Description",Function,Tech. Class,Novel Aspects,"Failure Mode","Failure Effects","Failure Causes","Initial Mode of Operation","Risk Reduction Design","Preventative Detection","Post Failure Detection","Post Failure Repair Strategy",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended Actions",Responsible Party,"Actions Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended Actions",Responsible Party (2nd),"Actions Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status",Notes
 0541-1,480V to 120V transformer,Step down voltage from 0300 electrica plant to provide station utility power for WEC ,1,none,Electrical fault,"1) Breaker trip power off-line
 2) ATB to (port or stbd) source for station power",Corrosion induced failure short circuit,Normal,"1)Marine rated corrosion resistance design
 2) Redundant design, two station power systems",1) Visual inspection,SCADA Diagnostics,Manual in-situ inspection and repair,5,1,1,7,4,Low,Low,Med,Low,Check the QC procedures on all component manufacturing. ,,,,,,,,,,,,,,,,,,,,,,,,,
