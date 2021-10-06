@@ -1,24 +1,4 @@
-﻿"Risk
-ID","Item
-Description",Function,Tech. Class,Novel Aspects,"Failure
-Mode","Failure 
-Effects
-(Local, WEC, System)","Failure
-Cause(s)","Initial Mode
- of
-Operation
-","Risk Reduction 
-Design","Preventative
-Detection","Post Failure
-Detection","Post Failure
-Repair
-Strategy 
-(automated, manual)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended
-Actions",Responsible Party,"Actions
-Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended
-Actions",Responsible Party (2nd),"Actions
-Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status
-(open or closed)",Notes,DNV GL comments,CPwr Comments
+"Risk ID","Item Description",Function,Tech. Class,Novel Aspects,"Failure Mode","Failure Effects","Failure Causes","Initial Mode of Operation","Risk Reduction Design","Preventative Detection","Post Failure Detection","Post Failure Repair Strategy",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Recommended Actions",Responsible Party,"Actions Taken",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"2nd Recommended Actions",Responsible Party (2nd),"Actions Taken (2nd)",Occurrence,Human Safety,Environment,Operation,Assets,Human Safety,Environment,Operation,Assets,"Status",Notes,DNV GL comments,CPwr Comments
 0810-1,Umbilical Cable,Provides flexible subsea medium voltage cable connection to subsea junction for grid connection,2,"WEC motion, dynamic cable connection ",Umbilical mechanical failure,"1) Electrical fault
 2) Loss of grid 
 3) 0300 switches to ""Islanding mode"" - station loads only
